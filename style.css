@@ -50,14 +50,7 @@ header {
 nav {
 	flex: 2;
 }
-.img-anim {
-	background: linear-gradient(48deg, #ffffff, #b4b4cc);
-	background-size: 100% 100%;
-	animation-name: logo-anim;
-	animation-duration: 0s; 
-	animation-timing-function: ease; 
-	animation-iteration-count: infinite;
-}
+
 .nav-links {
 	justify-content: space-around;
 	list-style: none;
@@ -79,6 +72,15 @@ nav {
 	margin: auto;
 	height: 68vh;
 	align-items: center;
+}
+
+.presentation2 {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	height: 68vh;
+	align-items: center;
+	height: 150%;
 }
 .introduction {
 	flex: 1;
@@ -159,12 +161,8 @@ nav {
 	z-index: -1;
 }
 
-.laptop-select {
-	width: 15%;
-	display: flex;
-	justify-content: space-around;
-	position: absolute;
-	right: 20%;
+.about-us {
+	width: 30%; text-align: justify; margin: auto; font-family: 'Poppins', sans-serif; background: linear-gradient(to right, #ffffff, #b4b4cc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 2%;
 }
 
 @keyframes drop {
@@ -179,12 +177,56 @@ nav {
 }
 
 @media screen and (max-width: 1024px) {
-	.presentation {
+
+	.img-anim {
+		display: block;
+	}
+
+	.nav-links{
 		overflow: hidden;
+		display: flex;
 		flex-direction: column;
 	}
-	.introduction {
+
+	.presentation {
+		margin-top: 70%;
+		display: block;
+		height: auto;
+	}
+
+	.presentation2 {
+		margin-top: 70%;
+		display: block;
+		height: auto;
+	}
+
+	.cover {
+		overflow: hidden;
+	}
+
+	#technologies > p {
+		width: 80%;
+	}
+
+	#technologies > img {
+		width: 80%;
+	}
+
+	video {
+		visibility: hidden;
+	}
+
+	.intro-text {
+		font-size: small;
+	}
+
+	#technologies > hr {
+		width: fit-content;
+	}
+
+	/* .introduction {
 		margin-top: 5vh;
+		height: 550vh;
 		text-align: center;
 	}
 	.intro-text h1 {
@@ -211,6 +253,7 @@ nav {
 		opacity: 0.2;
 	}
 	.nav-link {
+		flex-direction: column;
 		display: block;
 		color: #9595b3;
 		font-size: 10px;
@@ -230,9 +273,19 @@ nav {
 	.cover img {
 		width:100%;
 	}
+
+	.overlay {
+		width: 150%;
+	  }
+ */
+	}
+
+#technologies > hr {
+	background-color: #9595b3;
 }
 
 /* Testimonial Section */
+
 
 #testimonials {
 	/* background-color: black; */
@@ -451,3 +504,52 @@ video {
 		max-width: 90%;
 	}
 }
+
+@media screen and (max-width: 1400px) {
+
+img {
+	overflow: hidden;
+}	
+	
+.presentation {
+	height: 800px;
+}
+.presentation2{
+	height: 1700px;
+}
+	
+}
+
+@media screen and (max-width: 1100px) {
+
+	img {
+		/* visibility: hidden; */
+		overflow: hidden;
+	}	
+		
+	.presentation {
+		overflow: hidden;
+		height: 800px;
+	}
+	.presentation2{
+		overflow: hidden;
+		height: 1700px;
+	}
+
+	.text {
+		font-size: 13px;
+	  }
+
+	  .container:hover .overlay {
+		word-wrap: break-word;
+		width: 75%;
+		position: absolute;
+		left: -97px;
+	  }
+		
+	}
+
+.cover img {
+	margin-top:15%;
+}
+
