@@ -168,7 +168,7 @@ nav {
 @keyframes drop {
 	0% {
 		opacity: 0;
-		transform: translateY(-80px);
+		transform: translateY(-50px);
 	}
 	100% {
 		opacity: 1;
@@ -177,52 +177,6 @@ nav {
 }
 
 @media screen and (max-width: 1024px) {
-
-	.img-anim {
-		display: block;
-	}
-
-	.nav-links{
-		overflow: hidden;
-		display: flex;
-		flex-direction: column;
-	}
-
-	.presentation {
-		margin-top: 70%;
-		display: block;
-		height: auto;
-	}
-
-	.presentation2 {
-		margin-top: 70%;
-		display: block;
-		height: auto;
-	}
-
-	.cover {
-		overflow: hidden;
-	}
-
-	#technologies > p {
-		width: 80%;
-	}
-
-	#technologies > img {
-		width: 80%;
-	}
-
-	video {
-		visibility: hidden;
-	}
-
-	.intro-text {
-		font-size: small;
-	}
-
-	#technologies > hr {
-		width: fit-content;
-	}
 
 	/* .introduction {
 		margin-top: 5vh;
@@ -365,6 +319,53 @@ nav {
   }
   
   @media (max-width: 1028px) {
+
+	img-anim {
+		display: block;
+	}
+
+	.nav-links{
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.presentation {
+		margin-top: 70%;
+		display: block;
+		height: auto;
+	}
+
+	.presentation2 {
+		margin-top: 70%;
+		display: block;
+		height: auto;
+	}
+
+	.cover {
+		overflow: hidden;
+	}
+
+	#technologies > p {
+		width: 80%;
+	}
+
+	#technologies > img {
+		width: 80%;
+	}
+
+	video {
+		visibility: hidden;
+	}
+
+	.intro-text {
+		font-size: small;
+	}
+
+	#technologies > hr {
+		width: fit-content;
+	}
+
   
 	#title {
 	  text-align: center;
@@ -508,7 +509,7 @@ video {
 @media screen and (max-width: 1400px) {
 
 img {
-	overflow: hidden;
+	/* overflow: hidden; */
 }	
 	
 .presentation {
@@ -520,9 +521,14 @@ img {
 	
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1000px) {
+
+	.cover img {
+		visibility: hidden;
+	}
 
 	img {
+		margin: 0;
 		/* visibility: hidden; */
 		overflow: hidden;
 	}	
@@ -550,6 +556,6 @@ img {
 	}
 
 .cover img {
-	margin-top:15%;
+	/* margin-top:15%; */
 }
 
