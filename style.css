@@ -331,7 +331,7 @@ nav {
 	}
 
 	.presentation {
-		margin-top: 70%;
+		margin-top: 110%;
 		display: block;
 		height: auto;
 	}
@@ -522,6 +522,11 @@ img {
 }
 
 @media screen and (max-width: 1000px) {
+
+	.testimonial-image {
+		height: 100px;
+		width: 250px;
+	}
 
 	.cover img {
 		visibility: hidden;
