@@ -4,6 +4,35 @@
 	box-sizing: border-box;
 }
 
+.container {
+	text-align: center;
+}
+
+.modal-lg {
+    max-width: 80% !important;
+}
+
+.iframe-container {    
+    padding-bottom: 60%;
+	padding-top: 30px; height: 0; overflow: hidden;
+	width: 200%;
+} 
+ 
+.iframe-container iframe,
+.iframe-container object,
+.iframe-container embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 100%;
+}
+
+ .modal.in .modal-dialog {
+  transform: none; /*translate(0px, 0px);*/
+}
+
+
 .gray-logo:hover{	
 	border: solid #9595b3;
     transition: 3;
@@ -38,14 +67,14 @@
 }
 
 .feature-p {
-	width: 50%; text-align: justify; margin: auto; font-family: 'Poppins', sans-serif; background: linear-gradient(to right, #ffffff, #b4b4cc); -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent; margin-bottom: 2%; font-size: larger;
+	width: 50%; text-align: justify; margin: auto; font-family: 'Poppins', sans-serif; background: linear-gradient(to right, #ffffff, #b4b4cc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 2%;
+	font-size: 18px;
 }
 
 .background{
 	/* background-color: black; */
 	background: linear-gradient(rgba(0,0,0,.7), rgba(15, 15, 15, 0.7)), url("img/bg-1.jpg");
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     background-size: cover;
     background-position: center center;
     color: #fff;
@@ -131,6 +160,7 @@ nav {
 	height: 68vh;
 	align-items: center;
 	height: 150%;
+	margin-bottom:6%;
 }
 .introduction {
 	flex: 1;
@@ -162,8 +192,8 @@ nav {
 }
 
 .about-us {
-	width: 50%; text-align: justify; margin: auto; font-family: 'Poppins', sans-serif; background: linear-gradient(to right, #ffffff, #b4b4cc); -webkit-background-clip: text;
-	 -webkit-text-fill-color: transparent; margin-bottom: 2%;font-size: larger;
+	width: 50%; text-align: justify; margin: auto; font-family: 'Poppins', sans-serif; background: linear-gradient(to right, #ffffff, #b4b4cc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 2%;
+	font-size: 18px;
 }
 
 @keyframes drop {
@@ -318,7 +348,7 @@ nav {
 }
 
 large {
-	font-size: larger;
+	font-size: 18px;
 	text-align: right;
 	background: linear-gradient(to right, #ffffff, #acacb8);
 	-webkit-background-clip: text;
