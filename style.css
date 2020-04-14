@@ -4,10 +4,48 @@
 	box-sizing: border-box;
 }
 
-.black{
+.gray-logo:hover{	
+	border: solid #9595b3;
+    transition: 3;
+    -webkit-transition: 0;
+    -moz-transition: 0;
+    -o-transition: 0;
+    -ms-transition: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-color: #9595b3;
+    border-radius: 2px;
+}
+
+.feature {
+	/* padding: 10%; */
+	text-align: center;
+	/* margin: 5%; */
+}
+
+.feature h1 {
+	font-size: 44px;
+	font-weight: 500;
+	background: linear-gradient(to right, #ffffff, #6f6f89);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.feature-logo {
+	width: 10%;
+	size: 10%;
+}
+
+.feature-p {
+	width: 50%; text-align: justify; margin: auto; font-family: 'Poppins', sans-serif; background: linear-gradient(to right, #ffffff, #b4b4cc); -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; margin-bottom: 2%; font-size: larger;
+}
+
+.background{
 	/* background-color: black; */
 	background: linear-gradient(rgba(0,0,0,.7), rgba(15, 15, 15, 0.7)), url("img/bg-1.jpg");
-    background-repeat: repeat;
+    background-repeat: repeat-y;
     background-size: cover;
     background-position: center center;
     color: #fff;
@@ -20,6 +58,18 @@ body {
 }
 button {
 	font-family: 'Poppins', sans-serif;
+}
+
+.hr-style {
+	background-color: #9595b3;
+}
+
+.gradient-style {
+	font-family: 'Poppins', sans-serif;
+	background: linear-gradient(to right, #ffffff, #b4b4cc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-bottom: 2%;
 }
 
 header {
@@ -56,7 +106,7 @@ nav {
 	list-style: none;
 }
 .nav-link {
-	margin-top: 11px;
+	margin-top: 18px;
 	color:#9595b3;
 	font-size: 18px;
 	text-decoration: none;
@@ -97,33 +147,6 @@ nav {
 	font-size: 22px;
 	color: #9595b3;
 }
-.cta {
-	font-family: 'Poppins', sans-serif;
-	padding: 50px 0px 0px 0px;
-}
-.cta-select {
-	border: 2px solid whitesmoke;
-	background: transparent;
-	color: whitesmoke;
-	width: 150px;
-	height: 50px;
-	cursor: pointer;
-	font-size: 18px;
-}
-.cta-add {
-	background: whitesmoke;
-	width: 150px;
-	height: 50px;
-	cursor: pointer;
-	font-size: 16px;
-	border: none;
-	color: white;
-	margin: 30px 0px 0px 30px;
-}
-
-.cta :hover {
-	background: orange;
-}
 
 .cover {
 	flex: 1;
@@ -138,115 +161,27 @@ nav {
 	animation: drop 1.5s ease;
 }
 
-.big-circle {
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	z-index: -1;
-	opacity: 0.5;
-	height: 80%;
-}
-.medium-circle {
-	position: absolute;
-	top: 30%;
-	right: 30%;
-	z-index: -1;
-	height: 60%;
-	opacity: 0.4;
-}
-.small-circle {
-	position: absolute;
-	bottom: 0%;
-	left: 20%;
-	z-index: -1;
-}
-
 .about-us {
-	width: 30%; text-align: justify; margin: auto; font-family: 'Poppins', sans-serif; background: linear-gradient(to right, #ffffff, #b4b4cc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 2%;
+	width: 50%; text-align: justify; margin: auto; font-family: 'Poppins', sans-serif; background: linear-gradient(to right, #ffffff, #b4b4cc); -webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent; margin-bottom: 2%;font-size: larger;
 }
 
 @keyframes drop {
-	0% {
+	/* 0% {
 		opacity: 0;
 		transform: translateY(-50px);
 	}
 	100% {
 		opacity: 1;
 		transform: translateY(0px);
-	}
+	} */
 }
-
-	/* .introduction {
-		margin-top: 5vh;
-		height: 550vh;
-		text-align: center;
-	}
-	.intro-text h1 {
-		font-size: 30px;
-	}
-	.intro-text p {
-		font-size: 18px;
-	}
-	.cta {
-		padding: 10px 0px 0px 0px;
-	}
-	.laptop-select {
-		bottom: 5%;
-		right: 50%;
-		width: 50%;
-		transform: translate(50%, 5%);
-	}
-	.cover img {
-		height: 80%;
-	}
-	.small-circle,
-	.medium-circle,
-	.big-circle {
-		opacity: 0.2;
-	}
-	.nav-link {
-		flex-direction: column;
-		display: block;
-		color: #9595b3;
-		font-size: 10px;
-		text-decoration: none;
-	}
-
-	.Client{
-		font-size: 22px;
-		text-align: center;
-	  }
-	
-	.Client img {
-		height: 100px;
-		width: 100px;
-	}
-	
-	.cover img {
-		width:100%;
-	}
-
-	.overlay {
-		width: 150%;
-	  }
- */
 
 #technologies > hr {
 	background-color: #9595b3;
 }
 
-/* Testimonial Section */
-
-
-#testimonials {
-	/* background-color: black; */
-  }
-  
-  .testimonial-text {
-	/* font-size: 3rem;
-	line-height: 1.5; */
-  }
-  
+/* Testimonial Section */  
   .testimonial-image {  
 	display: block;
 	margin-left: auto;
@@ -257,7 +192,7 @@ nav {
   }
 
   .Client{
-	  text-align: center;
+	text-align: center;
 	font-family: 'Poppins', sans-serif;
 	padding-top: 2%;
 	padding-bottom: 1.5%;
@@ -303,7 +238,7 @@ nav {
 	text-align: center;
   }
 
-  /* Footer Section */
+/* Footer Section */
 #footer {
 	font-family: 'Poppins', sans-serif;
 	margin: auto;
@@ -312,13 +247,13 @@ nav {
 }
 
 #banner-3 {
-	margin-left: 15%; width: 100%; height: 130%;
-  }
-  
-.container-fluid {
-	/* padding: 7% 15%; */
+	height: 105%;
 }
 
+#banner-4 {
+	margin-right: 10%; width: 100%; height: 115%;
+}
+  
 #technologies {
 	background-color: black;
 	text-align: center;
@@ -338,11 +273,11 @@ nav {
 	-webkit-text-fill-color: transparent;
 }
 
-.h1-title {
+.h1-design{
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
 	padding-top: 2%;
-	padding-bottom: 1.5%;
+	padding-bottom: 5%;
 	background: linear-gradient(to right, #ffffff, #b4b4cc);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -379,10 +314,11 @@ nav {
 }
 .image-container:hover .after {
     display: block;
-    background: rgba(0, 0, 0, .6);
+	background: rgba(0, 0, 0, .8);
 }
 
-medium {
+large {
+	font-size: larger;
 	text-align: right;
 	background: linear-gradient(to right, #ffffff, #acacb8);
 	-webkit-background-clip: text;
@@ -394,41 +330,6 @@ html {
 	scroll-behavior: smooth;
   }
 
-/* ANIMATION */
-
-@keyframes logo-anim {
-    0%{background-position:0% 42%}
-    50%{background-position:100% 59%}
-    100%{background-position:0% 42%}
-}
-
-/* VIDEO */
-
-video {
-	position: relative;
-	z-index: 10;
-}
-
-/* .trailer .active {
-	visibility: visible;
-	opacity: 1;
-}
-
-.trailer video {
-	position: relative;
-	max-width: 900px;
-	outline: none;
-}
-
-.close {
-	position: absolute;
-	top:30px;
-	right:30px;
-	cursor: pointer;
-	filter:invert(1);
-	max-width: 32px;
-}  */
-
 .presentation0 {
 	display: flex;
 	width: 90%;
@@ -437,33 +338,36 @@ video {
 	align-items: center;
 }
 
-@media (max-width: 991px)
-{
-	.video {
-		max-width: 90%;
+@media screen and (max-width: 1600px) {
+	
+	#banner-1 {
+		margin-top: 2%;
+		height: 95%;
+	} 
+
+	.overlay {
+		margin-left: 32%;
+		width: 36%;
 	}
+
 }
 
 @media screen and (max-width: 1400px) {
+	
+	.presentation {
+		margin-top: 160px;
+		height: 800px;
+	}
+	.presentation2 {
+		height: 1200px;
+	}
 
-img {
-	/* overflow: hidden; */
-}	
-	
-.presentation {
-	height: 800px;
-}
-.presentation2{
-	height: 1700px;
-}
-	
+	#technologies {
+		margin-bottom: 6%;
+	}
 }
 
 @media screen and (max-width: 1200px) {
-
-	img {
-		/* overflow: hidden; */
-	}	
 		
 	.presentation0 {
 		margin: auto;
@@ -471,13 +375,17 @@ img {
 	.presentation{
 		height: 700px;
 	}
-		
+	.presentation2 {
+		margin-top: 30%;
+		height: 1000px;
+		margin-bottom: 20%;
+	}
+	.text {
+		width: 100%;
+	}
 	}
 
 @media screen and (max-width: 1028px) {
-
-
-
 	.intro-text h1 {
 		margin-top: 60px;
 		font-size: x-large;
@@ -486,9 +394,10 @@ img {
 		font-size: medium;
 	}
 
-	.img-anim {	
+	.gray-logo{	
 		margin: auto;
-  		width: 50%;
+		  width: 100%;
+		  height: 100%
 	}
 
 	.nav-links{
@@ -498,9 +407,6 @@ img {
 		text-align: center;
 		margin: auto;
   		width: 58%;
-	}
-
-	.nav-links li {
 	}
 
 	.presentation0 {
@@ -569,17 +475,9 @@ img {
 		height: auto;
 	}
 
-	#core-tech {
-		
-	}
-
 	.h1-title {
 		padding-top: 0%;
 		padding-bottom: 0%;
-	}
-
-	#banner-3 {
-		/* visibility: hidden; */
 	}
 
 	.presentation {
@@ -618,20 +516,32 @@ img {
 		margin:auto;
 	}
 
-	.text {
-		font-size: 13px;
-	  }
+	.overlay {
+		margin-left: 32%;
+		width: 36%;
+	}
 
-	  .container:hover .overlay {
+	.container:hover .overlay {
 		word-wrap: break-word;
 		width: 75%;
 		position: absolute;
 		left: -97px;
-	  }
-		
 	}
 
-.cover img {
-	/* margin-top:15%; */
-}
+	#banner-3 {
+		width: 100%;
+		height: 80%;
+	}
+	
+	#banner-4 {
+		width: 100%;
+		height: 80%;
+	}
 
+	.technologies-logo {
+		height: 100%;
+		width: 100%;
+		margin: 0px;
+		padding 0px;
+	}
+}
