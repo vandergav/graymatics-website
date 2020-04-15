@@ -9,7 +9,7 @@
 }
 
 .modal-lg {
-    max-width: 80% !important;
+	max-width: 80% !important;
 }
 
 .iframe-container {    
@@ -73,7 +73,7 @@
 
 .background{
 	/* background-color: black; */
-	background: linear-gradient(rgba(0,0,0,.7), rgba(15, 15, 15, 0.7)), url("img/bg-1.jpg");
+	background: linear-gradient(rgba(0,0,0,.7), rgba(0, 0, 0, 0.5)), url("img/bg-1.jpg");
     background-repeat: repeat;
     background-size: cover;
     background-position: center center;
@@ -100,7 +100,11 @@ button {
 	-webkit-text-fill-color: transparent;
 	margin-bottom: 2%;
 }
-
+.gradient-style:hover {
+	background: orange;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 header {
 	display: flex;
 	width: 90%;
@@ -164,6 +168,17 @@ nav {
 }
 .introduction {
 	flex: 1;
+}
+.intro-text {
+	border-bottom-style: solid;
+	border-color:  #9595b3;
+	border-radius: 5px;
+	padding: 2.5%;
+}
+.wide-hr{
+	margin-top:9%;
+	border-style: solid;
+
 }
 .intro-text h1 {
 	font-size: 44px;
@@ -290,8 +305,10 @@ nav {
   }
   
 .technologies-logo {
-	width: 100%;
-	margin: 20px 20px 50px;
+	width: 160%;
+	/* margin: 30px 30px 50px; */
+	display: inline-flex;
+	justify-content: space-around;
 }
 
 #technologies h1 {
@@ -336,11 +353,11 @@ nav {
 	padding-top: 85px;
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: -12;
+    width: 160%;
     height: 100%;
     display: none;
-    color:  #9595b3;
+    color:whitesmoke;
 }
 .image-container:hover .after {
     display: block;
