@@ -1,8 +1,0 @@
-{"level":"info","message":"App starting.","timestamp":"2018-02-02T01:50:18.932Z"}
-{"level":"info","message":"Application is running: http://192.168.128.112:9999","timestamp":"2018-02-02T01:50:19.097Z"}
-{"level":"info","message":"Route: /user/login:","timestamp":"2018-02-02T01:50:46.656Z"}
-{"username":"gm_user_22","user_password":"gm_user_22","level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-02T01:50:46.659Z"}
-{"level":"info","message":"Controller: /admin/login:","timestamp":"2018-02-02T01:50:46.663Z"}
-{"level":"info","message":"Model: /user/login:","timestamp":"2018-02-02T01:50:46.664Z"}
-{"level":"info","message":"Your lost login has been updated.","timestamp":"2018-02-02T01:50:46.919Z"}
-{"level":"info","message":"User logged in successfully","timestamp":"2018-02-02T01:50:46.919Z"}

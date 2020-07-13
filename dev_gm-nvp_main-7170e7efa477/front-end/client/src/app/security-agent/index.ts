@@ -1,1 +1,0 @@
-export * from './security-cam-view.component';

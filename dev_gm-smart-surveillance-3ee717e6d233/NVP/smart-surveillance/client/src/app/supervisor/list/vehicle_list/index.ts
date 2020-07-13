@@ -1,1 +1,0 @@
-export * from './vehicle_list.component';
