@@ -1,0 +1,595 @@
+{"level":"info","message":"App starting.","timestamp":"2017-11-20T05:22:36.946Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:9999","timestamp":"2017-11-20T05:22:40.359Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2017-11-20T05:23:48.804Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2017-11-20T05:23:48.804Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2017-11-20T05:23:48.805Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2017-11-20T05:23:48.805Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2017-11-20T05:23:48.935Z"}
+{"level":"info","message":"camera list :: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2017-11-20T05:23:48.938Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T05:23:49.695Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T05:23:49.695Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T05:23:49.705Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T05:23:49.705Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T05:23:49.710Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T05:23:49.711Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T05:23:49.713Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T05:23:49.714Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T05:23:49.716Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T05:23:49.716Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T05:23:49.719Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T05:23:49.720Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T05:23:49.845Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T05:23:49.848Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T05:23:49.848Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T05:23:49.849Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T05:23:49.850Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T05:23:49.851Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T05:23:49.851Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T05:23:49.851Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T05:23:49.852Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T05:23:49.852Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2017-11-20T05:23:49.853Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T05:23:49.853Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2017-11-20T05:23:49.854Z"}
+{"level":"info","message":"Model: executing getLatestNotifications() ","timestamp":"2017-11-20T05:23:49.855Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T05:23:49.901Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T05:23:49.902Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T05:23:49.902Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T05:23:49.902Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T05:23:49.903Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T05:23:49.905Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T05:23:49.905Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T05:23:49.905Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T05:23:49.905Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T05:23:49.905Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T05:23:49.907Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T05:23:49.911Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T05:23:49.913Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T05:23:49.915Z"}
+{"level":"info","message":"Model: GetItem succeeded: getLatestNotifications()","timestamp":"2017-11-20T05:23:51.129Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2017-11-20T06:35:37.400Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2017-11-20T06:35:37.401Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2017-11-20T06:35:37.401Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2017-11-20T06:35:37.401Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2017-11-20T06:35:37.404Z"}
+{"level":"info","message":"camera list :: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2017-11-20T06:35:37.404Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T06:35:38.407Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:35:38.408Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T06:35:38.413Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:35:38.415Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T06:35:38.417Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:35:38.417Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T06:35:38.420Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:35:38.420Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T06:35:38.428Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:35:38.428Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T06:35:38.429Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:35:38.430Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T06:35:38.436Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T06:35:38.437Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T06:35:38.437Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T06:35:38.437Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:35:38.437Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:35:38.439Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T06:35:38.441Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T06:35:38.442Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T06:35:38.442Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T06:35:38.442Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:35:38.442Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:35:38.443Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T06:35:38.450Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T06:35:38.450Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T06:35:38.451Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T06:35:38.452Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:35:38.452Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:35:38.454Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T06:35:38.465Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T06:35:38.466Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T06:35:38.466Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T06:35:38.466Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:35:38.467Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2017-11-20T06:35:38.472Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:35:38.472Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2017-11-20T06:35:38.472Z"}
+{"level":"info","message":"Model: executing getLatestNotifications() ","timestamp":"2017-11-20T06:35:38.473Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:35:38.480Z"}
+{"level":"info","message":"Model: GetItem succeeded: getLatestNotifications()","timestamp":"2017-11-20T06:35:41.095Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T06:35:42.754Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T06:35:42.755Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T06:35:42.755Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T06:35:42.755Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:35:42.755Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:35:42.757Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T06:35:42.759Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T06:35:42.760Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T06:35:42.760Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T06:35:42.760Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:35:42.760Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:35:42.761Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T06:35:42.763Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T06:35:42.763Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T06:35:42.763Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T06:35:42.764Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:35:42.764Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:35:42.765Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T06:35:42.771Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T06:35:42.771Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T06:35:42.771Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T06:35:42.771Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:35:42.772Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:35:42.775Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2017-11-20T06:35:42.780Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:35:42.780Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2017-11-20T06:35:42.780Z"}
+{"level":"info","message":"Model: executing getLatestNotifications() ","timestamp":"2017-11-20T06:35:42.780Z"}
+{"level":"info","message":"Route: /user/get camera:","timestamp":"2017-11-20T06:35:42.819Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:35:42.821Z"}
+{"level":"info","message":"Controller: executing getCamera() ","timestamp":"2017-11-20T06:35:42.821Z"}
+{"level":"info","message":"Route: /camera/notification/select:","timestamp":"2017-11-20T06:35:42.823Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_id\":\"14\"}","timestamp":"2017-11-20T06:35:42.824Z"}
+{"level":"info","message":"Controller: executing getCameraNotifications() ","timestamp":"2017-11-20T06:35:42.824Z"}
+{"level":"info","message":"Model: executing getCameraNotifications() ","timestamp":"2017-11-20T06:35:42.824Z"}
+{"level":"info","message":"Camera information fetched.","timestamp":"2017-11-20T06:35:42.831Z"}
+{"level":"info","message":"Controller: camera list response :: [object Object]","timestamp":"2017-11-20T06:35:42.833Z"}
+{"level":"info","message":"Model: GetItem succeeded: getLatestNotifications()","timestamp":"2017-11-20T06:35:43.868Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2017-11-20T06:35:44.864Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2017-11-20T06:35:44.864Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2017-11-20T06:35:44.865Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2017-11-20T06:35:44.865Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2017-11-20T06:35:44.867Z"}
+{"level":"info","message":"camera list :: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2017-11-20T06:35:44.867Z"}
+{"level":"info","message":"Model: GetCamNotification succeeded: getCameraNotifications()","timestamp":"2017-11-20T06:35:45.204Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T06:35:45.401Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:35:45.403Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T06:35:45.405Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:35:45.406Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T06:35:45.411Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:35:45.411Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T06:35:45.413Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:35:45.414Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T06:35:45.415Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:35:45.415Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T06:35:45.416Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:35:45.416Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T06:35:45.577Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T06:35:45.578Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T06:35:45.578Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T06:35:45.579Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:35:45.580Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T06:35:45.582Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T06:35:45.582Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T06:35:45.582Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T06:35:45.582Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:35:45.582Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:35:45.584Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:35:45.587Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T06:35:45.589Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T06:35:45.590Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T06:35:45.590Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T06:35:45.590Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:35:45.590Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T06:35:45.591Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T06:35:45.591Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T06:35:45.591Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T06:35:45.592Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:35:45.592Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:35:45.593Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:35:45.594Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2017-11-20T06:35:45.595Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:35:45.595Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2017-11-20T06:35:45.595Z"}
+{"level":"info","message":"Model: executing getLatestNotifications() ","timestamp":"2017-11-20T06:35:45.595Z"}
+{"level":"info","message":"Model: GetItem succeeded: getLatestNotifications()","timestamp":"2017-11-20T06:35:47.952Z"}
+{"level":"info","message":"Route: /user/get camera:","timestamp":"2017-11-20T06:36:00.654Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:36:00.655Z"}
+{"level":"info","message":"Controller: executing getCamera() ","timestamp":"2017-11-20T06:36:00.655Z"}
+{"level":"info","message":"Route: /camera/notification/select:","timestamp":"2017-11-20T06:36:00.655Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_id\":\"undefined\"}","timestamp":"2017-11-20T06:36:00.656Z"}
+{"level":"info","message":"Controller: executing getCameraNotifications() ","timestamp":"2017-11-20T06:36:00.656Z"}
+{"level":"info","message":"Model: executing getCameraNotifications() ","timestamp":"2017-11-20T06:36:00.656Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T06:36:00.659Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T06:36:00.659Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T06:36:00.659Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T06:36:00.659Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:36:00.659Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T06:36:00.660Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T06:36:00.660Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T06:36:00.662Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T06:36:00.662Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:36:00.663Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T06:36:00.663Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T06:36:00.663Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T06:36:00.664Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T06:36:00.664Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:36:00.664Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T06:36:00.665Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T06:36:00.665Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T06:36:00.665Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T06:36:00.665Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:36:00.665Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:36:00.678Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:36:00.681Z"}
+{"level":"info","message":"Model: GetItem succeeded: getLatestNotifications()","timestamp":"2017-11-20T06:36:02.175Z"}
+{"level":"info","message":"Model: GetCamNotification succeeded: getCameraNotifications()","timestamp":"2017-11-20T06:36:02.227Z"}
+{"level":"info","message":"Camera information fetched.","timestamp":"2017-11-20T06:36:00.667Z"}
+{"level":"info","message":"Controller: camera list response :: ","timestamp":"2017-11-20T06:36:00.667Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:36:00.669Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2017-11-20T06:36:00.671Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:36:00.671Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2017-11-20T06:36:00.671Z"}
+{"level":"info","message":"Model: executing getLatestNotifications() ","timestamp":"2017-11-20T06:36:00.672Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:36:00.676Z"}
+{"level":"info","message":"Route: /user/get camera:","timestamp":"2017-11-20T06:37:06.487Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:37:06.487Z"}
+{"level":"info","message":"Controller: executing getCamera() ","timestamp":"2017-11-20T06:37:06.488Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T06:37:06.488Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T06:37:06.488Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T06:37:06.488Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T06:37:06.488Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:37:06.489Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T06:37:06.489Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T06:37:06.489Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T06:37:06.489Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T06:37:06.490Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:37:06.490Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T06:37:06.490Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T06:37:06.490Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T06:37:06.490Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T06:37:06.490Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:37:06.490Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T06:37:06.492Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T06:37:06.492Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T06:37:06.492Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T06:37:06.493Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:37:06.493Z"}
+{"level":"info","message":"Route: /camera/notification/select:","timestamp":"2017-11-20T06:37:06.493Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_id\":\"undefined\"}","timestamp":"2017-11-20T06:37:06.493Z"}
+{"level":"info","message":"Controller: executing getCameraNotifications() ","timestamp":"2017-11-20T06:37:06.493Z"}
+{"level":"info","message":"Model: executing getCameraNotifications() ","timestamp":"2017-11-20T06:37:06.493Z"}
+{"level":"info","message":"Camera information fetched.","timestamp":"2017-11-20T06:37:06.497Z"}
+{"level":"info","message":"Controller: camera list response :: ","timestamp":"2017-11-20T06:37:06.497Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:37:06.499Z"}
+{"level":"info","message":"Model: GetItem succeeded: getLatestNotifications()","timestamp":"2017-11-20T06:37:07.783Z"}
+{"level":"info","message":"Model: GetCamNotification succeeded: getCameraNotifications()","timestamp":"2017-11-20T06:37:07.786Z"}
+{"level":"info","message":"Route: /user/get camera:","timestamp":"2017-11-20T06:37:40.958Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:37:40.959Z"}
+{"level":"info","message":"Controller: executing getCamera() ","timestamp":"2017-11-20T06:37:40.960Z"}
+{"level":"info","message":"Camera information fetched.","timestamp":"2017-11-20T06:37:40.962Z"}
+{"level":"info","message":"Controller: camera list response :: ","timestamp":"2017-11-20T06:37:40.962Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T06:37:40.963Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T06:37:40.963Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T06:37:40.964Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T06:37:40.964Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:37:40.964Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T06:37:40.965Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T06:37:40.965Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T06:37:40.965Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T06:37:40.965Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:37:40.966Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T06:37:40.967Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T06:37:40.967Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T06:37:40.967Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T06:37:40.967Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:37:40.967Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T06:37:40.968Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T06:37:40.968Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T06:37:40.968Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T06:37:40.968Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:37:40.969Z"}
+{"level":"info","message":"Route: /camera/notification/select:","timestamp":"2017-11-20T06:37:40.969Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_id\":\"undefined\"}","timestamp":"2017-11-20T06:37:40.969Z"}
+{"level":"info","message":"Controller: executing getCameraNotifications() ","timestamp":"2017-11-20T06:37:40.969Z"}
+{"level":"info","message":"Model: executing getCameraNotifications() ","timestamp":"2017-11-20T06:37:40.969Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2017-11-20T06:37:40.973Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:37:40.974Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2017-11-20T06:37:40.974Z"}
+{"level":"info","message":"Model: executing getLatestNotifications() ","timestamp":"2017-11-20T06:37:40.974Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:37:40.979Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:37:40.981Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:37:40.983Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:37:40.984Z"}
+{"level":"info","message":"Model: GetItem succeeded: getLatestNotifications()","timestamp":"2017-11-20T06:37:43.075Z"}
+{"level":"info","message":"Model: GetCamNotification succeeded: getCameraNotifications()","timestamp":"2017-11-20T06:37:43.111Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2017-11-20T06:37:06.501Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:37:06.501Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2017-11-20T06:37:06.501Z"}
+{"level":"info","message":"Model: executing getLatestNotifications() ","timestamp":"2017-11-20T06:37:06.501Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:37:06.506Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:37:06.508Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:37:06.510Z"}
+{"level":"info","message":"Route: /user/get camera:","timestamp":"2017-11-20T06:44:49.841Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:44:49.841Z"}
+{"level":"info","message":"Controller: executing getCamera() ","timestamp":"2017-11-20T06:44:49.841Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T06:44:49.845Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T06:44:49.845Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T06:44:49.845Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T06:44:49.845Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:44:49.845Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T06:44:49.845Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T06:44:49.845Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T06:44:49.845Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T06:44:49.845Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:44:49.846Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T06:44:49.846Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T06:44:49.846Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T06:44:49.846Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T06:44:49.846Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:44:49.847Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T06:44:49.847Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T06:44:49.848Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T06:44:49.848Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T06:44:49.848Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:44:49.848Z"}
+{"level":"info","message":"Route: /camera/notification/select:","timestamp":"2017-11-20T06:44:49.848Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_id\":\"undefined\"}","timestamp":"2017-11-20T06:44:49.848Z"}
+{"level":"info","message":"Controller: executing getCameraNotifications() ","timestamp":"2017-11-20T06:44:49.849Z"}
+{"level":"info","message":"Model: executing getCameraNotifications() ","timestamp":"2017-11-20T06:44:49.849Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:44:49.856Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:44:49.866Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2017-11-20T06:44:49.867Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:44:49.867Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2017-11-20T06:44:49.867Z"}
+{"level":"info","message":"Model: executing getLatestNotifications() ","timestamp":"2017-11-20T06:44:49.867Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:44:49.871Z"}
+{"level":"info","message":"Model: GetItem succeeded: getLatestNotifications()","timestamp":"2017-11-20T06:44:51.168Z"}
+{"level":"info","message":"Model: GetCamNotification succeeded: getCameraNotifications()","timestamp":"2017-11-20T06:44:51.355Z"}
+{"level":"info","message":"Camera information fetched.","timestamp":"2017-11-20T06:44:49.852Z"}
+{"level":"info","message":"Controller: camera list response :: ","timestamp":"2017-11-20T06:44:49.852Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:44:49.855Z"}
+{"level":"info","message":"Route: /user/get camera:","timestamp":"2017-11-20T06:45:13.970Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:45:13.970Z"}
+{"level":"info","message":"Controller: executing getCamera() ","timestamp":"2017-11-20T06:45:13.970Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T06:45:13.971Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T06:45:13.971Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T06:45:13.971Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T06:45:13.971Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:45:13.972Z"}
+{"level":"info","message":"Camera information fetched.","timestamp":"2017-11-20T06:45:13.972Z"}
+{"level":"info","message":"Controller: camera list response :: ","timestamp":"2017-11-20T06:45:13.972Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:45:13.975Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T06:45:13.978Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T06:45:13.978Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T06:45:13.978Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T06:45:13.978Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:45:13.978Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T06:45:13.979Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T06:45:13.980Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T06:45:13.980Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T06:45:13.980Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:45:13.980Z"}
+{"level":"info","message":"Route: /camera/notification/select:","timestamp":"2017-11-20T06:45:13.980Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_id\":\"undefined\"}","timestamp":"2017-11-20T06:45:13.981Z"}
+{"level":"info","message":"Controller: executing getCameraNotifications() ","timestamp":"2017-11-20T06:45:13.981Z"}
+{"level":"info","message":"Model: executing getCameraNotifications() ","timestamp":"2017-11-20T06:45:13.981Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:45:13.985Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:45:13.987Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2017-11-20T06:45:13.992Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T06:45:13.992Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2017-11-20T06:45:13.992Z"}
+{"level":"info","message":"Model: executing getLatestNotifications() ","timestamp":"2017-11-20T06:45:13.994Z"}
+{"level":"info","message":"Model: GetItem succeeded: getLatestNotifications()","timestamp":"2017-11-20T06:45:15.346Z"}
+{"level":"info","message":"Model: GetCamNotification succeeded: getCameraNotifications()","timestamp":"2017-11-20T06:45:15.367Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T06:45:13.974Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T06:45:13.974Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T06:45:13.974Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T06:45:13.974Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T06:45:13.974Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T06:45:13.974Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2017-11-20T10:27:52.006Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2017-11-20T10:27:52.006Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2017-11-20T10:27:52.007Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2017-11-20T10:27:52.007Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T10:27:52.551Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:27:52.551Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T10:27:52.557Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:27:52.557Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T10:27:52.560Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:27:52.561Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T10:27:52.562Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:27:52.562Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T10:27:52.564Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:27:52.564Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T10:27:52.567Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:27:52.567Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T10:27:52.609Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T10:27:52.609Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T10:27:52.609Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T10:27:52.610Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T10:27:52.610Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T10:27:52.612Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T10:27:52.612Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T10:27:52.612Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T10:27:52.613Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T10:27:52.613Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T10:27:52.614Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T10:27:52.614Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T10:27:52.614Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T10:27:52.614Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T10:27:52.614Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T10:27:52.615Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T10:27:52.615Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T10:27:52.615Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T10:27:52.616Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T10:27:52.616Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2017-11-20T10:27:52.617Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:27:52.617Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2017-11-20T10:27:52.617Z"}
+{"level":"info","message":"Model: executing getLatestNotifications() ","timestamp":"2017-11-20T10:27:52.617Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T10:27:52.620Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T10:27:52.622Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T10:27:52.623Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T10:27:52.624Z"}
+{"level":"info","message":"Model: GetItem succeeded: getLatestNotifications()","timestamp":"2017-11-20T10:27:53.855Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2017-11-20T10:27:52.019Z"}
+{"level":"info","message":"camera list :: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2017-11-20T10:27:52.019Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T10:28:01.503Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T10:28:01.503Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T10:28:01.503Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T10:28:01.503Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T10:28:01.503Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T10:28:01.505Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T10:28:01.505Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T10:28:01.505Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T10:28:01.505Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T10:28:01.505Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T10:28:01.506Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T10:28:01.506Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T10:28:01.506Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T10:28:01.506Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T10:28:01.506Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T10:28:01.506Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T10:28:01.506Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T10:28:01.506Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T10:28:01.506Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T10:28:01.506Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2017-11-20T10:28:01.507Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:28:01.507Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2017-11-20T10:28:01.507Z"}
+{"level":"info","message":"Model: executing getLatestNotifications() ","timestamp":"2017-11-20T10:28:01.507Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T10:28:01.509Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T10:28:01.516Z"}
+{"level":"info","message":"Route: /user/get camera:","timestamp":"2017-11-20T10:28:01.578Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:28:01.578Z"}
+{"level":"info","message":"Controller: executing getCamera() ","timestamp":"2017-11-20T10:28:01.578Z"}
+{"level":"info","message":"Route: /camera/notification/select:","timestamp":"2017-11-20T10:28:01.579Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_id\":\"3\"}","timestamp":"2017-11-20T10:28:01.579Z"}
+{"level":"info","message":"Controller: executing getCameraNotifications() ","timestamp":"2017-11-20T10:28:01.579Z"}
+{"level":"info","message":"Model: executing getCameraNotifications() ","timestamp":"2017-11-20T10:28:01.579Z"}
+{"level":"info","message":"Camera information fetched.","timestamp":"2017-11-20T10:28:01.583Z"}
+{"level":"info","message":"Controller: camera list response :: [object Object]","timestamp":"2017-11-20T10:28:01.583Z"}
+{"level":"info","message":"Model: GetItem succeeded: getLatestNotifications()","timestamp":"2017-11-20T10:28:02.794Z"}
+{"level":"info","message":"Model: GetCamNotification succeeded: getCameraNotifications()","timestamp":"2017-11-20T10:28:05.862Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2017-11-20T10:28:15.297Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2017-11-20T10:28:15.297Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2017-11-20T10:28:15.297Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2017-11-20T10:28:15.297Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2017-11-20T10:28:15.299Z"}
+{"level":"info","message":"camera list :: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2017-11-20T10:28:15.299Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T10:28:15.827Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:28:15.830Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T10:28:15.831Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:28:15.831Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T10:28:15.834Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:28:15.834Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T10:28:15.836Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:28:15.836Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T10:28:15.838Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:28:15.839Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T10:28:15.840Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:28:15.840Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T10:28:15.875Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T10:28:15.878Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T10:28:15.878Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T10:28:15.878Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T10:28:15.879Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T10:28:15.879Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T10:28:15.880Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T10:28:15.880Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T10:28:15.880Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T10:28:15.880Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T10:28:15.883Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T10:28:15.883Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T10:28:15.883Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T10:28:15.883Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T10:28:15.883Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T10:28:15.886Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T10:28:15.886Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T10:28:15.886Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T10:28:15.886Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T10:28:15.886Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2017-11-20T10:28:15.890Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:28:15.890Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2017-11-20T10:28:15.890Z"}
+{"level":"info","message":"Model: executing getLatestNotifications() ","timestamp":"2017-11-20T10:28:15.890Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T10:28:15.894Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T10:28:15.896Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T10:28:15.898Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T10:28:15.899Z"}
+{"level":"info","message":"Model: GetItem succeeded: getLatestNotifications()","timestamp":"2017-11-20T10:28:17.304Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2017-11-20T10:28:41.412Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2017-11-20T10:28:41.412Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2017-11-20T10:28:41.412Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2017-11-20T10:28:41.412Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2017-11-20T10:28:41.414Z"}
+{"level":"info","message":"camera list :: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2017-11-20T10:28:41.414Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T10:28:42.413Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:28:42.414Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T10:28:42.417Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:28:42.417Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T10:28:42.418Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:28:42.418Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T10:28:42.419Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:28:42.420Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T10:28:42.421Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:28:42.421Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2017-11-20T10:28:42.423Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:28:42.423Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T10:28:42.448Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T10:28:42.448Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T10:28:42.448Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T10:28:42.448Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T10:28:42.449Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T10:28:42.450Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2017-11-20T10:28:42.450Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T10:28:42.450Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2017-11-20T10:28:42.451Z"}
+{"user_id":"22","type":"People_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T10:28:42.452Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2017-11-20T10:28:42.455Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T10:28:42.455Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2017-11-20T10:28:42.455Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T10:28:42.455Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T10:28:42.455Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2017-11-20T10:28:42.456Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2017-11-20T10:28:42.456Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2017-11-20T10:28:42.456Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2017-11-20T10:28:42.456Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2017-11-20","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2017-11-20T10:28:42.456Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2017-11-20T10:28:42.457Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:28:42.458Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2017-11-20T10:28:42.458Z"}
+{"level":"info","message":"Model: executing getLatestNotifications() ","timestamp":"2017-11-20T10:28:42.458Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T10:28:42.462Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T10:28:42.464Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T10:28:42.469Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T10:28:42.470Z"}
+{"level":"info","message":"Model: GetItem succeeded: getLatestNotifications()","timestamp":"2017-11-20T10:28:44.042Z"}
+{"level":"info","message":"Route: /user/get camera:","timestamp":"2017-11-20T10:28:49.165Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T10:28:49.165Z"}
+{"level":"info","message":"Controller: executing getCamera() ","timestamp":"2017-11-20T10:28:49.165Z"}
+{"level":"info","message":"Route: /camera/notification/select:","timestamp":"2017-11-20T10:28:49.166Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_id\":\"3\"}","timestamp":"2017-11-20T10:28:49.166Z"}
+{"level":"info","message":"Controller: executing getCameraNotifications() ","timestamp":"2017-11-20T10:28:49.167Z"}
+{"level":"info","message":"Model: executing getCameraNotifications() ","timestamp":"2017-11-20T10:28:49.167Z"}
+{"level":"info","message":"Camera information fetched.","timestamp":"2017-11-20T10:28:49.171Z"}
+{"level":"info","message":"Controller: camera list response :: [object Object]","timestamp":"2017-11-20T10:28:49.171Z"}
+{"level":"info","message":"Model: GetCamNotification succeeded: getCameraNotifications()","timestamp":"2017-11-20T10:28:54.281Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T10:28:01.513Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2017-11-20T10:28:01.515Z"}
+{"level":"info","message":"Route: /user/get camera:","timestamp":"2017-11-20T11:21:07.795Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T11:21:07.796Z"}
+{"level":"info","message":"Controller: executing getCamera() ","timestamp":"2017-11-20T11:21:07.796Z"}
+{"level":"info","message":"Route: /camera/notification/select:","timestamp":"2017-11-20T11:21:07.797Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_id\":\"3\"}","timestamp":"2017-11-20T11:21:07.797Z"}
+{"level":"info","message":"Controller: executing getCameraNotifications() ","timestamp":"2017-11-20T11:21:07.797Z"}
+{"level":"info","message":"Model: executing getCameraNotifications() ","timestamp":"2017-11-20T11:21:07.797Z"}
+{"level":"info","message":"Camera information fetched.","timestamp":"2017-11-20T11:21:07.804Z"}
+{"level":"info","message":"Controller: camera list response :: [object Object]","timestamp":"2017-11-20T11:21:07.804Z"}
+{"level":"info","message":"Model: GetCamNotification succeeded: getCameraNotifications()","timestamp":"2017-11-20T11:21:11.933Z"}
+{"level":"info","message":"Route: /user/get camera:","timestamp":"2017-11-20T11:26:42.271Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T11:26:42.271Z"}
+{"level":"info","message":"Controller: executing getCamera() ","timestamp":"2017-11-20T11:26:42.271Z"}
+{"level":"info","message":"Camera information fetched.","timestamp":"2017-11-20T11:26:42.272Z"}
+{"level":"info","message":"Controller: camera list response :: [object Object]","timestamp":"2017-11-20T11:26:42.272Z"}
+{"level":"info","message":"Route: /camera/notification/select:","timestamp":"2017-11-20T11:26:42.273Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_id\":\"3\"}","timestamp":"2017-11-20T11:26:42.273Z"}
+{"level":"info","message":"Controller: executing getCameraNotifications() ","timestamp":"2017-11-20T11:26:42.273Z"}
+{"level":"info","message":"Model: executing getCameraNotifications() ","timestamp":"2017-11-20T11:26:42.273Z"}
+{"level":"info","message":"Model: GetCamNotification succeeded: getCameraNotifications()","timestamp":"2017-11-20T11:26:45.845Z"}
+{"level":"info","message":"Route: /user/get camera:","timestamp":"2017-11-20T11:27:13.358Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2017-11-20T11:27:13.359Z"}
+{"level":"info","message":"Controller: executing getCamera() ","timestamp":"2017-11-20T11:27:13.360Z"}
+{"level":"info","message":"Route: /camera/notification/select:","timestamp":"2017-11-20T11:27:13.364Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_id\":\"3\"}","timestamp":"2017-11-20T11:27:13.364Z"}
+{"level":"info","message":"Controller: executing getCameraNotifications() ","timestamp":"2017-11-20T11:27:13.364Z"}
+{"level":"info","message":"Model: executing getCameraNotifications() ","timestamp":"2017-11-20T11:27:13.366Z"}
+{"level":"info","message":"Model: GetCamNotification succeeded: getCameraNotifications()","timestamp":"2017-11-20T11:27:17.020Z"}

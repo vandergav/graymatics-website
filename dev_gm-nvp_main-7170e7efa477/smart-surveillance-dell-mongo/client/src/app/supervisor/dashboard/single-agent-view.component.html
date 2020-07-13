@@ -1,0 +1,521 @@
+
+    <!-- header-start -->
+    <header>
+      <div class="container-fluid">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" [routerLink]="['/supervisor/dashboard/agent-view']">Graymatics</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+            <ul class="nav navbar-nav">
+              <li class="top-brd">
+                <a href="#">Configuration</a>
+                  <ul class="drop-down-menu supervisor-menu">
+                    <li><a href="#" [routerLink]="['/supervisor/camera/main']">Camera</a></li>
+                    <li><a href="#" [routerLink]="['/face/recognition']">Face Recognition</a></li>
+                    <li><a href="#" [routerLink]="['/vehicle/recognition']">Vehicle Recognition</a></li>
+                    <li><a href="#" [routerLink]="['/configuration/alerts']">Alerts</a></li>
+                    <li><a href="#" [routerLink]="['/configuration/notifications']">Notifications</a></li>
+                    <!-- <li><a href="#" [routerLink]="['/face/training']">Face</a></li> -->
+                  </ul>
+              </li>
+              <li class="top-brd">
+                <a href="#">Forensic Search</a>
+                <ul class="drop-down-menu">
+                  <li><a href="#" [routerLink]="['/security-agent/video/archived']">Archived Video</a></li>
+                  <li><a href="#" [routerLink]="['/security-agent/video/uploaded']">Uploaded Video</a></li>
+                </ul>
+              </li>
+              <li><a href="#" [routerLink]="['/reports/summary']">Reports</a></li>
+            </ul>
+         </div><!--/.nav-collapse -->
+
+          <div class="mobile-arrange">
+            <div id="sb-search" class="sb-search">
+              <form>
+                <input class="sb-search-input" placeholder="Search here..." type="search" name="search" id="awesome-input">
+                <input class="sb-search-submit" type="submit" value="">
+                <span class="sb-icon-search"><img src="../../../images/search-icon.png" alt=""></span>
+
+                <div class="awesome-results">
+                  <ul class="collection">
+                   <li class="collection-item">yellow shirt</li>
+                   <li class="collection-item">yellow car</li>
+                   <li class="collection-item">yellowish</li>
+                  </ul>
+                </div>
+
+              </form>
+            </div>
+
+            <div class="dropdown profile-menu">
+              <img src="../../../images/profile-image.jpg" data-toggle="dropdown" class="dropdown-toggle img-responsive" alt="profile-image">
+              <ul class="dropdown-menu">
+                <li><a>{{currentUser}}</a></li>
+                <li><a href="#" [routerLink]="['/login']">Sign out</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div><!--/.container-fluid -->
+      </nav>
+      </div><!--/.container-fluid -->
+    </header>
+    <!-- heder-end -->
+
+      <div id="wrapper">
+
+        <!-- menu-exm-end -->
+
+      <div id="page-content-wrapper" class="notification-area">      
+
+        <!-- page-area-start -->
+        <div class="page-content">
+          <div class="container-fluid">
+          <!-- tab-design-start -->
+            <div id="notification-tab" class="filter-tab col-lg-6"> 
+              <ul class="nav nav-tabs">
+                  <li class="red-notified">
+                    <a href="#1" data-toggle="tab" ng-click="togglecontainers(10)">10 (8)</a>
+                  </li>
+                  <li class="yellow-notified"><a href="#2" data-toggle="tab" ng-click="togglecontainers(20)">8 (5)</a>
+                  </li>
+                  <li class="green-notified"><a href="#3" data-toggle="tab" ng-click="togglecontainers(30)">15 (2)</a>
+                  </li>
+              </ul>
+            </div>
+             <div class="col-lg-6">
+                <div class="selecter camera-linked">
+                  <a class="btn btn-select">
+                    <input type="hidden" class="btn-select-input" id="" name="" value="">
+                    <span class="btn-select-value">Cameras Linked to the Agent</span>
+                    <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                    <ul style="display: none;" class="sentencecase">
+                      <li>cameras 01</li>
+                      <li>cameras 09</li>
+                      <li>cameras 12</li>
+                      <li>cameras 45</li>
+                      <li>cameras 89</li>
+                      <li class="reassign-btn" onclick="window.location='reassign-camera.html';">reassign</li>
+                    </ul>
+                  </a>
+                </div> 
+             </div> 
+          <!-- tab-design-end -->
+            
+            <div class="all-cameras" ng-show="firstblock">
+
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video1.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Corridor</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area chaeck-bg">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video2.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Discussion Room</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area">
+                    <img src="../../../images/video3.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Locker Room</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area">
+                    <img src="../../../images/video4.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area chaeck-bg">
+                    <h4>Exit 2</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area">
+                    <img src="../../../images/video7.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area chaeck-bg">
+                    <h4>VIP Section</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video6.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Kitchen</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area">
+                    <img src="../../../images/video7.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Conference Room</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video8.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>VIP Parking</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video9.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Waiting Room</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video10.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Library</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video11.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area chaeck-bg">
+                    <h4>Corridor</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video1.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Corridor</h4>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!--2nd all-cameras-->
+             <div class="all-cameras" ng-show="secondblock">
+
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video2.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Corridor</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area chaeck-bg">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video1.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Discussion Room</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area">
+                    <img src="../../../images/video4.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Locker Room</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area">
+                    <img src="../../../images/video3.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area chaeck-bg">
+                    <h4>Exit 2</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area">
+                    <img src="../../../images/video6.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area chaeck-bg">
+                    <h4>VIP Section</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video7.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Kitchen</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area">
+                    <img src="../../../images/video7.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Conference Room</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video8.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>VIP Parking</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video9.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Waiting Room</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video10.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Library</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video11.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area chaeck-bg">
+                    <h4>Corridor</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video1.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Corridor</h4>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+      <!--3rd all-cameras block-->
+
+       <div class="all-cameras" ng-show="thirdblock">
+
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video7.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Corridor</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area chaeck-bg">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video6.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Discussion Room</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area">
+                    <img src="../../../images/video1.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Locker Room</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area">
+                    <img src="../../../images/video1.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area chaeck-bg">
+                    <h4>Exit 2</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area">
+                    <img src="../../../images/video7.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area chaeck-bg">
+                    <h4>VIP Section</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video6.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Kitchen</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area">
+                    <img src="../../../images/video7.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Conference Room</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video8.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>VIP Parking</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video9.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Waiting Room</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video10.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Library</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video11.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area chaeck-bg">
+                    <h4>Corridor</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size">
+                <div class="post-area">
+                  <div class="video-area chaeck-bg">
+                    <img src="../../../images/video1.jpg" class="img-responsive" alt="" />
+                  </div>
+                  <div class="post-title-area">
+                    <h4>Corridor</h4>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+
+            <div class="big-size">
+              <div class="col-md-12">
+                <div class="video-placeholder">
+                  <img src="../../../images/intrusion-video.jpg" class="img-responsive">
+                </div>
+                <div class="video-info">
+                  <h4>Conference Room</h4>
+                  <a href="javascript:void(0)" class="zoom-out">
+                    <img src="../../../images/zoom-out.png" class="pull-right" alt="zoom out icon">
+                  </a>
+                </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- page-area-end -->
+        <!-- section-breadcumbs-start -->
+      </div>
+    </div>
+    <section class="breadcrumbs"> 
+        <div class="container-fluid">
+          <ul>
+            <li class="active"><a href="#" [routerLink]="['/supervisor/dashboard/agent-view']">Configuration</a></li>
+             <li><a>single-agent-view</a></li>
+            <!--<li><a href="">Camera</a></li>
+            <li class="active"><a href="">Add Camera</a></li> -->
+          </ul>
+        </div>
+      </section>

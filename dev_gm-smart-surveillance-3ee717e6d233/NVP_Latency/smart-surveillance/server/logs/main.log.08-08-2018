@@ -1,0 +1,148 @@
+{"level":"info","message":"App starting.","timestamp":"2018-08-08T04:04:25.784Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:1111","timestamp":"2018-08-08T04:04:27.561Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-08T04:05:17.944Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b6977bdeab687d20f0f22cf\"}","timestamp":"2018-08-08T04:05:17.945Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-08T04:05:17.946Z"}
+{"level":"info","message":"Model Parameters : req.params: 5b6977bdeab687d20f0f22cf","timestamp":"2018-08-08T04:05:17.946Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-08T04:05:18.284Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-08T04:05:18.295Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b6977bdeab687d20f0f22cf\"}","timestamp":"2018-08-08T04:05:18.295Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-08T04:05:18.296Z"}
+{"level":"info","message":"Model Parameters : req.params: 5b6977bdeab687d20f0f22cf","timestamp":"2018-08-08T04:05:18.296Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-08T04:05:18.298Z"}
+{"level":"info","message":"Route: /user/login:","timestamp":"2018-08-08T04:36:16.053Z"}
+{"username":"gm_user_22","user_password":"gm_user_22","level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-08T04:36:16.055Z"}
+{"level":"info","message":"Controller: /admin/login:","timestamp":"2018-08-08T04:36:16.061Z"}
+{"level":"info","message":"Model: /user/login:","timestamp":"2018-08-08T04:36:16.062Z"}
+{"level":"info","message":"Your lost login has been updated.","timestamp":"2018-08-08T04:36:16.323Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2018-08-08T04:36:16.324Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-08T04:36:16.765Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-08T04:36:16.766Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-08T04:36:16.766Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-08T04:36:16.766Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-08T04:36:16.793Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-08T04:46:48.401Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-08T04:46:48.401Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-08T04:46:48.401Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-08T04:46:48.401Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-08T04:46:48.403Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-08T04:49:12.334Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-08T04:49:12.335Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-08T04:49:12.335Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-08T04:49:12.335Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-08T04:49:12.345Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-08T04:49:12.345Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-08T04:49:12.346Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-08T04:49:12.346Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-08T04:49:12.348Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-08T04:49:28.489Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://www.allwhitebackground.com/images/3/3809.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-08T04:49:28.490Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-08T04:49:28.494Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-08T04:49:28.499Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-08T04:49:28.499Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-08T04:49:28.499Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-08T04:49:28.499Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-08T04:49:28.585Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-08T04:49:28.589Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-08T04:49:29.108Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-08T04:49:12.338Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-08T05:06:02.679Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-08T05:06:02.680Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-08T05:06:02.680Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-08T05:06:02.680Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-08T05:06:02.684Z"}
+{"level":"info","message":"Route: Delete Contact","timestamp":"2018-08-08T05:06:09.177Z"}
+{"level":"info","message":"Parameters : req.params: {\"camera_id\":\"16\"}","timestamp":"2018-08-08T05:06:09.177Z"}
+{"level":"info","message":"Controller: executing deleteCamera() ","timestamp":"2018-08-08T05:06:09.178Z"}
+{"level":"info","message":"Model: executing remove()  16","timestamp":"2018-08-08T05:06:09.179Z"}
+{"level":"info","message":"Camera has been deleted.","timestamp":"2018-08-08T05:06:09.298Z"}
+{"level":"info","message":"Route: Delete Contact","timestamp":"2018-08-08T05:06:12.573Z"}
+{"level":"info","message":"Parameters : req.params: {\"camera_id\":\"15\"}","timestamp":"2018-08-08T05:06:12.574Z"}
+{"level":"info","message":"Controller: executing deleteCamera() ","timestamp":"2018-08-08T05:06:12.574Z"}
+{"level":"info","message":"Model: executing remove()  15","timestamp":"2018-08-08T05:06:12.575Z"}
+{"level":"info","message":"Camera has been deleted.","timestamp":"2018-08-08T05:06:12.630Z"}
+{"level":"info","message":"Route: Delete Contact","timestamp":"2018-08-08T05:06:15.548Z"}
+{"level":"info","message":"Parameters : req.params: {\"camera_id\":\"14\"}","timestamp":"2018-08-08T05:06:15.548Z"}
+{"level":"info","message":"Controller: executing deleteCamera() ","timestamp":"2018-08-08T05:06:15.549Z"}
+{"level":"info","message":"Model: executing remove()  14","timestamp":"2018-08-08T05:06:15.549Z"}
+{"level":"info","message":"Camera has been deleted.","timestamp":"2018-08-08T05:06:16.303Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-08T05:09:51.306Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"https://images-na.ssl-images-amazon.com/images/I/81h-TGVJ3uL._SL1500_.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-08T05:09:51.306Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-08T05:09:51.307Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-08T05:09:51.310Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"https://d3k6qlxswbk0wh.cloudfront.net/wp-content/uploads/2016/08/IMG_07761.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-08T05:09:51.310Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-08T05:09:51.310Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-08T05:09:51.317Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-08T05:09:51.317Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-08T05:09:51.317Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-08T05:09:51.317Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-08T05:09:51.392Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-08T05:09:51.455Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-08T05:09:51.457Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-08T05:09:51.909Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-08T05:09:51.965Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-08T05:14:28.965Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://www.allwhitebackground.com/images/3/3809.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-08T05:14:28.966Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-08T05:14:28.967Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-08T05:14:28.969Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"https://images-na.ssl-images-amazon.com/images/I/81h-TGVJ3uL._SL1500_.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-08T05:14:28.969Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-08T05:14:28.970Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-08T05:14:29.010Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-08T05:14:29.078Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-08T05:14:29.416Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-08T05:14:29.420Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-08T05:14:29.526Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-08T05:14:29.591Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-08T05:14:29.934Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-08T05:14:28.972Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"https://images-na.ssl-images-amazon.com/images/I/51nVMUM2jeL._SX425_.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-08T05:14:28.972Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-08T05:14:28.973Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-08T05:14:28.974Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-08T05:14:28.974Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-08T05:14:28.974Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-08T05:14:28.974Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-08T05:21:30.079Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"https://images-na.ssl-images-amazon.com/images/I/81h-TGVJ3uL._SL1500_.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-08T05:21:30.080Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-08T05:21:30.080Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-08T05:21:30.090Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-08T05:21:30.090Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-08T05:21:30.090Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-08T05:21:30.091Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-08T05:21:30.123Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-08T05:21:30.125Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-08T05:21:30.647Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-08T05:22:18.597Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"https://cdn.shopify.com/s/files/1/0232/3305/products/state_bicycle_co_matte_red_wyldcat_fixie_1_large.jpg?v=1484345284","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-08T05:22:18.598Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-08T05:22:18.599Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-08T05:22:18.609Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-08T05:22:18.609Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-08T05:22:18.610Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-08T05:22:18.610Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-08T05:22:18.648Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-08T05:22:18.653Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-08T05:22:19.172Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-08T06:13:19.190Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-08T06:13:19.190Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-08T06:13:19.190Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-08T06:13:19.190Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-08T06:13:19.193Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-08T06:16:10.238Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-08T06:16:10.239Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-08T06:16:10.239Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-08T06:16:10.241Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-08T06:16:10.243Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-08T06:16:10.248Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-08T06:16:10.248Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-08T06:16:10.249Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-08T06:16:10.249Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-08T06:16:10.252Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-08T06:16:37.744Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-08T06:16:37.744Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-08T06:16:37.744Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-08T06:16:37.744Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-08T06:16:37.746Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-08T06:16:37.750Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-08T06:16:37.750Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-08T06:16:37.750Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-08T06:16:37.750Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-08T06:16:37.754Z"}

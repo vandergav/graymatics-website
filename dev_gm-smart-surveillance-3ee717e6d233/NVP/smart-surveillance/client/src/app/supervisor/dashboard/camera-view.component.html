@@ -1,0 +1,188 @@
+<!-- header-start -->
+    <header class="admin-header">
+      <div class="container-fluid">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" [routerLink]="['/supervisor/dashboard/agent-view']">Graymatics</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+            <ul class="nav navbar-nav">
+              <li class="top-brd">
+                <a href="#">Configuration</a>
+                  <ul class="drop-down-menu supervisor-menu">
+                    <li><a href="#" [routerLink]="['/supervisor/camera/main']">Camera</a></li>
+                    <!-- <li><a href="#" [routerLink]="['/face/recognition']">Face Recognition</a></li> -->
+                    <!-- <li><a href="#" [routerLink]="['/vehicle/recognition']">Vehicle Recognition</a></li> -->
+                    <!-- <li><a href="#" [routerLink]="['/configuration/alerts']">Alerts</a></li> -->
+                    <!-- <li><a href="#" [routerLink]="['/configuration/notifications']">Notifications</a></li> -->
+                    <!-- <li><a href="#" [routerLink]="['/face/training']">Face</a></li> -->
+                  </ul>
+              </li>
+              <li class="top-brd">
+                <a href="#">Forensic Search</a>
+                <ul class="drop-down-menu">
+                  <li><a href="#" [routerLink]="['/security-agent/video/archived']">Archived Video</a></li>
+                  <li><a href="#" [routerLink]="['/security-agent/video/uploaded']">Uploaded Video</a></li>
+                </ul>
+              </li>
+              <!-- <li><a href="#" [routerLink]="['/reports/summary']">Reports</a></li> -->
+            </ul>
+         </div><!--/.nav-collapse -->
+
+          <div class="mobile-arrange">
+            <div id="sb-search" class="sb-search">
+              <form>
+                <input class="sb-search-input" placeholder="Search here..." type="search" name="search" id="awesome-input">
+                <input class="sb-search-submit" type="submit" value="">
+                <span class="sb-icon-search"><img src="../../../images/search-icon.png" alt=""></span>
+
+                <div class="awesome-results">
+                  <ul class="collection">
+                   <li class="collection-item">yellow shirt</li>
+                   <li class="collection-item">yellow car</li>
+                   <li class="collection-item">yellowish</li>
+                  </ul>
+                </div>
+
+              </form>
+            </div>
+
+            <div class="dropdown profile-menu">
+              <img src="../../../images/profile-image.jpg" data-toggle="dropdown" class="dropdown-toggle img-responsive" alt="profile-image">
+              <ul class="dropdown-menu">
+                <li><a>{{currentUser}}</a></li>
+                <li><a href="#" [routerLink]="['/login']">Sign out</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div><!--/.container-fluid -->
+      </nav>
+      </div><!--/.container-fluid -->
+    </header>
+    <!-- header-end -->
+
+    <!-- admin-page-content-start -->
+    <div class="admin-page-content camera-view-page-content">
+    	
+    	<div class="user-list-cta">
+        <label class="pull-left">02-AUG-2017, 00:00:00 hrs <b>TO</b> 30-AUG-2017, 10:15:00 hrs</label>
+        <button id="editid" type="button" class="admin-btn edit-btn active" [routerLink]="['/supervisor/dashboard/agent-view']">Agent view</button>
+    	</div>
+
+    	<div class="user-list-area editable-list">
+    		<table class="table">
+				  <thead>
+            <span class="outstanding">outstanding</span>
+				    <tr>
+				      <th>camera id</th>
+              <th>camera name</th>
+				      <th>camera type</th>
+				      <th>camera location</th>
+				      <th class="text-center">agents</th>
+				      <th class="text-center">total incidents</th>
+              <th class="head-red text-center">red</th>
+              <th class="head-yellow text-center">yellow</th>
+              <th class="head-green text-center">green</th>
+				      <th class="text-center">resolution(%)</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr *ngFor="let c of cams">
+				      <td>GRAY_{{c._id}}</td>
+				      <td (click)="view_camera_details(c._id,c.user_id)">{{c.name}}</td>
+				      <td>Sterile Zone Monitoring</td>
+              <td>First Floor</td>
+				      <td class="text-center">2</td>
+              <td class="text-center">6</td>
+              <td class="text-center lgt-red-border">8</td>
+              <td class="text-center lgt-yellow-border">10</td>
+				      <td class="text-center lgt-green-border">3</td>
+              <td class="text-center">82%</td>
+				    </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+    <!-- admin-page-content-end -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="add-user-form" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <form role="form" class="add-user login common-style-form" action="">
+            <div class="form-group">
+              <label for="organization-name">Name</label>
+              <input type="organization-name" class="form-control" id="text" required="">
+            </div>
+            <div class="form-group">
+              <label for="email-id">Email</label>
+              <input type="email-id" class="form-control" id="text" required="">
+            </div>
+            <div class="form-group">
+              <label for="first-name">Mobile Number</label>
+              <input type="first-name" class="form-control" id="text" required="">
+            </div>
+            <div class="form-group">
+              <label for="last-name">User Id</label>
+              <input type="last-name" class="form-control" id="text" required="">
+            </div>
+            <div class="form-group">
+              <label for="last-name">User Type</label>
+              <div class="form-group select-user-type-opt">
+                <a class="btn btn-select user-select-opt">
+                  <input type="hidden" class="btn-select-input" id="" name="" value="">
+                  <span class="btn-select-value">User Type</span>
+                  <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                  <ul>
+                    <li>Admin</li>
+                    <li>Supervisor</li>
+                    <li>Security Agent</li>
+                    <li>Manager</li>
+                  </ul>
+                </a>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="last-name">Manager *</label>
+              <div class="form-group select-user-type-opt">
+                <a class="btn btn-select user-select-opt">
+                  <input type="hidden" class="btn-select-input" id="" name="" value="">
+                  <span class="btn-select-value">Manager</span>
+                  <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                  <ul>
+                    <li>Admin</li>
+                    <li>Supervisor</li>
+                    <li>Security Agent</li>
+                    <li>Manager</li>
+                  </ul>
+                </a>
+              </div>
+            </div>
+            <div class="reset-btn">
+              <button type="submit" class="form-btn btn" value="submit">Save</button>
+            </div>
+            <div class="user-form-msg">* if user type is agent</div>
+          </form>          
+        </div>
+      </div>
+
+    </div>
+        <!-- section-breadcumbs-start -->
+    <!-- <section class="breadcrumbs"> 
+      <div class="container-fluid">
+        <ul>
+            <li class="active"><a href="">Configuration</a></li>
+        </ul>
+      </div>
+    </section> -->
+    <!-- section-breadcumbs-end -->

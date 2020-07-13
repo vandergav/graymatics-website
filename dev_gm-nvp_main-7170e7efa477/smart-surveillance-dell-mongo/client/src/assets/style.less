@@ -1,0 +1,116 @@
+/*font-face*/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Lato:300,400,700');
+
+@primary-color: #42477b;
+@fontfamily-1: 'Lato', sans-serif;
+@fontfamily-2: 'Josefin Sans', sans-serif;
+@headings-font-family: @fontfamily-1;
+@headings-font-weight: normal;
+@headings-line-height: normal;
+@headings-small-color: @primary-color;
+@line-height-computed: 20px;
+@headings-color: @primary-color;
+@button-bgcolor: #42477b;
+@font-size-h1: 36px;
+@font-size-h2: 30px;
+@font-size-h3: 26px;
+@font-size-h4: 18px;
+@font-size-h5: 14px;
+@font-size-h6: 12px;
+@font-size-base: 14px;
+@font-size-small: 12px;
+
+/*validation*/
+@state-warning-bg: red;
+
+/*text-muted*/
+@text-muted: #333333;
+@brand-primary: #ff7f7f;
+@form-heading-color1: #73769d;
+@form-label-color: #617287;
+@form-label-fsize: 9px;
+@form-title-fsize: 14px;
+
+/*action-style*/
+@state-success-text: green;
+@state-info-text: light-green;
+@state-warning-text: yellow;
+@state-danger-text: red;
+@brand-primary: #ff7f7f;
+@state-success-bg: red;
+@state-info-bg: blue;
+@state-warning-bg: yellow;
+@state-danger-bg: red;
+@page-header-border-color: #ff7f7f;
+
+/*screen-size*/
+@screen-sm-min: 768px;
+@dl-horizontal-breakpoint: 992px;
+@dl-horizontal-offset: 20%;
+@abbr-border-color: #ff7f7f;
+@blockquote-border-color: blue;
+@blockquote-font-size: 14px;
+@line-height-base: auto;
+@blockquote-small-color: #ff7f7f;
+@color-1: #596a80;
+@color-2: #ffffff;
+@color-3: #f8fafc;
+@color-4: #e7e9ed;
+@color-5: #7f8ea3;
+
+body {
+	font-size: @font-size-small;
+	font-family: @fontfamily-1;
+  -ms-overflow-style: scrollbar;
+}
+a:hover, a:focus {
+	text-decoration: none;
+}
+
+/*placeholder-css*/
+.common-style-form input.form-control {
+	background: #f8fafc;
+	height: 44px;
+}
+.common-style-form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #252525;
+  font-size: 12px;
+}
+.common-style-form input::-moz-placeholder { /* Firefox 19+ */
+  color: #252525;
+  font-size: 12px;
+}
+.common-style-form input:-ms-input-placeholder { /* IE 10+ */
+  color: #252525;
+  font-size: 12px;
+}
+.common-style-form input:-moz-placeholder { /* Firefox 18- */
+  color: #252525;
+  font-size: 12px;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+.btn.focus, .btn:focus, .btn:hover {
+	color: @color-2;
+}
+.dropdown-menu {
+  left: -120px;
+  top: 44px;
+  border: 0;
+  border-radius: 0;
+}
+
+/*import-file*/
+@import "less/normalize.less";
+@import "less/type.less";
+@import "less/mixins.less";
+@import "less/page-style/login.less";
+@import "less/page-style/forgot.less";
+@import "less/page-style/change-password.less";
+@import "less/page-style/header.less";
+@import "less/page-style/notification.less";
+@import "less/page-style/Intrusion-selected.less";
+@import "less/page-style/search-result.less";
+@import "less/page-style/calendar-style.less";

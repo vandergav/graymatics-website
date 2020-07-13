@@ -1,0 +1,296 @@
+{"level":"info","message":"App starting.","timestamp":"2018-07-10T00:44:32.397Z"}
+{"level":"info","message":"Application is running: http://127.0.0.1:9999","timestamp":"2018-07-10T00:44:34.530Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-07-10T00:45:04.709Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-07-10T00:45:04.710Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-07-10T00:45:04.710Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-07-10T00:45:04.710Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-07-10T00:45:04.807Z"}
+{"camera_id":6,"user_id":22,"name":"people","source":"/home/people_cut.mp4","protocol":"","interface":"onvif","fps":"","algos":"[\"person_tracking\"]","port":"80","roi":"[[36, 239.8030743752504], [1512, 450.77645769523906]]","media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-07-10T00:45:05.441Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-07-10T00:45:05.456Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:05.456Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-07-10T00:45:05.457Z"}
+{"user_id":"22","type":"INTRUSION","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T00:45:05.457Z"}
+{"user_id":"22","type":"INTRUSION","media_type":"camera","start_time":"2018-07-10","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T00:45:05.458Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-07-10T00:45:05.459Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:05.459Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-07-10T00:45:05.460Z"}
+{"user_id":"22","type":"INTRUSION","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T00:45:05.460Z"}
+{"user_id":22,"type":"INTRUSION","media_type":"camera","start_time":"2018-07-10","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T00:45:05.460Z"}
+{"camera_id":7,"user_id":22,"name":"vehicle","source":"/home/vehicle.mp4","protocol":"","interface":"onvif","fps":"","algos":"[\"vehicle_tracking\", \"person_tracking\"]","port":"80","roi":"[[16, 403.78238652917526], [1528, 503.7697719888855]]","media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-07-10T00:45:05.462Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-07-10T00:45:05.465Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:05.466Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-07-10T00:45:05.466Z"}
+{"user_id":"22","type":"People_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T00:45:05.466Z"}
+{"user_id":"22","type":"People_Count","media_type":"camera","start_time":"2018-07-10","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T00:45:05.466Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T00:45:05.475Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T00:45:05.476Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T00:45:05.478Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-07-10T00:45:05.526Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:05.526Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-07-10T00:45:05.526Z"}
+{"user_id":"22","type":"People_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T00:45:05.527Z"}
+{"user_id":22,"type":"People_Count","media_type":"camera","start_time":"2018-07-10","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T00:45:05.527Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T00:45:05.528Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-07-10T00:45:05.565Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:05.566Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-07-10T00:45:05.566Z"}
+{"user_id":"22","type":"Vehicle_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T00:45:05.567Z"}
+{"user_id":"22","type":"Vehicle_Count","media_type":"camera","start_time":"2018-07-10","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T00:45:05.567Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T00:45:05.569Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-07-10T00:45:05.607Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:05.608Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-07-10T00:45:05.608Z"}
+{"user_id":"22","type":"Vehicle_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T00:45:05.608Z"}
+{"user_id":22,"type":"Vehicle_Count","media_type":"camera","start_time":"2018-07-10","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T00:45:05.609Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-07-10T00:45:05.613Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:05.614Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-07-10T00:45:05.615Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T00:45:05.652Z"}
+{"level":"info","message":"Route: /user/get camera:","timestamp":"2018-07-10T00:45:18.023Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-07-10T00:45:18.024Z"}
+{"level":"info","message":"Controller: executing getCamera() ","timestamp":"2018-07-10T00:45:18.024Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-07-10T00:45:18.028Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:18.029Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-07-10T00:45:18.029Z"}
+{"user_id":"22","type":"INTRUSION","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T00:45:18.029Z"}
+{"user_id":"22","type":"INTRUSION","media_type":"camera","start_time":"2018-07-10","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T00:45:18.030Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-07-10T00:45:18.035Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:18.035Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-07-10T00:45:18.035Z"}
+{"user_id":"22","type":"INTRUSION","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T00:45:18.035Z"}
+{"user_id":22,"type":"INTRUSION","media_type":"camera","start_time":"2018-07-10","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T00:45:18.035Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-07-10T00:45:18.036Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:18.036Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-07-10T00:45:18.036Z"}
+{"user_id":"22","type":"People_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T00:45:18.037Z"}
+{"user_id":"22","type":"People_Count","media_type":"camera","start_time":"2018-07-10","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T00:45:18.037Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-07-10T00:45:18.039Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:18.039Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-07-10T00:45:18.039Z"}
+{"user_id":"22","type":"People_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T00:45:18.039Z"}
+{"user_id":22,"type":"People_Count","media_type":"camera","start_time":"2018-07-10","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T00:45:18.039Z"}
+{"level":"info","message":"Camera information fetched.","timestamp":"2018-07-10T00:45:18.040Z"}
+{"level":"info","message":"Controller: camera list response :: [object Object]","timestamp":"2018-07-10T00:45:18.041Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-07-10T00:45:18.041Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:18.042Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-07-10T00:45:18.042Z"}
+{"user_id":"22","type":"Vehicle_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T00:45:18.042Z"}
+{"user_id":"22","type":"Vehicle_Count","media_type":"camera","start_time":"2018-07-10","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T00:45:18.043Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-07-10T00:45:18.043Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:18.044Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-07-10T00:45:18.044Z"}
+{"user_id":"22","type":"Vehicle_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T00:45:18.044Z"}
+{"user_id":22,"type":"Vehicle_Count","media_type":"camera","start_time":"2018-07-10","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T00:45:18.044Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T00:45:18.045Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T00:45:18.047Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-07-10T00:45:18.050Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:18.050Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-07-10T00:45:18.050Z"}
+{"level":"info","message":"Route: /camera/notification/select:","timestamp":"2018-07-10T00:45:18.054Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_id\":\"6\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:18.054Z"}
+{"level":"info","message":"Controller: executing getCameraNotifications() ","timestamp":"2018-07-10T00:45:18.054Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T00:45:18.058Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T00:45:18.079Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T00:45:18.081Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T00:45:18.087Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-07-10T00:45:33.650Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-07-10T00:45:33.651Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-07-10T00:45:33.651Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-07-10T00:45:33.651Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-07-10T00:45:33.655Z"}
+{"camera_id":6,"user_id":22,"name":"people","source":"/home/people_cut.mp4","protocol":"","interface":"onvif","fps":"","algos":"[\"person_tracking\"]","port":"80","roi":"[[36, 239.8030743752504], [1512, 450.77645769523906]]","media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-07-10T00:45:34.173Z"}
+{"camera_id":7,"user_id":22,"name":"vehicle","source":"/home/vehicle.mp4","protocol":"","interface":"onvif","fps":"","algos":"[\"vehicle_tracking\", \"person_tracking\"]","port":"80","roi":"[[16, 403.78238652917526], [1528, 503.7697719888855]]","media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-07-10T00:45:34.195Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-07-10T00:45:34.202Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:34.203Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-07-10T00:45:34.203Z"}
+{"user_id":"22","type":"INTRUSION","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T00:45:34.203Z"}
+{"user_id":"22","type":"INTRUSION","media_type":"camera","start_time":"2018-07-10","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T00:45:34.204Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T00:45:34.208Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-07-10T00:45:34.221Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:34.221Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-07-10T00:45:34.221Z"}
+{"user_id":"22","type":"People_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T00:45:34.221Z"}
+{"user_id":"22","type":"People_Count","media_type":"camera","start_time":"2018-07-10","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T00:45:34.221Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T00:45:34.222Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-07-10T00:45:34.228Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:34.228Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-07-10T00:45:34.228Z"}
+{"user_id":"22","type":"People_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T00:45:34.228Z"}
+{"user_id":22,"type":"People_Count","media_type":"camera","start_time":"2018-07-10","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T00:45:34.229Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-07-10T00:45:34.229Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:34.229Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-07-10T00:45:34.230Z"}
+{"user_id":"22","type":"INTRUSION","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T00:45:34.230Z"}
+{"user_id":22,"type":"INTRUSION","media_type":"camera","start_time":"2018-07-10","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T00:45:34.230Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T00:45:34.231Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T00:45:34.232Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-07-10T00:45:34.235Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:34.235Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-07-10T00:45:34.236Z"}
+{"user_id":"22","type":"Vehicle_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T00:45:34.236Z"}
+{"user_id":"22","type":"Vehicle_Count","media_type":"camera","start_time":"2018-07-10","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T00:45:34.236Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-07-10T00:45:34.239Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:34.243Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-07-10T00:45:34.244Z"}
+{"user_id":"22","type":"Vehicle_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T00:45:34.244Z"}
+{"user_id":22,"type":"Vehicle_Count","media_type":"camera","start_time":"2018-07-10","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T00:45:34.245Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T00:45:34.245Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-07-10T00:45:34.246Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T00:45:34.246Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-07-10T00:45:34.246Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T00:45:34.268Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-07-10T00:45:58.666Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-07-10T00:45:58.667Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-07-10T00:45:58.667Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-07-10T00:45:58.668Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-07-10T00:45:58.671Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-07-10T03:14:19.382Z"}
+{"level":"info","message":"Application is running: http://127.0.0.1:9999","timestamp":"2018-07-10T03:14:20.226Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-07-10T03:14:29.306Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-07-10T03:14:29.307Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-07-10T03:14:29.307Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-07-10T03:14:29.308Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-07-10T03:14:29.406Z"}
+{"camera_id":6,"user_id":22,"name":"people","source":"/home/people_cut.mp4","protocol":"","interface":"onvif","fps":"","algos":"[\"person_tracking\"]","port":"80","roi":"[[36, 239.8030743752504], [1512, 450.77645769523906]]","media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-07-10T03:14:29.965Z"}
+{"camera_id":7,"user_id":22,"name":"vehicle","source":"/home/vehicle.mp4","protocol":"","interface":"onvif","fps":"","algos":"[\"vehicle_tracking\", \"person_tracking\"]","port":"80","roi":"[[16, 403.78238652917526], [1528, 503.7697719888855]]","media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-07-10T03:14:29.973Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-07-10T03:14:29.975Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:14:29.975Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-07-10T03:14:29.975Z"}
+{"user_id":"22","type":"INTRUSION","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T03:14:29.976Z"}
+{"user_id":"22","type":"INTRUSION","media_type":"camera","start_time":"2018-07-10","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T03:14:29.976Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-07-10T03:14:29.977Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:14:29.977Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-07-10T03:14:29.977Z"}
+{"user_id":"22","type":"INTRUSION","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T03:14:29.978Z"}
+{"user_id":22,"type":"INTRUSION","media_type":"camera","start_time":"2018-07-10","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T03:14:29.978Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-07-10T03:14:29.978Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:14:29.979Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-07-10T03:14:29.979Z"}
+{"user_id":"22","type":"People_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T03:14:29.979Z"}
+{"user_id":"22","type":"People_Count","media_type":"camera","start_time":"2018-07-10","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T03:14:29.979Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-07-10T03:14:29.980Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:14:29.980Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-07-10T03:14:29.980Z"}
+{"user_id":"22","type":"People_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T03:14:29.980Z"}
+{"user_id":22,"type":"People_Count","media_type":"camera","start_time":"2018-07-10","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T03:14:29.980Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T03:14:29.994Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-07-10T03:14:29.996Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:14:29.996Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-07-10T03:14:29.996Z"}
+{"user_id":"22","type":"Vehicle_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T03:14:29.997Z"}
+{"user_id":"22","type":"Vehicle_Count","media_type":"camera","start_time":"2018-07-10","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T03:14:29.997Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T03:14:29.998Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T03:14:30.000Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-07-10T03:14:30.002Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:14:30.002Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-07-10T03:14:30.002Z"}
+{"user_id":"22","type":"Vehicle_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T03:14:30.002Z"}
+{"user_id":22,"type":"Vehicle_Count","media_type":"camera","start_time":"2018-07-10","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T03:14:30.003Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-07-10T03:14:30.004Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:14:30.004Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-07-10T03:14:30.005Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T03:14:30.014Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T03:14:30.014Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T03:14:30.015Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-07-10T03:14:56.708Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-07-10T03:14:56.709Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-07-10T03:14:56.709Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-07-10T03:14:56.711Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-07-10T03:14:56.723Z"}
+{"camera_id":6,"user_id":22,"name":"people","source":"/home/people_cut.mp4","protocol":"","interface":"onvif","fps":"","algos":"[\"person_tracking\"]","port":"80","roi":"[[36, 239.8030743752504], [1512, 450.77645769523906]]","media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-07-10T03:14:57.251Z"}
+{"camera_id":7,"user_id":22,"name":"vehicle","source":"/home/vehicle.mp4","protocol":"","interface":"onvif","fps":"","algos":"[\"vehicle_tracking\", \"person_tracking\"]","port":"80","roi":"[[16, 403.78238652917526], [1528, 503.7697719888855]]","media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-07-10T03:15:20.812Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-07-10T03:15:20.816Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:15:20.816Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-07-10T03:15:20.817Z"}
+{"user_id":"22","type":"INTRUSION","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T03:15:20.817Z"}
+{"user_id":"22","type":"INTRUSION","media_type":"camera","start_time":"2018-07-10","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T03:15:20.817Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-07-10T03:15:20.819Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:15:20.819Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-07-10T03:15:20.819Z"}
+{"user_id":"22","type":"INTRUSION","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T03:15:20.819Z"}
+{"user_id":22,"type":"INTRUSION","media_type":"camera","start_time":"2018-07-10","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T03:15:20.820Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-07-10T03:15:20.821Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:15:20.821Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-07-10T03:15:20.821Z"}
+{"user_id":"22","type":"People_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T03:15:20.821Z"}
+{"user_id":"22","type":"People_Count","media_type":"camera","start_time":"2018-07-10","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T03:15:20.822Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-07-10T03:15:20.823Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:15:20.825Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-07-10T03:15:20.825Z"}
+{"user_id":"22","type":"People_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T03:15:20.825Z"}
+{"user_id":22,"type":"People_Count","media_type":"camera","start_time":"2018-07-10","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T03:15:20.825Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T03:15:20.827Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T03:15:20.836Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-07-10T03:15:20.837Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:15:20.837Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-07-10T03:15:20.837Z"}
+{"user_id":"22","type":"Vehicle_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T03:15:20.837Z"}
+{"user_id":22,"type":"Vehicle_Count","media_type":"camera","start_time":"2018-07-10","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T03:15:20.837Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-07-10T03:15:20.838Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:15:20.838Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-07-10T03:15:20.838Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T03:15:20.840Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T03:15:20.868Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T03:15:20.869Z"}
+{"level":"info","message":"Route: /user/login:","timestamp":"2018-07-10T03:15:24.129Z"}
+{"username":"gm_user_22","user_password":"gm_user_22","level":"info","message":"Parameters : req.body: ","timestamp":"2018-07-10T03:15:24.130Z"}
+{"level":"info","message":"Controller: /admin/login:","timestamp":"2018-07-10T03:15:24.136Z"}
+{"level":"info","message":"Model: /user/login:","timestamp":"2018-07-10T03:15:24.137Z"}
+{"level":"info","message":"Your lost login has been updated.","timestamp":"2018-07-10T03:15:24.350Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2018-07-10T03:15:24.351Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-07-10T03:15:24.796Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-07-10T03:15:24.797Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-07-10T03:15:24.797Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-07-10T03:15:24.797Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-07-10T03:15:24.800Z"}
+{"camera_id":6,"user_id":22,"name":"people","source":"/home/people_cut.mp4","protocol":"","interface":"onvif","fps":"","algos":"[\"person_tracking\"]","port":"80","roi":"[[36, 239.8030743752504], [1512, 450.77645769523906]]","media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-07-10T03:15:25.315Z"}
+{"camera_id":7,"user_id":22,"name":"vehicle","source":"/home/vehicle.mp4","protocol":"","interface":"onvif","fps":"","algos":"[\"vehicle_tracking\", \"person_tracking\"]","port":"80","roi":"[[16, 403.78238652917526], [1528, 503.7697719888855]]","media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-07-10T03:15:25.327Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-07-10T03:15:25.336Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:15:25.336Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-07-10T03:15:25.337Z"}
+{"user_id":"22","type":"INTRUSION","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T03:15:25.337Z"}
+{"user_id":"22","type":"INTRUSION","media_type":"camera","start_time":"2018-07-10","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T03:15:25.340Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-07-10T03:15:25.342Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:15:25.343Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-07-10T03:15:25.344Z"}
+{"user_id":"22","type":"INTRUSION","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T03:15:25.344Z"}
+{"user_id":22,"type":"INTRUSION","media_type":"camera","start_time":"2018-07-10","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T03:15:25.344Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T03:15:25.345Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T03:15:25.348Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-07-10T03:15:25.360Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:15:25.360Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-07-10T03:15:25.360Z"}
+{"user_id":"22","type":"People_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T03:15:25.361Z"}
+{"user_id":"22","type":"People_Count","media_type":"camera","start_time":"2018-07-10","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T03:15:25.361Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T03:15:25.363Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-07-10T03:15:25.364Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:15:25.364Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-07-10T03:15:25.364Z"}
+{"user_id":"22","type":"People_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T03:15:25.364Z"}
+{"user_id":22,"type":"People_Count","media_type":"camera","start_time":"2018-07-10","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T03:15:25.364Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-07-10T03:15:25.366Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:15:25.366Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-07-10T03:15:25.366Z"}
+{"user_id":"22","type":"Vehicle_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T03:15:25.366Z"}
+{"user_id":"22","type":"Vehicle_Count","media_type":"camera","start_time":"2018-07-10","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T03:15:25.367Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T03:15:25.367Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-07-10T03:15:25.368Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:15:25.368Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-07-10T03:15:25.369Z"}
+{"user_id":"22","type":"Vehicle_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T03:15:25.369Z"}
+{"user_id":22,"type":"Vehicle_Count","media_type":"camera","start_time":"2018-07-10","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T03:15:25.369Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T03:15:25.370Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T03:15:25.374Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-07-10T03:15:25.378Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:15:25.378Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-07-10T03:15:25.379Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-07-10T03:15:20.831Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-07-10T03:15:20.832Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-07-10T03:15:20.832Z"}
+{"user_id":"22","type":"Vehicle_Count","media_type":"camera","level":"info","message":"","timestamp":"2018-07-10T03:15:20.832Z"}
+{"user_id":"22","type":"Vehicle_Count","media_type":"camera","start_time":"2018-07-10","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-07-10T03:15:20.833Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-07-10T03:15:20.833Z"}
+{"camera_id":6,"user_id":22,"name":"people","source":"/home/people_cut.mp4","protocol":"","interface":"onvif","fps":"","algos":"[\"person_tracking\"]","port":"80","roi":"[[36, 239.8030743752504], [1512, 450.77645769523906]]","media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-07-10T03:16:57.253Z"}
+{"camera_id":7,"user_id":22,"name":"vehicle","source":"/home/vehicle.mp4","protocol":"","interface":"onvif","fps":"","algos":"[\"vehicle_tracking\", \"person_tracking\"]","port":"80","roi":"[[16, 403.78238652917526], [1528, 503.7697719888855]]","media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-07-10T03:17:20.814Z"}
+{"camera_id":6,"user_id":22,"name":"people","source":"/home/people_cut.mp4","protocol":"","interface":"onvif","fps":"","algos":"[\"person_tracking\"]","port":"80","roi":"[[36, 239.8030743752504], [1512, 450.77645769523906]]","media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-07-10T03:17:25.317Z"}
+{"camera_id":7,"user_id":22,"name":"vehicle","source":"/home/vehicle.mp4","protocol":"","interface":"onvif","fps":"","algos":"[\"vehicle_tracking\", \"person_tracking\"]","port":"80","roi":"[[16, 403.78238652917526], [1528, 503.7697719888855]]","media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-07-10T03:17:25.328Z"}

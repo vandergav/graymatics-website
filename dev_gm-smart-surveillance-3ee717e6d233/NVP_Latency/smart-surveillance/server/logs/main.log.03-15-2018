@@ -1,0 +1,25 @@
+{"level":"info","message":"App starting.","timestamp":"2018-03-15T06:05:31.236Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:9999","timestamp":"2018-03-15T06:05:32.725Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-03-15T06:05:53.217Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-03-15T06:05:53.219Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-03-15T06:05:53.219Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-03-15T06:05:53.220Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-03-15T06:05:53.224Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-03-15T06:05:53.224Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-03-15T06:05:53.224Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-03-15T06:05:53.224Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-03-15T06:05:53.231Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-03-15T06:05:53.242Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-03-15T06:06:01.502Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-03-15T06:06:01.503Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-03-15T06:06:01.503Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-03-15T06:06:01.503Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-03-15T06:06:01.512Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-03-15T06:28:57.908Z"}
+{"user_id":"22","source":"https://peopledotcom.files.wordpress.com/2017/12/kardashian-christmas2.jpg","level":"info","message":"Parameters : req.body: ","timestamp":"2018-03-15T06:28:57.909Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-03-15T06:28:57.912Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-03-15T06:28:58.010Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-03-15T06:30:10.589Z"}
+{"user_id":"22","source":"https://peopledotcom.files.wordpress.com/2017/12/kardashian-christmas2.jpg","level":"info","message":"Parameters : req.body: ","timestamp":"2018-03-15T06:30:10.589Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-03-15T06:30:10.590Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-03-15T06:30:10.678Z"}

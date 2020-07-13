@@ -1,0 +1,27 @@
+{"level":"info","message":"Route: /user/login:","timestamp":"2018-01-31T06:01:25.564Z"}
+{"username":"gm_user_22","user_password":"gm_user_22","level":"info","message":"Parameters : req.body: ","timestamp":"2018-01-31T06:01:25.564Z"}
+{"level":"info","message":"Controller: /admin/login:","timestamp":"2018-01-31T06:01:25.565Z"}
+{"level":"info","message":"Model: /user/login:","timestamp":"2018-01-31T06:01:25.565Z"}
+{"level":"info","message":"Your lost login has been updated.","timestamp":"2018-01-31T06:01:26.070Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2018-01-31T06:01:26.071Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-01-31T06:01:36.418Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://hysis/minio/video7/entry.mp4","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-01-31T06:01:36.418Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-01-31T06:01:36.419Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-01-31T06:01:36.468Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-01-31T06:01:39.928Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-01-31T06:14:20.041Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-01-31T06:14:20.250Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-01-31T06:15:04.522Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://hysis/minio/video7/entry3.mp4","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-01-31T06:15:04.523Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-01-31T06:15:04.528Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-01-31T06:17:11.062Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-01-31T06:17:11.227Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-01-31T06:17:21.095Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://hysis/minio/video7/entry3.mp4","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-01-31T06:17:21.096Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-01-31T06:17:21.099Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-01-31T06:17:21.148Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-01-31T06:17:22.930Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-01-31T06:47:35.460Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-01-31T06:47:35.671Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-01-31T08:00:17.665Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-01-31T08:00:17.833Z"}

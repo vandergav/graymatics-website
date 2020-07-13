@@ -1,0 +1,61 @@
+﻿<div class="background-image"></div>
+<div id="login-page">
+  <!-- login-form-start -->
+  <div class="login-area change-password">
+
+    <!-- title-area-start -->
+    <div class="title-area">
+      <h4>Graymatics</h4>
+    </div>
+    <!-- title-area-end -->
+
+    <div class="form-title">
+      <h4>Change your Password.</h4>
+    </div>
+    <form data-toggle="validator" role="form" class="login common-style-form" (ngSubmit)="reset(f.valid)" #f="ngForm" novalidate>
+      <alert></alert>
+      <p class="reset-password-info">Your password should be easy for you to remember, but hard for others to guess.</p>
+      <div class="form-group">
+        <label for="password">New password</label>
+        <input  type="password" 
+                class="form-control" 
+                id="password" 
+                [(ngModel)]="model.password"
+                placeholder="Password"
+                name="password" 
+                minlength="8" maxlength="24"
+                required validateEqual="confirmPassword" reverse="true" #password="ngModel">
+        <small [hidden]="password.valid || (password.pristine && !f.submitted)" class="text-danger">
+            Password is required (minimum 8 characters)
+        </small>
+      </div>
+      <div class="form-group">
+        <label for="password" class="control-label">Confirm password</label>
+        <input  type="password" 
+                    data-minlength="8"
+                    class="form-control" 
+                    id="confirmPassword" 
+                    [(ngModel)]="model.confirmPassword"
+                    placeholder="Confirm Password"
+                    name="confirmPassword" 
+                    minlength="8" maxlength="24"
+                    required validateEqual="password" reverse="false" #confirmPassword="ngModel">
+        <div class="help-block with-errors"></div>
+        <small [hidden]="confirmPassword.valid || (confirmPassword.pristine && !f.submitted)" class="text-danger">
+            Password mismatch 
+        </small>
+      </div>
+      <div class="form-group trips">
+        Tips :
+        <ul>
+          <li>Your password should be atleast 8 characters long.</li>
+          <li>Include a combination of capital letters, small letters, symbols and numbers.</li>
+        </ul>
+      </div>
+      <div class="reset-btn">
+        <button type="submit" class="form-btn btn" value="submit">Set as Password</button>
+      </div>
+    </form>
+  </div>
+  <!-- login-form-end -->
+</div>

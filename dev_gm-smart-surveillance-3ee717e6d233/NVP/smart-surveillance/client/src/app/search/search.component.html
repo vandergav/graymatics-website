@@ -1,0 +1,237 @@
+  <!-- header-start -->
+  <header>
+      <div class="container-fluid">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" [routerLink]="['/']">Graymatics</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+            <ul class="nav navbar-nav">
+              <li class="top-brd">
+                <a href="#">Configuration</a>
+                  <ul class="drop-down-menu supervisor-menu">
+                    <!-- <li><a href="#" [routerLink]="['/supervisor/camera/main']">Camera</a></li> -->
+                    <!-- <li><a href="#" [routerLink]="['/face/recognition']">Face Recognition</a></li> -->
+                    <!-- <li><a href="#" [routerLink]="['/face']">Face</a></li> -->
+                  </ul>
+              </li>
+              <li class="top-brd">
+                <a href="#">Forensic Search</a>
+                <ul class="drop-down-menu">
+                  <li><a href="#" [routerLink]="['/security-agent/video/archived']">Archived Video</a></li>
+                  <li><a href="#" [routerLink]="['/security-agent/video/uploaded']">Uploaded Video</a></li>
+                </ul>
+              </li>
+              <!-- <li><a href="#" [routerLink]="['/reports/summary']">Reports</a></li> -->
+            </ul>
+          </div><!--/.nav-collapse -->
+
+          <div class="mobile-arrange">
+            <div id="sb-search" class="sb-search sb-search-open">
+              <form (ngSubmit)="search('',1)" #f="ngForm" novalidate>
+                <input class="sb-search-input" placeholder="Search here..." name="search" id="keyword" [(ngModel)]="keyword" type="search">
+                <input class="sb-search-submit" value="" type="submit">
+                <span class="sb-icon-search"><img src="../../images/search-icon.png" alt=""></span>
+              </form>
+            </div>
+
+            <div class="dropdown profile-menu">
+              <img src="../../images/profile-image.jpg" data-toggle="dropdown" class="dropdown-toggle img-responsive" alt="profile-image">
+              <ul class="dropdown-menu">
+                <li><a>{{currentUser}}</a></li>
+                <li><a href="#" [routerLink]="['/login']">Sign out</a></li>
+              </ul>
+          </div>
+          </div>
+        </div><!--/.container-fluid -->
+      </nav>
+      </div><!--/.container-fluid -->
+    </header>
+    <!-- heder-end -->
+
+      <div id="wrapper" [class.toggled]="isParaActive">
+
+        <!-- menu-exm-start -->
+        <a (click)="menuToggle($event)" [class.toggled]="isBtnActive" id="menu-toggle">
+          <i class="fa fa-angle-left" aria-hidden="true"></i>
+        </a>
+
+        <div id="sidebar-wrapper">
+          
+
+          <!-- tab-option-start -->
+          <!-- <div class="tab-notification-area">
+
+            <div id="notification-tab"> 
+              <ul class="nav nav-tabs" [class.red-border]="red_border" [class.green-border]="green_border" [class.yellow-border]="yellow_border">
+                  <li class="red-notified" (click)="red_border=true;yellow_border=false;green_border=false" 
+                      [class.active]="red" *ngIf="red_count.count;else redDefaultCount">
+                    <a href="#1" data-toggle="tab">{{red_count.count}} ({{red_action_count.count}})</a>
+                  </li>
+                  <ng-template #redDefaultCount>
+                      <li class="red-notified" 
+                          (click)="red_border=true;yellow_border=false;green_border=false"
+                          [class.active]="red"><a href="#1" data-toggle="tab">0</a></li>
+                  </ng-template>
+                  <li class="yellow-notified"  
+                      (click)="red_border=false;yellow_border=true;green_border=false"
+                      [class.active]="yellow" *ngIf="yellow_count.count;else yellowDefaultCount">
+                    <a href="#2" data-toggle="tab">{{yellow_count.count}} ({{yellow_action_count.count}})</a>
+                  </li>
+                  <ng-template #yellowDefaultCount>
+                    <li class="yellow-notified" 
+                        (click)="red_border=false;yellow_border=true;green_border=false"
+                        [class.active]="yellow"><a href="#2" data-toggle="tab">0</a></li>
+                  </ng-template>
+                  <li class="green-notified" 
+                      (click)="red_border=false;yellow_border=false;green_border=true"
+                      [class.active]="green" *ngIf="green_count.count;else defaultCount">
+                    <a href="#3" data-toggle="tab">{{green_count.count}} ({{green_action_count.count}})</a>
+                  </li>
+                  <ng-template #defaultCount>
+                    <li class="green-notified" 
+                        (click)="red_border=false;yellow_border=false;green_border=true"
+                        [class.active]="green"><a href="#3" data-toggle="tab">0</a></li>
+                  </ng-template>
+              </ul>
+
+              <div class="tab-content">
+                <div class="tab-pane" id="1">
+                  
+                </div>
+
+                <div class="tab-pane" id="2">
+                  <div *ngFor="let m2 of msg">
+                    <div *ngIf="m2.notification_type == 'info'">
+                      <div class="yellow-notified-message notification-msg">
+                        <div class="info">
+                          <h5>{{m2.camera_type}}</h5>
+                          <span class="date">{{m2.timestamp}}</span>
+                        </div>
+                        <div class="describtion-text">
+                          <p>{{m2.notification_text}}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane active" id="3">
+             
+                </div>
+              </div>
+            </div>
+
+          </div> -->
+          <!-- tab-option-end -->
+        </div>
+        <!-- menu-exm-end -->
+
+      <div id="page-content-wrapper" class="notification-area">      
+        <!-- page-area-start -->
+        <div class="page-content">
+        <div class="container-fluid">
+        <div class="all-cameras intrusion-select serach-result">
+          <!-- search-result-start -->
+          <div class="search-result-selecter col-md-12">
+            <div class="camera-selecter">
+              <a class="btn btn-select">
+                <input type="hidden" class="btn-select-input" id="" name="" value="" />
+                <span class="btn-select-value">Camera</span>
+                <span class='btn-select-arrow glyphicon glyphicon-chevron-down'></span>
+                <ul style="display:none">
+                  <li *ngFor="let c of cams" (click)="selected_value('name',c.name)">{{c.name}}</li>
+                </ul>
+              </a>
+            </div>
+            <div id="calendar-area" data-role="datetime-range" class="selecter time-selecter">
+              <a class="btn btn-select">
+                <input type="hidden" class="btn-select-input" id="" name="" value="" />
+                <span class="btn-select-value">Time</span>
+                <span class='btn-select-arrow glyphicon glyphicon-chevron-down'></span>
+                <ul style="display:none">
+                  <li (click)="selected_value('time','ANY TIME')">any time</li>
+                  <li (click)="selected_value('time','PAST HOUR')">past hour</li>
+                  <li (click)="selected_value('time','PAST 24 HOUR')">past 24 hour</li>
+                  <li (click)="selected_value('time','PAST WEEK')">past week</li>
+                  <li (click)="selected_value('time','PAST MONTH')">past month</li>
+                  <li (click)="selected_value('time','PAST YEAR')">past year</li>
+                  <!-- <li class="border-style">
+                    <div id="tpl-datep  icker" type="text/template">
+                      <div class="datepicker-instance-container">
+                        <div class="datepicker-demo__main__container">
+                          <div class="datepicker-demo-example-area">
+                            <button type="text" id="gmi-datepicker--input" class="gmi-input">choose dates</button>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </li> -->
+                </ul>
+              </a>
+            </div>
+            <!-- <div class="selecter location-selecter">
+              <a class="btn btn-select">
+                <input type="hidden" class="btn-select-input" id="" name="" value="" />
+                <span class="btn-select-value">Location</span>
+                <span class='btn-select-arrow glyphicon glyphicon-chevron-down'></span>
+                <ul style="display:none">
+                  <li>location 1</li>
+                  <li>location 2</li>
+                  <li>location 3</li>
+                  <li>location 4</li>
+                </ul>
+              </a>
+            </div> -->
+
+            <div class="selecter">
+              
+            </div>
+          </div>
+          <!-- search-result-end -->
+        
+          <!-- page-area-start -->
+          <div class="page-content video-frame-template">
+            <div class="container-fluid">
+              <!-- notification-msg-start -->
+              <pagination-controls (pageChange)="p = $event;pageChanged($event)"></pagination-controls>
+              <div id="thumbs" class="notification-messages-error row">
+                <div class="col-lg-4 col-md-4 col-sm-4" *ngFor="let s of scene | paginate: { itemsPerPage: 10, currentPage: p, totalItems: total_count }">
+                  <div class="post-area">
+                    <div class="video-area">
+                      <img src="{{s.frame}}" (click)="veiw_notification(s._id,s.scene_id)" class="img-responsive" alt=""/>
+                    </div>
+                    <div class="green intrusion-video-info extra_padding">
+                      <p>{{s.message}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- page-area-end -->
+      </div>
+      </div>
+      </div>
+    </div>
+
+    <section class="breadcrumbs"> 
+      <div class="container-fluid">
+        <ul>
+            <li class="active"><a [routerLink]="['/']" href="#">Home</a></li>
+           <li><a href="">View Notification</a></li>
+          <!--<li><a href="">Camera</a></li>
+          <li class="active"><a href="">Add Camera</a></li> -->
+        </ul>
+      </div>
+    </section>

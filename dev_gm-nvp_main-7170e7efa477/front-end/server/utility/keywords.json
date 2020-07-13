@@ -1,0 +1,42 @@
+{
+	"keywords": {
+		"person": "people",
+		"persons": "people",
+		"human": "people",
+		"humans": "people",
+		"human being": "people",
+		"human beings": "people",
+		"people": "people",
+		"peoples": "people",
+		"automobile": "vehicle",
+		"automobiles": "vehicle",
+		"transport": "vehicle",
+		"motor vehicle": "vehicle",
+		"conveyance": "vehicle",
+		"people mover": "vehicle",
+		"vehicle": "vehicle",
+		"vehicles": "vehicle",
+		"unresolved": "pending",
+		"open": "pending",
+		"ongoing": "pending",
+		"outstanding": "pending",
+		"unfinished": "pending",
+		"incomplete": "pending",
+		"pending": "pending",
+		"resolved": "complete",
+		"closed": "complete",
+		"finished": "complete",
+		"finalized": "complete",
+		"ended": "complete",
+		"complete": "complete",
+		"recognition": "detection",
+		"identification": "detection",
+		"detection": "detection",
+		"people count": "number of persons",
+		"vehicle count": "number of vehicles",
+
+		"number" : "number",
+		"numbers" : "number"
+
+	}
+}

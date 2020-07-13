@@ -1,0 +1,46 @@
+{"level":"info","message":"App starting.","timestamp":"2018-03-16T05:46:09.579Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:9999","timestamp":"2018-03-16T05:46:09.742Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-03-16T05:46:17.302Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-03-16T05:46:17.304Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-03-16T05:46:17.305Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-03-16T05:46:17.305Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-03-16T05:46:17.312Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-03-16T05:46:23.670Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://www.antron.com.au/images/e-Bike-Rider-2.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-03-16T05:46:23.670Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-03-16T05:46:23.674Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-03-16T05:46:23.684Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-03-16T05:46:23.685Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-03-16T05:46:23.685Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-03-16T05:46:23.686Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-03-16T05:46:23.792Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-03-16T05:46:23.796Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-03-16T05:46:51.308Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-03-16T05:46:51.308Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-03-16T05:46:51.308Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-03-16T05:46:51.308Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-03-16T05:46:51.310Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-03-16T05:47:01.434Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://www.antron.com.au/images/e-Bike-Rider-2.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-03-16T05:47:01.436Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-03-16T05:47:01.437Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-03-16T05:47:01.453Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-03-16T05:47:01.453Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-03-16T05:47:01.453Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-03-16T05:47:01.454Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-03-16T05:47:01.487Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-03-16T05:47:01.491Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-16T05:47:02.015Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-16T05:49:02.017Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-03-16T05:57:48.099Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-03-16T05:57:48.100Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-03-16T05:57:48.100Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-03-16T05:57:48.100Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-03-16T05:57:49.122Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-03-16T05:57:49.122Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-03-16T05:57:49.122Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-03-16T05:57:49.122Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-03-16T05:57:49.125Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-03-16T05:57:57.280Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-03-16T05:57:57.281Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-03-16T05:57:57.282Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-03-16T05:57:57.282Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-03-16T05:57:57.284Z"}

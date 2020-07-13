@@ -1,0 +1,33 @@
+{
+  "name": "Graymatics",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Sudhakar Royal",
+  "dependencies": {
+    "@types/node": "^8.0.17",
+    "aws-sdk": "^2.133.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "~1.12.0",
+    "cookie-parser": "~1.3.4",
+    "cors": "^2.7.1",
+    "debug": "~2.1.1",
+    "express": "~4.12.2",
+    "express-validator": "0.3.1",
+    "is-json": "^2.0.1",
+    "memcache": "0.3.0",
+    "mongoose": "^4.4.6",
+    "mongoose-auto-increment": "^5.0.1",
+    "mysql": "^2.13.0",
+    "nodemailer": "4.0.1",
+    "restler": "^3.4.0",
+    "socket.io": "^2.0.3",
+    "underscore": "1.4.3",
+    "winston": "^1.0.2"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}

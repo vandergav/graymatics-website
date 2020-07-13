@@ -1,0 +1,71 @@
+{"level":"info","message":"App starting.","timestamp":"2018-07-13T09:46:29.116Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:9999","timestamp":"2018-07-13T09:46:32.396Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-07-13T09:52:33.883Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b347b58b7b7e954891799f5\"}","timestamp":"2018-07-13T09:52:33.884Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-07-13T09:52:33.884Z"}
+{"level":"info","message":"Model Parameters : req.params: 5b347b58b7b7e954891799f5","timestamp":"2018-07-13T09:52:33.884Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-07-13T09:52:34.128Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-07-13T09:52:34.134Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b347b58b7b7e954891799f5\"}","timestamp":"2018-07-13T09:52:34.134Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-07-13T09:52:34.134Z"}
+{"level":"info","message":"Model Parameters : req.params: 5b347b58b7b7e954891799f5","timestamp":"2018-07-13T09:52:34.134Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-07-13T09:52:34.136Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-07-13T09:52:49.104Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b347b58b7b7e954891799f5\"}","timestamp":"2018-07-13T09:52:49.104Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-07-13T09:52:49.104Z"}
+{"level":"info","message":"Model Parameters : req.params: 5b347b58b7b7e954891799f5","timestamp":"2018-07-13T09:52:49.104Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-07-13T09:52:49.105Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-07-13T09:52:49.107Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b347b58b7b7e954891799f5\"}","timestamp":"2018-07-13T09:52:49.107Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-07-13T09:52:49.107Z"}
+{"level":"info","message":"Model Parameters : req.params: 5b347b58b7b7e954891799f5","timestamp":"2018-07-13T09:52:49.108Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-07-13T09:52:49.109Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-07-13T09:53:45.709Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b347b58b7b7e954891799f5\"}","timestamp":"2018-07-13T09:53:45.709Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-07-13T09:53:45.709Z"}
+{"level":"info","message":"Model Parameters : req.params: 5b347b58b7b7e954891799f5","timestamp":"2018-07-13T09:53:45.709Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-07-13T09:53:45.711Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-07-13T09:53:45.712Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b347b58b7b7e954891799f5\"}","timestamp":"2018-07-13T09:53:45.713Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-07-13T09:53:45.713Z"}
+{"level":"info","message":"Model Parameters : req.params: 5b347b58b7b7e954891799f5","timestamp":"2018-07-13T09:53:45.713Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-07-13T09:53:45.717Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-07-13T09:54:15.795Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b347b58b7b7e954891799f5\"}","timestamp":"2018-07-13T09:54:15.795Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-07-13T09:54:15.795Z"}
+{"level":"info","message":"Model Parameters : req.params: 5b347b58b7b7e954891799f5","timestamp":"2018-07-13T09:54:15.796Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-07-13T09:54:15.801Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b347b58b7b7e954891799f5\"}","timestamp":"2018-07-13T09:54:15.803Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-07-13T09:54:15.804Z"}
+{"level":"info","message":"Model Parameters : req.params: 5b347b58b7b7e954891799f5","timestamp":"2018-07-13T09:54:15.804Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-07-13T09:54:15.805Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-07-13T09:54:34.357Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b347b58b7b7e954891799f5\"}","timestamp":"2018-07-13T09:54:34.357Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-07-13T09:54:34.358Z"}
+{"level":"info","message":"Model Parameters : req.params: 5b347b58b7b7e954891799f5","timestamp":"2018-07-13T09:54:34.358Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-07-13T09:54:34.359Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-07-13T09:54:34.361Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b347b58b7b7e954891799f5\"}","timestamp":"2018-07-13T09:54:34.362Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-07-13T09:54:34.362Z"}
+{"level":"info","message":"Model Parameters : req.params: 5b347b58b7b7e954891799f5","timestamp":"2018-07-13T09:54:34.362Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-07-13T09:54:34.363Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-07-13T09:54:44.629Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b347b58b7b7e954891799f5\"}","timestamp":"2018-07-13T09:54:44.629Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-07-13T09:54:44.636Z"}
+{"level":"info","message":"Model Parameters : req.params: 5b347b58b7b7e954891799f5","timestamp":"2018-07-13T09:54:44.636Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-07-13T09:54:44.637Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-07-13T09:54:15.798Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-07-13T09:55:18.004Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b347b58b7b7e954891799f5\"}","timestamp":"2018-07-13T09:55:18.005Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-07-13T09:55:18.005Z"}
+{"level":"info","message":"Model Parameters : req.params: 5b347b58b7b7e954891799f5","timestamp":"2018-07-13T09:55:18.005Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-07-13T09:55:18.008Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-07-13T09:56:53.855Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"5b347b58b7b7e954891799f5","source":"http://www.allwhitebackground.com/images/3/3809.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-07-13T09:56:53.856Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-07-13T09:56:53.860Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-07-13T09:56:53.864Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b347b58b7b7e954891799f5\"}","timestamp":"2018-07-13T09:56:53.865Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-07-13T09:56:53.865Z"}
+{"level":"info","message":"Model Parameters : req.params: 5b347b58b7b7e954891799f5","timestamp":"2018-07-13T09:56:53.865Z"}
+{"level":"error","message":"INSERT INTO `camera` SET `user_id` = '5b347b58b7b7e954891799f5', `name` = '3809.jpg', `type` = NULL, `source` = 'http://www.allwhitebackground.com/images/3/3809.jpg', `protocol` = 'RTSP', `interface` = 'onvif', `fps` = NULL, `addi_info` = NULL, `parameters` = NULL, `algo` = '[\\\"HISYS\\\",\\\"THEMES\\\"]', `status` = 'pending', `agent` = NULL, `created_dtime` = '2018-07-13 15:26:53', `modified_dtime` = '2018-07-13 15:26:53':WARN_DATA_TRUNCATED: Data truncated for column 'user_id' at row 1","timestamp":"2018-07-13T09:56:53.898Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-07-13T09:56:53.908Z"}

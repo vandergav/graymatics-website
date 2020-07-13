@@ -1,0 +1,520 @@
+        <!-- header-start -->
+    <header class="admin-header">
+        <div class="container-fluid">
+        <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" [routerLink]="['/']">Graymatics</a>            
+            </div>
+            <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+            <ul class="nav navbar-nav">
+                <li class="top-brd">
+                    <a href="#">Configuration</a>
+                      <ul class="drop-down-menu supervisor-menu">
+                        <li><a href="#" [routerLink]="['/supervisor/camera/main']">Camera</a></li>
+                        <!-- <li><a href="#" [routerLink]="['/face']">Face</a></li> -->
+                        <li><a href="#" [routerLink]="['/face/recognition']">Face Recognition</a></li>
+                        <li><a href="#" [routerLink]="['/vehicle/recognition']">Vehicle Recognition</a></li>
+                      </ul>
+                  </li>
+                  <li class="top-brd">
+                    <a href="#">Forensic Search</a>
+                    <ul class="drop-down-menu">
+                      <li><a href="#" [routerLink]="['/security-agent/video/archived']">Archived Video</a></li>
+                      <li><a href="#" [routerLink]="['/security-agent/video/uploaded']">Uploaded Video</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#" [routerLink]="['/reports/summary']">Reports</a></li>
+            </ul>
+            </div><!--/.nav-collapse -->
+
+            <div class="mobile-arrange">
+                <div id="sb-search" class="sb-search sb-search-open">
+                <form (ngSubmit)="search()" #f="ngForm" novalidate>
+                    <input class="sb-search-input" placeholder="Search here..." name="search" id="keyword" [(ngModel)]="keyword" type="search">
+                    <input class="sb-search-submit" value="" type="submit">
+                    <span class="sb-icon-search"><img src="../../images/search-icon.png" alt=""></span>
+                </form>
+                </div>
+
+                <div class="dropdown profile-menu">
+                    <img src="../../images/profile-image.jpg" data-toggle="dropdown" class="dropdown-toggle img-responsive" alt="profile-image">
+                    <ul class="dropdown-menu">
+                        <li><a>{{currentUser}}</a></li>
+                        <li><a href="#" [routerLink]="['/login']">Sign out</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div><!--/.container-fluid -->
+        </nav>
+        </div><!--/.main container-fluid --> 
+    </header>
+    <!-- header-end -->
+
+    <!-- admin-page-content-start -->
+    <div class="admin-page-content camera-view-page-content notification-agent">
+    	
+           
+      <div class="user-list-cta" id="addcamera" ng-if="show">
+        <button id="editid" type="button" class="admin-btn edit-btn active" ng-click="cameraurl()">Add</button>
+      </div>
+      
+      <div class="user-list-cta" ng-if="selectedrow">
+        <button id="editid" type="button" class="admin-btn edit-btn active">Save</button>
+        <button id="editid" type="button" class="admin-btn edit-btn active">Delete</button>
+        <!-- <button id="editid" type="button" class="admin-btn edit-btn active">Delete</button> -->
+        <button id="editid" type="button" class="admin-btn delete-btn" ng-click="cancelselection()">Cancel</button>
+      </div>
+
+    	<div class="user-list-area editable-list">
+    		<table class="table" id="myTable">
+				  <thead>
+				    <tr>
+				      <th>feature</th>
+				      <th>rule</th>
+				      <th class="text-center">sms alert</th>
+                      <th class="text-center">email alert</th>
+				      <th class="text-center">alert list</th>
+				    </tr>
+				  </thead>
+				  <tbody class="bodypart">
+            <tr ng-class="{active : activemenu == 1}" ng-click="tableselection(200, 1)">
+              <td class="width-adjust" >
+                <div class="selecter">
+                  <a class="btn btn-select" style="width: 184px;">
+                    <input type="hidden" class="btn-select-input" id="" name="" value="">
+                    <span class="btn-select-value"  ng-model="op">vehicle analytics</span>
+                    <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                    <ul style="display: none;" class="sentencecase">
+                      <li>pople analytics</li>
+                      <li>vehicle analytics</li>
+                      <li>intrucsion detection</li>
+                      <li>pople analytics</li>
+                      <li>vehicle analytics</li>
+                      <li>intrucsion detection</li>
+                    </ul>
+                  </a>
+                </div>    
+              </td>
+              <td>
+                <div class="selecter">
+                  <a class="btn btn-select" style="width: 340px;">
+                    <input type="hidden" class="btn-select-input" id="" name="" value="">
+                    <span class="btn-select-value">if pople count crosses X (say 100)</span>
+                    <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                    <ul style="display: none;" class="sentencecase">
+                      <li>if pople count crosses X (say 100)</li>
+                      <li>if crowd has more than Y (say 100)</li>
+                      <li>if a blacklisted people is detected</li>
+                      <li>if Vehicle no. SDN7448U is detected</li>
+                      <li>if vehicle count corsses z (say 100)</li>
+                      <li>if intrusion detected in Zone x</li>
+                      <li>if more than 10 RED notification are pending</li>
+                    </ul>
+                  </a>
+                </div>    
+              </td>
+              <td class="text-center">
+                <div class="checkbox checkbox-info checkbox-circle">
+                  <input id="checkbox2" class="styled" type="checkbox">
+                  <label for="checkbox2"></label>
+                </div>
+              </td>
+              <td class="text-center">
+                <div class="checkbox checkbox-info checkbox-circle">
+                  <input id="checkbox3" class="styled" type="checkbox">
+                  <label for="checkbox3"></label>
+                </div>
+              </td>
+              <td class="text-center">
+                <span style="cursor: pointer;" onclick="">Update</span>
+              </td>
+            </tr>
+            <tr ng-class="{active : activemenu == 2}" ng-click="tableselection(200, 2)">
+              <td class="width-adjust">
+                <div class="selecter">
+                  <a class="btn btn-select" style="width: 184px;">
+                    <input type="hidden" class="btn-select-input" id="" name="" value="">
+                    <span class="btn-select-value">vehicle analytics</span>
+                    <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                    <ul style="display: none;" class="sentencecase">
+                      <li>pople analytics</li>
+                      <li>vehicle analytics</li>
+                      <li>intrucsion detection</li>
+                      <li>pople analytics</li>
+                      <li>vehicle analytics</li>
+                      <li>intrucsion detection</li>
+                    </ul>
+                  </a>
+                </div>    
+              </td>
+              <td>
+                <div class="selecter">
+                  <a class="btn btn-select" style="width: 340px;">
+                    <input type="hidden" class="btn-select-input" id="" name="" value="">
+                    <span class="btn-select-value">if pople count crosses X (say 100)</span>
+                    <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                    <ul style="display: none;" class="sentencecase">
+                      <li>if pople count crosses X (say 100)</li>
+                      <li>if crowd has more than Y (say 100)</li>
+                      <li>if a blacklisted people is detected</li>
+                      <li>if Vehicle no. SDN7448U is detected</li>
+                      <li>if vehicle count corsses z (say 100)</li>
+                      <li>if intrusion detected in Zone x</li>
+                      <li>if more than 10 RED notification are pending</li>
+                    </ul>
+                  </a>
+                </div>    
+              </td>
+              <td class="text-center">
+                <div class="checkbox checkbox-info checkbox-circle">
+                  <input id="checkbox4" class="styled" type="checkbox">
+                  <label for="checkbox4"></label>
+                </div>
+              </td>
+              <td class="text-center">
+                <div class="checkbox checkbox-info checkbox-circle">
+                  <input id="checkbox5" class="styled" type="checkbox">
+                  <label for="checkbox5"></label>
+                </div>
+              </td>
+              <td class="text-center">
+                <span style="cursor: pointer;" onclick="location.href = 'update-list.html';">Update</span>
+              </td>
+            </tr>
+            <tr ng-class="{active : activemenu == 3}" ng-click="tableselection(200, 3)">
+              <td class="width-adjust">
+                <div class="selecter">
+                  <a class="btn btn-select" style="width: 184px;">
+                    <input type="hidden" class="btn-select-input" id="" name="" value="">
+                    <span class="btn-select-value">vehicle analytics</span>
+                    <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                    <ul style="display: none;" class="sentencecase">
+                      <li>pople analytics</li>
+                      <li>vehicle analytics</li>
+                      <li>intrucsion detection</li>
+                      <li>pople analytics</li>
+                      <li>vehicle analytics</li>
+                      <li>intrucsion detection</li>
+                    </ul>
+                  </a>
+                </div>    
+              </td>
+              <td>
+                <div class="selecter">
+                  <a class="btn btn-select" style="width: 340px;">
+                    <input type="hidden" class="btn-select-input" id="" name="" value="">
+                    <span class="btn-select-value">if pople count crosses X (say 100)</span>
+                    <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                    <ul style="display: none;" class="sentencecase">
+                      <li>if pople count crosses X (say 100)</li>
+                      <li>if crowd has more than Y (say 100)</li>
+                      <li>if a blacklisted people is detected</li>
+                      <li>if Vehicle no. SDN7448U is detected</li>
+                      <li>if vehicle count corsses z (say 100)</li>
+                      <li>if intrusion detected in Zone x</li>
+                      <li>if more than 10 RED notification are pending</li>
+                    </ul>
+                  </a>
+                </div>    
+              </td>
+              <td class="text-center">
+                <div class="checkbox checkbox-info checkbox-circle">
+                  <input id="checkbox6" class="styled" type="checkbox">
+                  <label for="checkbox6"></label>
+                </div>
+              </td>
+              <td class="text-center">
+                <div class="checkbox checkbox-info checkbox-circle">
+                  <input id="checkbox7" class="styled" type="checkbox">
+                  <label for="checkbox7"></label>
+                </div>
+              </td>
+              <td class="text-center">
+                <span style="cursor: pointer;" onclick="location.href = 'update-list.html';">Update</span>
+              </td>
+            </tr>
+            <tr ng-class="{active : activemenu == 4}" ng-click="tableselection(200, 4)">
+              <td class="width-adjust">
+                <div class="selecter">
+                  <a class="btn btn-select" style="width: 184px;">
+                    <input type="hidden" class="btn-select-input" id="" name="" value="">
+                    <span class="btn-select-value">vehicle analytics</span>
+                    <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                    <ul style="display: none;" class="sentencecase">
+                      <li>pople analytics</li>
+                      <li>vehicle analytics</li>
+                      <li>intrucsion detection</li>
+                      <li>pople analytics</li>
+                      <li>vehicle analytics</li>
+                      <li>intrucsion detection</li>
+                    </ul>
+                  </a>
+                </div>    
+              </td>
+              <td>
+                <div class="selecter">
+                  <a class="btn btn-select" style="width: 340px;">
+                    <input type="hidden" class="btn-select-input" id="" name="" value="">
+                    <span class="btn-select-value">if pople count crosses X (say 100)</span>
+                    <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                    <ul style="display: none;" class="sentencecase">
+                      <li>if pople count crosses X (say 100)</li>
+                      <li>if crowd has more than Y (say 100)</li>
+                      <li>if a blacklisted people is detected</li>
+                      <li>if Vehicle no. SDN7448U is detected</li>
+                      <li>if vehicle count corsses z (say 100)</li>
+                      <li>if intrusion detected in Zone x</li>
+                      <li>if more than 10 RED notification are pending</li>
+                    </ul>
+                  </a>
+                </div>    
+              </td>
+              <td class="text-center">
+                <div class="checkbox checkbox-info checkbox-circle">
+                  <input id="checkbox8" class="styled" type="checkbox">
+                  <label for="checkbox8"></label>
+                </div>
+              </td>
+              <td class="text-center">
+                <div class="checkbox checkbox-info checkbox-circle">
+                  <input id="checkbox8" class="styled" type="checkbox">
+                  <label for="checkbox8"></label>
+                </div>
+              </td>
+              <td class="text-center">
+                <span style="cursor: pointer;" onclick="location.href = 'update-list.html';">Update</span>
+              </td>
+            </tr> 
+            <tr ng-class="{active : activemenu == 5}" ng-click="tableselection(200, 5)">
+              <td class="width-adjust">
+                <div class="selecter">
+                  <a class="btn btn-select" style="width: 184px;">
+                    <input type="hidden" class="btn-select-input" id="" name="" value="">
+                    <span class="btn-select-value">vehicle analytics</span>
+                    <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                    <ul style="display: none;" class="sentencecase">
+                      <li>pople analytics</li>
+                      <li>vehicle analytics</li>
+                      <li>intrucsion detection</li>
+                      <li>pople analytics</li>
+                      <li>vehicle analytics</li>
+                      <li>intrucsion detection</li>
+                    </ul>
+                  </a>
+                </div>    
+              </td>
+              <td>
+                <div class="selecter">
+                  <a class="btn btn-select" style="width: 340px;">
+                    <input type="hidden" class="btn-select-input" id="" name="" value="">
+                    <span class="btn-select-value">if pople count crosses X (say 100)</span>
+                    <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                    <ul style="display: none;" class="sentencecase">
+                      <li>if pople count crosses X (say 100)</li>
+                      <li>if crowd has more than Y (say 100)</li>
+                      <li>if a blacklisted people is detected</li>
+                      <li>if Vehicle no. SDN7448U is detected</li>
+                      <li>if vehicle count corsses z (say 100)</li>
+                      <li>if intrusion detected in Zone x</li>
+                      <li>if more than 10 RED notification are pending</li>
+                    </ul>
+                  </a>
+                </div>    
+              </td>
+              <td class="text-center">
+                <div class="checkbox checkbox-info checkbox-circle">
+                  <input id="checkbox9" class="styled" type="checkbox">
+                  <label for="checkbox9"></label>
+                </div>
+              </td>
+              <td class="text-center">
+                <div class="checkbox checkbox-info checkbox-circle">
+                  <input id="checkbox10" class="styled" type="checkbox">
+                  <label for="checkbox10"></label>
+                </div>
+              </td>
+              <td class="text-center">
+                <span style="cursor: pointer;" onclick="location.href = 'update-list.html';">Update</span>
+              </td>
+            </tr>
+            <tr class="get" ng-class="{active : activemenu == 6}" ng-click="tableselection(200, 6)">
+              <td class="width-adjust">
+                <div class="selecter">
+                  <a class="btn btn-select" style="width: 184px;">
+                    <input type="hidden" class="btn-select-input" id="" name="" value="">
+                    <span class="btn-select-value">vehicle analytics</span>
+                    <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                    <ul style="display: none;" class="sentencecase">
+                      <li>pople analytics</li>
+                      <li>vehicle analytics</li>
+                      <li>intrucsion detection</li>
+                      <li>pople analytics</li>
+                      <li>vehicle analytics</li>
+                      <li>intrucsion detection</li>
+                    </ul>
+                  </a>
+                </div>    
+              </td>
+              <td>
+                <div class="selecter">
+                  <a class="btn btn-select" style="width: 340px;">
+                    <input type="hidden" class="btn-select-input" id="" name="" value="">
+                    <span class="btn-select-value">if pople count crosses X (say 100)</span>
+                    <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                    <ul style="display: none;" class="sentencecase">
+                      <li>if pople count crosses X (say 100)</li>
+                      <li>if crowd has more than Y (say 100)</li>
+                      <li>if a blacklisted people is detected</li>
+                      <li>if Vehicle no. SDN7448U is detected</li>
+                      <li>if vehicle count corsses z (say 100)</li>
+                      <li>if intrusion detected in Zone x</li>
+                      <li>if more than 10 RED notification are pending</li>
+                    </ul>
+                  </a>
+                </div>    
+              </td>
+              <td class="text-center">
+                <div class="checkbox checkbox-info checkbox-circle">
+                  <input id="checkbox11" class="styled" type="checkbox">
+                  <label for="checkbox11"></label>
+                </div>
+              </td>
+              <td class="text-center">
+                <div class="checkbox checkbox-info checkbox-circle">
+                  <input id="checkbox12" class="styled" type="checkbox">
+                  <label for="checkbox12"></label>
+                </div>
+              </td>
+              <td class="text-center">
+                <span style="cursor: pointer;" onclick="location.href = 'update-list.html';">Update</span>
+              </td>
+            </tr> 
+            <tr ng-class="{active : activemenu == 7}" ng-click="tableselection(200, 7)">
+              <td class="width-adjust">
+                <div class="selecter">
+                  <a class="btn btn-select" style="width: 184px;">
+                    <input type="hidden" class="btn-select-input" id="" name="" value="">
+                    <span class="btn-select-value">vehicle analytics</span>
+                    <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                    <ul style="display: none;" class="sentencecase">
+                      <li>pople analytics</li>
+                      <li>vehicle analytics</li>
+                      <li>intrucsion detection</li>
+                      <li>pople analytics</li>
+                      <li>vehicle analytics</li>
+                      <li>intrucsion detection</li>
+                    </ul>
+                  </a>
+                </div>    
+              </td>
+              <td>
+                <div class="selecter">
+                  <a class="btn btn-select" style="width: 340px;">
+                    <input type="hidden" class="btn-select-input" id="" name="" value="">
+                    <span class="btn-select-value">if pople count crosses X (say 100)</span>
+                    <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                    <ul style="display: none;" class="sentencecase">
+                      <li>if pople count crosses X (say 100)</li>
+                      <li>if crowd has more than Y (say 100)</li>
+                      <li>if a blacklisted people is detected</li>
+                      <li>if Vehicle no. SDN7448U is detected</li>
+                      <li>if vehicle count corsses z (say 100)</li>
+                      <li>if intrusion detected in Zone x</li>
+                      <li>if more than 10 RED notification are pending</li>
+                    </ul>
+                  </a>
+                </div>    
+              </td>
+              <td class="text-center">
+                <div class="checkbox checkbox-info checkbox-circle">
+                  <input id="checkbox11" class="styled" type="checkbox">
+                  <label for="checkbox11"></label>
+                </div>
+              </td>
+              <td class="text-center">
+                <div class="checkbox checkbox-info checkbox-circle">
+                  <input id="checkbox12" class="styled" type="checkbox">
+                  <label for="checkbox12"></label>
+                </div>
+              </td>
+              <td class="text-center">
+                <span style="cursor: pointer;" onclick="location.href = 'update-list.html';">Update</span>
+              </td>
+            </tr> 
+            <tr ng-class="{active : activemenu == 8}" ng-click="tableselection(200, 8)">
+              <td class="width-adjust">
+                <div class="selecter">
+                  <a class="btn btn-select" style="width: 184px;">
+                    <input type="hidden" class="btn-select-input" id="" name="" value="">
+                    <span class="btn-select-value">vehicle analytics</span>
+                    <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                    <ul style="display: none;" class="sentencecase">
+                      <li>pople analytics</li>
+                      <li>vehicle analytics</li>
+                      <li>intrucsion detection</li>
+                      <li>pople analytics</li>
+                      <li>vehicle analytics</li>
+                      <li>intrucsion detection</li>
+                    </ul>
+                  </a>
+                </div>    
+              </td>
+              <td>
+                <div class="selecter">
+                  <a class="btn btn-select" style="width: 340px;">
+                    <input type="hidden" class="btn-select-input" id="" name="" value="">
+                    <span class="btn-select-value">if pople count crosses X (say 100)</span>
+                    <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                    <ul style="display: none;" class="sentencecase">
+                      <li>if pople count crosses X (say 100)</li>
+                      <li>if crowd has more than Y (say 100)</li>
+                      <li>if a blacklisted people is detected</li>
+                      <li>if Vehicle no. SDN7448U is detected</li>
+                      <li>if vehicle count corsses z (say 100)</li>
+                      <li>if intrusion detected in Zone x</li>
+                      <li>if more than 10 RED notification are pending</li>
+                    </ul>
+                  </a>
+                </div>    
+              </td>
+              <td class="text-center">
+                <div class="checkbox checkbox-info checkbox-circle">
+                  <input id="checkbox11" class="styled" type="checkbox">
+                  <label for="checkbox11"></label>
+                </div>
+              </td>
+              <td class="text-center">
+                <div class="checkbox checkbox-info checkbox-circle">
+                  <input id="checkbox12" class="styled" type="checkbox">
+                  <label for="checkbox12"></label>
+                </div>
+              </td>
+              <td class="text-center">
+                Upload
+              </td>
+            </tr> 
+
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+    <!-- admin-page-content-end -->
+    <section class="breadcrumbs"> 
+      <div class="container-fluid">
+        <ul>
+            <li><a href="camera-view.html">Configuration</a></li>
+          <li class="active"><a href="">Alerts</a></li>
+          <!-- <li><a href="">Camera</a></li>
+          <li class="active"><a href="">Add Camera</a></li> -->
+        </ul>
+      </div>
+    </section>

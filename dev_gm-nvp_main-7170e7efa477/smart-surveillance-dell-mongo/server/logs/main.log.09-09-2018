@@ -1,0 +1,1033 @@
+{"level":"info","message":"App starting.","timestamp":"2018-09-09T16:32:51.213Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-09-09T16:32:53.766Z"}
+{"level":"info","message":"Route: /user/login:","timestamp":"2018-09-09T17:30:40.399Z"}
+{"username":"gm_user_22","user_password":"gm_user_22","level":"info","message":"Parameters : req.body: ","timestamp":"2018-09-09T17:30:40.400Z"}
+{"level":"info","message":"Controller: /admin/login:","timestamp":"2018-09-09T17:30:40.403Z"}
+{"level":"info","message":"Route: /user/create:","timestamp":"2018-09-09T17:31:08.519Z"}
+{"company_name":"graymatics","username":"sadhna","user_email":"sadhna@graymatics.com","user_password":"sadhna123","level":"info","message":"Parameters : req.body: ","timestamp":"2018-09-09T17:31:08.520Z"}
+{"level":"info","message":"Controller: /user/create:","timestamp":"2018-09-09T17:31:08.525Z"}
+{"level":"info","message":"Route: /user/login:","timestamp":"2018-09-09T17:31:35.612Z"}
+{"username":"sadhna","user_password":"sadhna123","level":"info","message":"Parameters : req.body: ","timestamp":"2018-09-09T17:31:35.613Z"}
+{"level":"info","message":"Controller: /admin/login:","timestamp":"2018-09-09T17:31:35.614Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-09-09T17:31:36.239Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-09-09T17:31:36.239Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-09-09T17:31:36.240Z"}
+{"_id":"5b7ad541ee13b13b1db3d84c","user_id":"5b47426607da3c7286da7970","name":"congestion","source":"/home/sadhna/graymatics/development/vehicle.mp4","protocol":"RTSP","interface":"onvif","fps":"10","algos":["congestion_detection"],"port":"80","roi":[[58.01434791853133,376.6398959907174],[1057.2199444212781,346.6066971546837]],"media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-09-09T17:31:36.807Z"}
+{"_id":"5b7bba1a15cc931c2ba40ea9","user_id":"5b47426607da3c7286da7970","name":"speed","source":"/home/sadhna/graymatics/development/vehicle.mp4","protocol":"RTSP","interface":"onvif","fps":"10","algos":["speed_detection"],"port":"80","roi":[[55.013730511616174,355.6166568054938],[1066.2217966420235,312.56907180717883]],"media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-09-09T17:31:36.821Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T17:31:36.824Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:31:36.824Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T17:31:36.825Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T17:31:36.829Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:31:36.829Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T17:31:36.829Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T17:31:36.835Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:31:36.835Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T17:31:36.835Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T17:31:36.836Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:31:36.836Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T17:31:36.836Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T17:31:36.840Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:31:36.840Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T17:31:36.840Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T17:31:36.841Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:31:36.841Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T17:31:36.842Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-09-09T17:31:36.843Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:31:36.843Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-09-09T17:31:36.843Z"}
+{"level":"info","message":"Route: Delete Contact","timestamp":"2018-09-09T17:31:43.300Z"}
+{"level":"info","message":"Parameters : req.params: {\"camera_id\":\"5b7ad541ee13b13b1db3d84c\"}","timestamp":"2018-09-09T17:31:43.300Z"}
+{"level":"info","message":"Controller: executing deleteCamera() ","timestamp":"2018-09-09T17:31:43.300Z"}
+{"level":"info","message":"Route: Delete Contact","timestamp":"2018-09-09T17:31:46.969Z"}
+{"level":"info","message":"Parameters : req.params: {\"camera_id\":\"5b7bba1a15cc931c2ba40ea9\"}","timestamp":"2018-09-09T17:31:46.970Z"}
+{"level":"info","message":"Controller: executing deleteCamera() ","timestamp":"2018-09-09T17:31:46.972Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-09-09T17:31:59.636Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-09-09T17:31:59.636Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-09-09T17:31:59.637Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T17:32:00.186Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:32:00.186Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T17:32:00.186Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T17:32:00.188Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:32:00.188Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T17:32:00.188Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T17:32:00.189Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:32:00.189Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T17:32:00.189Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T17:32:00.190Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:32:00.190Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T17:32:00.190Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T17:32:00.192Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:32:00.192Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T17:32:00.192Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T17:32:00.192Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:32:00.193Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T17:32:00.193Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-09-09T17:32:16.509Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-09-09T17:32:16.509Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-09-09T17:32:16.510Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-09-09T17:32:00.199Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:32:00.199Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-09-09T17:32:00.199Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-09-09T17:35:24.069Z"}
+{"peopleCount":false,"vehicleCount":false,"vehicleSpeed":false,"vehicleTracking":true,"peopleTracking":false,"faceRecognition":false,"intrusionDetection":false,"peopleList":false,"vehicleList":false,"faceAnalytics":false,"deepAssurance":false,"carCrashDetection":false,"wrongTurnDetection":false,"parkingViolation":false,"crowdDetection":false,"fashion":false,"litterDetection":false,"helmetDetection":false,"climbingDetection":false,"theme":false,"anpr":false,"violence":false,"user_id":"5b47426607da3c7286da7970","name":"tracking","type":"test","source":"/home/sadhna/graymatics/development/vehicle.mp4","roi":[""],"frame":"","fps":"10","gps":"tesy","status":"","protocol":"","interface":"","media_type":"","algo":["vehicle_tracking"],"people_whitelist":"","people_blacklist":"","vehicle_whitelist":"","vehicle_blacklist":"","level":"info","message":"Parameters : req.body: ","timestamp":"2018-09-09T17:35:24.069Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-09-09T17:35:24.070Z"}
+{"_id":"5b9559dccdd8e1409e63b35c","peopleCount":false,"vehicleCount":false,"vehicleSpeed":false,"vehicleTracking":true,"peopleTracking":false,"faceRecognition":false,"intrusionDetection":false,"peopleList":false,"vehicleList":false,"faceAnalytics":false,"deepAssurance":false,"carCrashDetection":false,"wrongTurnDetection":false,"parkingViolation":false,"crowdDetection":false,"fashion":false,"litterDetection":false,"helmetDetection":false,"climbingDetection":false,"theme":false,"anpr":false,"violence":false,"user_id":"5b47426607da3c7286da7970","name":"tracking","type":"test","source":"/home/sadhna/graymatics/development/vehicle.mp4","roi":[""],"frame":"","fps":"10","gps":"tesy","status":"","protocol":"RTSP","interface":"onvif","media_type":"camera","algo":["vehicle_tracking"],"people_whitelist":"","people_blacklist":"","vehicle_whitelist":"","vehicle_blacklist":"","level":"info","message":"Route: /start/frame:","timestamp":"2018-09-09T17:35:26.262Z"}
+{"0":"vehicle_tracking","level":"info","message":"algos","timestamp":"2018-09-09T17:35:26.262Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-09-09T17:36:43.577Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-09-09T17:36:43.578Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-09-09T17:36:43.578Z"}
+{"_id":"5b9559dccdd8e1409e63b35c","user_id":"5b47426607da3c7286da7970","name":"tracking","source":"/home/sadhna/graymatics/development/vehicle.mp4","protocol":"RTSP","interface":"onvif","fps":"10","algos":["vehicle_tracking"],"port":"80","roi":[""],"media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-09-09T17:36:44.105Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T17:36:44.112Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:36:44.113Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T17:36:44.114Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T17:36:44.129Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:36:44.130Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T17:36:44.130Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T17:36:44.132Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:36:44.132Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T17:36:44.132Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T17:36:44.134Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:36:44.134Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T17:36:44.135Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T17:36:44.137Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:36:44.138Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T17:36:44.138Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T17:36:44.144Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:36:44.144Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T17:36:44.144Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-09-09T17:36:44.147Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:36:44.147Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-09-09T17:36:44.147Z"}
+{"level":"info","message":"camera start status::1","timestamp":"2018-09-09T17:36:44.674Z"}
+{"level":"info","message":"Route: Delete Contact","timestamp":"2018-09-09T17:36:45.932Z"}
+{"level":"info","message":"Parameters : req.params: {\"camera_id\":\"5b9559dccdd8e1409e63b35c\"}","timestamp":"2018-09-09T17:36:45.933Z"}
+{"level":"info","message":"Controller: executing deleteCamera() ","timestamp":"2018-09-09T17:36:45.934Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:46.769Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:36:46.769Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:36:46.772Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:36:46.779Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:36:46.779Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:36:46.779Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:36:46.779Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:36:46.779Z"}
+{"level":"info","message":"task response media_type:: 5b9559dccdd8e1409e63b35c","timestamp":"2018-09-09T17:36:46.781Z"}
+{"level":"info","message":"res::{\"VEHICLE_TRACKING\":{\"vehicle\":{}}}","timestamp":"2018-09-09T17:36:46.782Z"}
+{"level":"info","message":"== Creating: a queue object for notification(VC)","timestamp":"2018-09-09T17:36:46.782Z"}
+{"level":"info","message":"== vehicle_counter::=====undefined","timestamp":"2018-09-09T17:36:46.782Z"}
+{"level":"info","message":"== plate_number::=====undefined","timestamp":"2018-09-09T17:36:46.782Z"}
+{"level":"info","message":"== total::=====undefined","timestamp":"2018-09-09T17:36:46.782Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:36:46.783Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:36:46.783Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:36:46.783Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:46.783Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:47.319Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:36:47.319Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:36:47.320Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:36:47.324Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:36:47.324Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:36:47.324Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:36:47.324Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:36:47.325Z"}
+{"level":"info","message":"task response media_type:: 5b9559dccdd8e1409e63b35c","timestamp":"2018-09-09T17:36:47.325Z"}
+{"level":"info","message":"res::{\"VEHICLE_TRACKING\":{\"vehicle\":{}}}","timestamp":"2018-09-09T17:36:47.326Z"}
+{"level":"info","message":"== Creating: a queue object for notification(VC)","timestamp":"2018-09-09T17:36:47.327Z"}
+{"level":"info","message":"== vehicle_counter::=====undefined","timestamp":"2018-09-09T17:36:47.327Z"}
+{"level":"info","message":"== plate_number::=====undefined","timestamp":"2018-09-09T17:36:47.327Z"}
+{"level":"info","message":"== total::=====undefined","timestamp":"2018-09-09T17:36:47.327Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:36:47.327Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:36:47.327Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:36:47.328Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:47.328Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:47.905Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:36:47.905Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:36:47.905Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:36:47.909Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:36:47.909Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:36:47.909Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:36:47.910Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:36:47.910Z"}
+{"level":"info","message":"task response media_type:: 5b9559dccdd8e1409e63b35c","timestamp":"2018-09-09T17:36:47.910Z"}
+{"level":"info","message":"res::{\"VEHICLE_TRACKING\":{\"vehicle\":{}}}","timestamp":"2018-09-09T17:36:47.910Z"}
+{"level":"info","message":"== Creating: a queue object for notification(VC)","timestamp":"2018-09-09T17:36:47.910Z"}
+{"level":"info","message":"== vehicle_counter::=====undefined","timestamp":"2018-09-09T17:36:47.910Z"}
+{"level":"info","message":"== plate_number::=====undefined","timestamp":"2018-09-09T17:36:47.910Z"}
+{"level":"info","message":"== total::=====undefined","timestamp":"2018-09-09T17:36:47.910Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:36:47.910Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:36:47.911Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:36:47.911Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:47.911Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:48.463Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:36:48.463Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:36:48.463Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:36:48.468Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:36:48.468Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:36:48.468Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:36:48.468Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:36:48.468Z"}
+{"level":"info","message":"task response media_type:: 5b9559dccdd8e1409e63b35c","timestamp":"2018-09-09T17:36:48.468Z"}
+{"level":"info","message":"res::{\"VEHICLE_TRACKING\":{\"vehicle\":{}}}","timestamp":"2018-09-09T17:36:48.468Z"}
+{"level":"info","message":"== Creating: a queue object for notification(VC)","timestamp":"2018-09-09T17:36:48.469Z"}
+{"level":"info","message":"== vehicle_counter::=====undefined","timestamp":"2018-09-09T17:36:48.469Z"}
+{"level":"info","message":"== plate_number::=====undefined","timestamp":"2018-09-09T17:36:48.469Z"}
+{"level":"info","message":"== total::=====undefined","timestamp":"2018-09-09T17:36:48.469Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:36:48.469Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:36:48.469Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:36:48.469Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:48.469Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:49.056Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:36:49.056Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:36:49.056Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:36:49.062Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:36:49.063Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:36:49.063Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:36:49.063Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:36:49.063Z"}
+{"level":"info","message":"task response media_type:: 5b9559dccdd8e1409e63b35c","timestamp":"2018-09-09T17:36:49.063Z"}
+{"level":"info","message":"res::{\"VEHICLE_TRACKING\":{\"vehicle\":{}}}","timestamp":"2018-09-09T17:36:49.063Z"}
+{"level":"info","message":"== Creating: a queue object for notification(VC)","timestamp":"2018-09-09T17:36:49.063Z"}
+{"level":"info","message":"== vehicle_counter::=====undefined","timestamp":"2018-09-09T17:36:49.063Z"}
+{"level":"info","message":"== plate_number::=====undefined","timestamp":"2018-09-09T17:36:49.063Z"}
+{"level":"info","message":"== total::=====undefined","timestamp":"2018-09-09T17:36:49.063Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:36:49.063Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:36:49.063Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:36:49.063Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:49.063Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:49.557Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:36:49.557Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:36:49.559Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:36:49.566Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:36:49.567Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:36:49.567Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:36:49.567Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:36:49.567Z"}
+{"level":"info","message":"task response media_type:: 5b9559dccdd8e1409e63b35c","timestamp":"2018-09-09T17:36:49.567Z"}
+{"level":"info","message":"res::{\"VEHICLE_TRACKING\":{\"vehicle\":{}}}","timestamp":"2018-09-09T17:36:49.567Z"}
+{"level":"info","message":"== Creating: a queue object for notification(VC)","timestamp":"2018-09-09T17:36:49.567Z"}
+{"level":"info","message":"== vehicle_counter::=====undefined","timestamp":"2018-09-09T17:36:49.567Z"}
+{"level":"info","message":"== plate_number::=====undefined","timestamp":"2018-09-09T17:36:49.567Z"}
+{"level":"info","message":"== total::=====undefined","timestamp":"2018-09-09T17:36:49.567Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:36:49.567Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:36:49.567Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:36:49.567Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:49.567Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:50.060Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:36:50.061Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:36:50.061Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:36:50.065Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:36:50.065Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:36:50.065Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:36:50.065Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:36:50.065Z"}
+{"level":"info","message":"task response media_type:: 5b9559dccdd8e1409e63b35c","timestamp":"2018-09-09T17:36:50.065Z"}
+{"level":"info","message":"res::{\"VEHICLE_TRACKING\":{\"vehicle\":{}}}","timestamp":"2018-09-09T17:36:50.065Z"}
+{"level":"info","message":"== Creating: a queue object for notification(VC)","timestamp":"2018-09-09T17:36:50.065Z"}
+{"level":"info","message":"== vehicle_counter::=====undefined","timestamp":"2018-09-09T17:36:50.065Z"}
+{"level":"info","message":"== plate_number::=====undefined","timestamp":"2018-09-09T17:36:50.065Z"}
+{"level":"info","message":"== total::=====undefined","timestamp":"2018-09-09T17:36:50.065Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:36:50.065Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:36:50.065Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:36:50.065Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:50.065Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:50.568Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:36:50.568Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:36:50.568Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:36:50.573Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:36:50.573Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:36:50.573Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:36:50.573Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:36:50.573Z"}
+{"level":"info","message":"task response media_type:: 5b9559dccdd8e1409e63b35c","timestamp":"2018-09-09T17:36:50.573Z"}
+{"level":"info","message":"res::{\"VEHICLE_TRACKING\":{\"vehicle\":{}}}","timestamp":"2018-09-09T17:36:50.573Z"}
+{"level":"info","message":"== Creating: a queue object for notification(VC)","timestamp":"2018-09-09T17:36:50.573Z"}
+{"level":"info","message":"== vehicle_counter::=====undefined","timestamp":"2018-09-09T17:36:50.573Z"}
+{"level":"info","message":"== plate_number::=====undefined","timestamp":"2018-09-09T17:36:50.573Z"}
+{"level":"info","message":"== total::=====undefined","timestamp":"2018-09-09T17:36:50.573Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:36:50.573Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:36:50.574Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:36:50.574Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:50.574Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:51.094Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:36:51.094Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:36:51.094Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:36:51.099Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:36:51.099Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:36:51.099Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:36:51.099Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:36:51.100Z"}
+{"level":"info","message":"task response media_type:: 5b9559dccdd8e1409e63b35c","timestamp":"2018-09-09T17:36:51.100Z"}
+{"level":"info","message":"res::{\"VEHICLE_TRACKING\":{\"vehicle\":{}}}","timestamp":"2018-09-09T17:36:51.100Z"}
+{"level":"info","message":"== Creating: a queue object for notification(VC)","timestamp":"2018-09-09T17:36:51.100Z"}
+{"level":"info","message":"== vehicle_counter::=====undefined","timestamp":"2018-09-09T17:36:51.100Z"}
+{"level":"info","message":"== plate_number::=====undefined","timestamp":"2018-09-09T17:36:51.100Z"}
+{"level":"info","message":"== total::=====undefined","timestamp":"2018-09-09T17:36:51.100Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:36:51.101Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:36:51.101Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:36:51.101Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:51.101Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:51.595Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:36:51.595Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:36:51.595Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:36:51.599Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:36:51.600Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:36:51.600Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:36:51.600Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:36:51.600Z"}
+{"level":"info","message":"task response media_type:: 5b9559dccdd8e1409e63b35c","timestamp":"2018-09-09T17:36:51.600Z"}
+{"level":"info","message":"res::{\"VEHICLE_TRACKING\":{\"vehicle\":{}}}","timestamp":"2018-09-09T17:36:51.600Z"}
+{"level":"info","message":"== Creating: a queue object for notification(VC)","timestamp":"2018-09-09T17:36:51.600Z"}
+{"level":"info","message":"== vehicle_counter::=====undefined","timestamp":"2018-09-09T17:36:51.600Z"}
+{"level":"info","message":"== plate_number::=====undefined","timestamp":"2018-09-09T17:36:51.600Z"}
+{"level":"info","message":"== total::=====undefined","timestamp":"2018-09-09T17:36:51.600Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:36:51.600Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:36:51.600Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:36:51.600Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:51.600Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:52.124Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:36:52.124Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:36:52.125Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:36:52.130Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:36:52.130Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:36:52.130Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:36:52.130Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:36:52.130Z"}
+{"level":"info","message":"task response media_type:: 5b9559dccdd8e1409e63b35c","timestamp":"2018-09-09T17:36:52.131Z"}
+{"level":"info","message":"res::{\"VEHICLE_TRACKING\":{\"vehicle\":{}}}","timestamp":"2018-09-09T17:36:52.131Z"}
+{"level":"info","message":"== Creating: a queue object for notification(VC)","timestamp":"2018-09-09T17:36:52.131Z"}
+{"level":"info","message":"== vehicle_counter::=====undefined","timestamp":"2018-09-09T17:36:52.131Z"}
+{"level":"info","message":"== plate_number::=====undefined","timestamp":"2018-09-09T17:36:52.131Z"}
+{"level":"info","message":"== total::=====undefined","timestamp":"2018-09-09T17:36:52.131Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:36:52.131Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:36:52.131Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:36:52.131Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:52.131Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:52.673Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:36:52.673Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:36:52.674Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:36:52.678Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:36:52.678Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:36:52.678Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:36:52.678Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:36:52.679Z"}
+{"level":"info","message":"task response media_type:: 5b9559dccdd8e1409e63b35c","timestamp":"2018-09-09T17:36:52.679Z"}
+{"level":"info","message":"res::{\"VEHICLE_TRACKING\":{\"vehicle\":{}}}","timestamp":"2018-09-09T17:36:52.679Z"}
+{"level":"info","message":"== Creating: a queue object for notification(VC)","timestamp":"2018-09-09T17:36:52.679Z"}
+{"level":"info","message":"== vehicle_counter::=====undefined","timestamp":"2018-09-09T17:36:52.679Z"}
+{"level":"info","message":"== plate_number::=====undefined","timestamp":"2018-09-09T17:36:52.679Z"}
+{"level":"info","message":"== total::=====undefined","timestamp":"2018-09-09T17:36:52.679Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:36:52.679Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:36:52.679Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:36:52.679Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:52.679Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:53.209Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:36:53.209Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:36:53.210Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:36:53.215Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:36:53.215Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:36:53.215Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:36:53.215Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:36:53.215Z"}
+{"level":"info","message":"task response media_type:: 5b9559dccdd8e1409e63b35c","timestamp":"2018-09-09T17:36:53.215Z"}
+{"level":"info","message":"res::{\"VEHICLE_TRACKING\":{\"vehicle\":{}}}","timestamp":"2018-09-09T17:36:53.215Z"}
+{"level":"info","message":"== Creating: a queue object for notification(VC)","timestamp":"2018-09-09T17:36:53.215Z"}
+{"level":"info","message":"== vehicle_counter::=====undefined","timestamp":"2018-09-09T17:36:53.216Z"}
+{"level":"info","message":"== plate_number::=====undefined","timestamp":"2018-09-09T17:36:53.216Z"}
+{"level":"info","message":"== total::=====undefined","timestamp":"2018-09-09T17:36:53.216Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:36:53.216Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:36:53.216Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:36:53.216Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:53.216Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:53.726Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:36:53.726Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:36:53.727Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:36:53.730Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:36:53.731Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:36:53.731Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:36:53.731Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:36:53.731Z"}
+{"level":"info","message":"task response media_type:: 5b9559dccdd8e1409e63b35c","timestamp":"2018-09-09T17:36:53.731Z"}
+{"level":"info","message":"res::{\"VEHICLE_TRACKING\":{\"vehicle\":{}}}","timestamp":"2018-09-09T17:36:53.731Z"}
+{"level":"info","message":"== Creating: a queue object for notification(VC)","timestamp":"2018-09-09T17:36:53.731Z"}
+{"level":"info","message":"== vehicle_counter::=====undefined","timestamp":"2018-09-09T17:36:53.731Z"}
+{"level":"info","message":"== plate_number::=====undefined","timestamp":"2018-09-09T17:36:53.731Z"}
+{"level":"info","message":"== total::=====undefined","timestamp":"2018-09-09T17:36:53.731Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:36:53.731Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:36:53.731Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:36:53.731Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:53.731Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:54.238Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:36:54.238Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:36:54.239Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:36:54.243Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:36:54.243Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:36:54.243Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:36:54.243Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:36:54.243Z"}
+{"level":"info","message":"task response media_type:: 5b9559dccdd8e1409e63b35c","timestamp":"2018-09-09T17:36:54.243Z"}
+{"level":"info","message":"res::{\"VEHICLE_TRACKING\":{\"vehicle\":{}}}","timestamp":"2018-09-09T17:36:54.243Z"}
+{"level":"info","message":"== Creating: a queue object for notification(VC)","timestamp":"2018-09-09T17:36:54.243Z"}
+{"level":"info","message":"== vehicle_counter::=====undefined","timestamp":"2018-09-09T17:36:54.243Z"}
+{"level":"info","message":"== plate_number::=====undefined","timestamp":"2018-09-09T17:36:54.243Z"}
+{"level":"info","message":"== total::=====undefined","timestamp":"2018-09-09T17:36:54.244Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:36:54.244Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:36:54.244Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:36:54.244Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:54.244Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:54.751Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:36:54.751Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:36:54.751Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:36:54.754Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:36:54.755Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:36:54.755Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:36:54.755Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:36:54.755Z"}
+{"level":"info","message":"task response media_type:: 5b9559dccdd8e1409e63b35c","timestamp":"2018-09-09T17:36:54.755Z"}
+{"level":"info","message":"res::{\"VEHICLE_TRACKING\":{\"vehicle\":{}}}","timestamp":"2018-09-09T17:36:54.755Z"}
+{"level":"info","message":"== Creating: a queue object for notification(VC)","timestamp":"2018-09-09T17:36:54.755Z"}
+{"level":"info","message":"== vehicle_counter::=====undefined","timestamp":"2018-09-09T17:36:54.755Z"}
+{"level":"info","message":"== plate_number::=====undefined","timestamp":"2018-09-09T17:36:54.755Z"}
+{"level":"info","message":"== total::=====undefined","timestamp":"2018-09-09T17:36:54.755Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:36:54.755Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:36:54.755Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:36:54.755Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:36:54.755Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-09-09T17:43:35.695Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-09-09T17:43:35.703Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-09-09T17:43:35.704Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-09-09T17:43:59.248Z"}
+{"peopleCount":false,"vehicleCount":false,"vehicleSpeed":false,"vehicleTracking":true,"peopleTracking":false,"faceRecognition":false,"intrusionDetection":false,"peopleList":false,"vehicleList":false,"faceAnalytics":false,"deepAssurance":false,"carCrashDetection":false,"wrongTurnDetection":false,"parkingViolation":false,"crowdDetection":false,"fashion":false,"litterDetection":false,"helmetDetection":false,"climbingDetection":false,"theme":false,"anpr":false,"violence":false,"user_id":"5b47426607da3c7286da7970","name":"sadhna","type":"test","source":"/home/sadhna/graymatics/development/vehicle.mp4","roi":[""],"frame":"","fps":"10","gps":"test","status":"","protocol":"","interface":"","media_type":"","algo":["vehicle_tracking"],"people_whitelist":"","people_blacklist":"","vehicle_whitelist":"","vehicle_blacklist":"","level":"info","message":"Parameters : req.body: ","timestamp":"2018-09-09T17:43:59.251Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-09-09T17:43:59.258Z"}
+{"_id":"5b955bdfcdd8e1409e63b35d","peopleCount":false,"vehicleCount":false,"vehicleSpeed":false,"vehicleTracking":true,"peopleTracking":false,"faceRecognition":false,"intrusionDetection":false,"peopleList":false,"vehicleList":false,"faceAnalytics":false,"deepAssurance":false,"carCrashDetection":false,"wrongTurnDetection":false,"parkingViolation":false,"crowdDetection":false,"fashion":false,"litterDetection":false,"helmetDetection":false,"climbingDetection":false,"theme":false,"anpr":false,"violence":false,"user_id":"5b47426607da3c7286da7970","name":"sadhna","type":"test","source":"/home/sadhna/graymatics/development/vehicle.mp4","roi":[""],"frame":"","fps":"10","gps":"test","status":"","protocol":"RTSP","interface":"onvif","media_type":"camera","algo":["vehicle_tracking"],"people_whitelist":"","people_blacklist":"","vehicle_whitelist":"","vehicle_blacklist":"","level":"info","message":"Route: /start/frame:","timestamp":"2018-09-09T17:44:00.860Z"}
+{"0":"vehicle_tracking","level":"info","message":"algos","timestamp":"2018-09-09T17:44:00.861Z"}
+{"level":"info","message":"camera start status::1","timestamp":"2018-09-09T17:44:00.986Z"}
+{"level":"info","message":"camera start frame shape::1080","timestamp":"2018-09-09T17:44:00.986Z"}
+{"level":"info","message":"1","timestamp":"2018-09-09T17:44:00.987Z"}
+{"level":"info","message":"path:::live-api/5b47426607da3c7286da7970/5b955bdfcdd8e1409e63b35d/frame/5b955bdfcdd8e1409e63b35d.jpg","timestamp":"2018-09-09T17:44:00.987Z"}
+{"level":"info","message":"succesfully uploaded the frame","timestamp":"2018-09-09T17:44:01.135Z"}
+{"level":"info","message":"camera first frame url:http://127.0.0.1:9000/smart-surveillance/live-api/5b47426607da3c7286da7970/5b955bdfcdd8e1409e63b35d/frame/5b955bdfcdd8e1409e63b35d.jpg","timestamp":"2018-09-09T17:44:01.136Z"}
+{"level":"info","message":"Route: /camera/update:","timestamp":"2018-09-09T17:44:01.145Z"}
+{"camera_id":"5b955bdfcdd8e1409e63b35d","frame":"http://127.0.0.1:9000/smart-surveillance/live-api/5b47426607da3c7286da7970/5b955bdfcdd8e1409e63b35d/frame/5b955bdfcdd8e1409e63b35d.jpg","level":"info","message":"Parameters : req.body: ","timestamp":"2018-09-09T17:44:01.145Z"}
+{"level":"info","message":"camera first frame updated succesfully.","timestamp":"2018-09-09T17:44:01.150Z"}
+{"level":"info","message":"Route: /camera/update:","timestamp":"2018-09-09T17:44:10.265Z"}
+{"_id":"5b955bdfcdd8e1409e63b35d","peopleCount":false,"vehicleCount":false,"vehicleSpeed":false,"vehicleTracking":false,"peopleTracking":false,"faceRecognition":false,"intrusionDetection":false,"peopleList":false,"vehicleList":false,"faceAnalytics":false,"deepAssurance":false,"carCrashDetection":false,"wrongTurnDetection":false,"parkingViolation":false,"crowdDetection":false,"fashion":false,"litterDetection":false,"helmetDetection":false,"climbingDetection":false,"theme":false,"anpr":false,"violence":false,"user_id":"5b47426607da3c7286da7970","name":"sadhna","type":"","source":"/home/sadhna/graymatics/development/vehicle.mp4","roi":[[29.008379651684823,343.6033772710803],[1063.2211792351084,333.5923109924024]],"frame":"http://127.0.0.1:9000/smart-surveillance/live-api/5b47426607da3c7286da7970/5b955bdfcdd8e1409e63b35d/frame/5b955bdfcdd8e1409e63b35d.jpg","fps":"","gps":"","status":"","protocol":"","interface":"","agent":"","media_type":"","algo":[""],"people_whitelist":"","people_blacklist":"","vehicle_whitelist":"","vehicle_blacklist":"","level":"info","message":"Parameters : req.body: ","timestamp":"2018-09-09T17:44:10.266Z"}
+{"level":"info","message":"Controller: executing updateCamera() ","timestamp":"2018-09-09T17:44:10.266Z"}
+{"_id":"5b955bdfcdd8e1409e63b35d","peopleCount":false,"vehicleCount":false,"vehicleSpeed":false,"vehicleTracking":false,"peopleTracking":false,"faceRecognition":false,"intrusionDetection":false,"peopleList":false,"vehicleList":false,"faceAnalytics":false,"deepAssurance":false,"carCrashDetection":false,"wrongTurnDetection":false,"parkingViolation":false,"crowdDetection":false,"fashion":false,"litterDetection":false,"helmetDetection":false,"climbingDetection":false,"theme":false,"anpr":false,"violence":false,"user_id":"5b47426607da3c7286da7970","name":"sadhna","type":"","source":"/home/sadhna/graymatics/development/vehicle.mp4","roi":[[29.008379651684823,343.6033772710803],[1063.2211792351084,333.5923109924024]],"frame":"http://127.0.0.1:9000/smart-surveillance/live-api/5b47426607da3c7286da7970/5b955bdfcdd8e1409e63b35d/frame/5b955bdfcdd8e1409e63b35d.jpg","fps":"","gps":"","status":"","protocol":"","interface":"","agent":"","media_type":"","algo":[""],"people_whitelist":"","people_blacklist":"","vehicle_whitelist":"","vehicle_blacklist":"","level":"info","message":"Before update::","timestamp":"2018-09-09T17:44:10.266Z"}
+{"_id":"5b955bdfcdd8e1409e63b35d","peopleCount":false,"vehicleCount":false,"vehicleSpeed":false,"vehicleTracking":false,"peopleTracking":false,"faceRecognition":false,"intrusionDetection":false,"peopleList":false,"vehicleList":false,"faceAnalytics":false,"deepAssurance":false,"carCrashDetection":false,"wrongTurnDetection":false,"parkingViolation":false,"crowdDetection":false,"fashion":false,"litterDetection":false,"helmetDetection":false,"climbingDetection":false,"theme":false,"anpr":false,"violence":false,"user_id":"5b47426607da3c7286da7970","name":"sadhna","source":"/home/sadhna/graymatics/development/vehicle.mp4","roi":[[29.008379651684823,343.6033772710803],[1063.2211792351084,333.5923109924024]],"frame":"http://127.0.0.1:9000/smart-surveillance/live-api/5b47426607da3c7286da7970/5b955bdfcdd8e1409e63b35d/frame/5b955bdfcdd8e1409e63b35d.jpg","gps":"","agent":"","media_type":"","level":"info","message":"After update::","timestamp":"2018-09-09T17:44:10.268Z"}
+{"_id":"5b955bdfcdd8e1409e63b35d","peopleCount":false,"vehicleCount":false,"vehicleSpeed":false,"vehicleTracking":false,"peopleTracking":false,"faceRecognition":false,"intrusionDetection":false,"peopleList":false,"vehicleList":false,"faceAnalytics":false,"deepAssurance":false,"carCrashDetection":false,"wrongTurnDetection":false,"parkingViolation":false,"crowdDetection":false,"fashion":false,"litterDetection":false,"helmetDetection":false,"climbingDetection":false,"theme":false,"anpr":false,"violence":false,"user_id":"5b47426607da3c7286da7970","name":"sadhna","type":"","source":"/home/sadhna/graymatics/development/vehicle.mp4","roi":[[29.008379651684823,343.6033772710803],[1063.2211792351084,333.5923109924024]],"frame":"http://127.0.0.1:9000/smart-surveillance/live-api/5b47426607da3c7286da7970/5b955bdfcdd8e1409e63b35d/frame/5b955bdfcdd8e1409e63b35d.jpg","fps":"","gps":"","status":"","protocol":"","interface":"","agent":"","media_type":"","algo":[""],"people_whitelist":"","people_blacklist":"","vehicle_whitelist":"","vehicle_blacklist":"","level":"info","message":"Route:put /start/camera:","timestamp":"2018-09-09T17:44:12.187Z"}
+{"level":"info","message":"true","timestamp":"2018-09-09T17:44:12.207Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-09-09T17:44:12.729Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-09-09T17:44:12.730Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-09-09T17:44:12.730Z"}
+{"_id":"5b955bdfcdd8e1409e63b35d","user_id":"5b47426607da3c7286da7970","name":"sadhna","source":"/home/sadhna/graymatics/development/vehicle.mp4","protocol":"RTSP","interface":"onvif","fps":"10","algos":["vehicle_tracking"],"port":"80","roi":[[29.008379651684823,343.6033772710803],[1063.2211792351084,333.5923109924024]],"media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-09-09T17:44:13.245Z"}
+{"level":"info","message":"camera start status::1","timestamp":"2018-09-09T17:44:13.297Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T17:44:13.304Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:44:13.304Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T17:44:13.304Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T17:44:13.307Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:44:13.307Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T17:44:13.307Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T17:44:13.309Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:44:13.309Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T17:44:13.309Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T17:44:13.312Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:44:13.312Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T17:44:13.313Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T17:44:13.314Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:44:13.314Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T17:44:13.314Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T17:44:13.315Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:44:13.315Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T17:44:13.315Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-09-09T17:44:13.316Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:44:13.316Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-09-09T17:44:13.316Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-09-09T17:47:33.216Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-09-09T17:47:33.217Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-09-09T17:47:33.217Z"}
+{"_id":"5b955bdfcdd8e1409e63b35d","user_id":"5b47426607da3c7286da7970","name":"sadhna","source":"/home/sadhna/graymatics/development/vehicle.mp4","protocol":"RTSP","interface":"onvif","fps":"10","algos":["vehicle_tracking"],"port":"80","roi":[[29.008379651684823,343.6033772710803],[1063.2211792351084,333.5923109924024]],"media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-09-09T17:47:33.771Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T17:47:33.775Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:47:33.775Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T17:47:33.775Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T17:47:33.778Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:47:33.778Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T17:47:33.778Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T17:47:33.779Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:47:33.780Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T17:47:33.780Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T17:47:33.781Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:47:33.781Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T17:47:33.781Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T17:47:33.784Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:47:33.784Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T17:47:33.784Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T17:47:33.785Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:47:33.785Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T17:47:33.785Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-09-09T17:47:33.795Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-09-09T17:47:33.795Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-09-09T17:47:33.803Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:47:33.803Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-09-09T17:47:33.803Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:34.037Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:34.038Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:34.039Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:34.044Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:34.044Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:34.044Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:34.044Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:34.044Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:34.045Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:34.045Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:34.046Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:34.046Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:34.046Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:34.047Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:34.218Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:34.218Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:34.219Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:34.225Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:34.225Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:34.225Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:34.225Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:34.225Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:34.225Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:34.225Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:34.225Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:34.225Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:34.225Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:34.226Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:34.351Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:34.351Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:34.351Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:34.355Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:34.355Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:34.355Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:34.355Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:34.355Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:34.356Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:34.356Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:34.356Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:34.356Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:34.356Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:34.356Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:34.476Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:34.477Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:34.477Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:34.481Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:34.481Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:34.481Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:34.481Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:34.481Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:34.481Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:34.481Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:34.481Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:34.481Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:34.482Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:34.482Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:34.605Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:34.605Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:34.605Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:34.609Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:34.609Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:34.609Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:34.609Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:34.609Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:34.609Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:34.609Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:34.609Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:34.610Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:34.610Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:34.610Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:34.737Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:34.737Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:34.737Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:34.741Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:34.742Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:34.742Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:34.742Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:34.742Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:34.742Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:34.742Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:34.742Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:34.742Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:34.743Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:34.743Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:34.869Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:34.869Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:34.870Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:34.874Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:34.874Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:34.874Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:34.875Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:34.875Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:34.875Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:34.875Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:34.875Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:34.875Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:34.875Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:34.875Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:35.003Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:35.003Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:35.004Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:35.008Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:35.008Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:35.008Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:35.008Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:35.009Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:35.009Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:35.009Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:35.009Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:35.009Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:35.009Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:35.009Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:35.134Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:35.134Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:35.134Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:35.139Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:35.139Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:35.139Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:35.139Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:35.139Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:35.139Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:35.139Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:35.139Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:35.139Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:35.139Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:35.139Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:35.260Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:35.260Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:35.260Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:35.264Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:35.265Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:35.265Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:35.265Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:35.265Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:35.265Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:35.265Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:35.265Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:35.265Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:35.265Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:35.265Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:35.385Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:35.385Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:35.385Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:35.389Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:35.389Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:35.389Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:35.389Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:35.389Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:35.389Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:35.389Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:35.389Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:35.389Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:35.389Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:35.389Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:35.512Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:35.512Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:35.512Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:35.515Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:35.516Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:35.516Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:35.516Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:35.516Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:35.516Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:35.516Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:35.516Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:35.516Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:35.516Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:35.516Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:35.635Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:35.635Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:35.635Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:35.639Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:35.639Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:35.639Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:35.639Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:35.639Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:35.639Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:35.639Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:35.639Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:35.639Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:35.639Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:35.639Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:35.764Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:35.764Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:35.765Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:35.769Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:35.769Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:35.769Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:35.769Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:35.769Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:35.769Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:35.769Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:35.769Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:35.769Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:35.769Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:35.769Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:35.889Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:35.889Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:35.889Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:35.893Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:35.893Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:35.893Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:35.893Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:35.893Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:35.893Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:35.893Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:35.893Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:35.893Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:35.893Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:35.893Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:36.011Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:36.011Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:36.011Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:36.015Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:36.015Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:36.015Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:36.015Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:36.015Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:36.015Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:36.015Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:36.015Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:36.015Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:36.015Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:36.015Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:36.131Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:36.131Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:36.131Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:36.135Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:36.135Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:36.135Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:36.135Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:36.135Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:36.136Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:36.136Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:36.136Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:36.136Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:36.136Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:36.136Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:36.255Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:36.255Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:36.255Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:36.259Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:36.259Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:36.259Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:36.259Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:36.259Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:36.259Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:36.259Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:36.259Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:36.259Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:36.259Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:36.259Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:36.392Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:36.393Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:36.393Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:36.396Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:36.396Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:36.397Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:36.397Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:36.397Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:36.397Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:36.397Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:36.397Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:36.397Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:36.397Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:36.397Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:36.515Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:36.515Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:36.516Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:36.519Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:36.519Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:36.519Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:36.519Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:36.519Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:36.519Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:36.519Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:36.519Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:36.519Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:36.519Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:36.519Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:36.641Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name:","timestamp":"2018-09-09T17:47:36.642Z"}
+{"level":"info","message":"frame queue status::undefined","timestamp":"2018-09-09T17:47:36.642Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-09-09T17:47:36.645Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-09-09T17:47:36.645Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-09-09T17:47:36.645Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-09-09T17:47:36.646Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-09-09T17:47:36.646Z"}
+{"level":"info","message":"task response media_type:: 5b955bdfcdd8e1409e63b35d","timestamp":"2018-09-09T17:47:36.646Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-09-09T17:47:36.646Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-09-09T17:47:36.646Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-09-09T17:47:36.646Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-09-09T17:47:36.646Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-09-09T17:47:36.646Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-09-09T17:53:00.716Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-09-09T17:53:00.719Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-09-09T17:53:00.719Z"}
+{"_id":"5b955bdfcdd8e1409e63b35d","user_id":"5b47426607da3c7286da7970","name":"sadhna","source":"/home/sadhna/graymatics/development/vehicle.mp4","protocol":"RTSP","interface":"onvif","fps":"10","algos":["vehicle_tracking"],"port":"80","roi":[[29.008379651684823,343.6033772710803],[1063.2211792351084,333.5923109924024]],"media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-09-09T17:53:01.296Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T17:53:01.303Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:53:01.303Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T17:53:01.303Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T17:53:01.307Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:53:01.308Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T17:53:01.308Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T17:53:01.309Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:53:01.309Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T17:53:01.309Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T17:53:01.310Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:53:01.310Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T17:53:01.310Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T17:53:01.311Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:53:01.311Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T17:53:01.311Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T17:53:01.312Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:53:01.312Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T17:53:01.312Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-09-09T17:53:01.322Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-09-09T17:53:01.322Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-09-09T17:53:01.330Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T17:53:01.331Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-09-09T17:53:01.331Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-09-09T18:00:29.208Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-09-09T18:00:29.209Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-09-09T18:00:29.209Z"}
+{"_id":"5b955bdfcdd8e1409e63b35d","user_id":"5b47426607da3c7286da7970","name":"sadhna","source":"/home/sadhna/graymatics/development/vehicle.mp4","protocol":"RTSP","interface":"onvif","fps":"10","algos":["vehicle_tracking"],"port":"80","roi":[[29.008379651684823,343.6033772710803],[1063.2211792351084,333.5923109924024]],"media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-09-09T18:00:29.759Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:00:29.763Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:00:29.763Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:00:29.763Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:00:29.764Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:00:29.765Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:00:29.765Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:00:29.766Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:00:29.766Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:00:29.766Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:00:29.767Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:00:29.768Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:00:29.768Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:00:29.778Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:00:29.779Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:00:29.779Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-09-09T18:00:29.779Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:00:29.779Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-09-09T18:00:29.779Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:00:29.780Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:00:29.780Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:00:29.780Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-09-09T18:00:29.796Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-09-09T18:00:29.796Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-09-09T18:01:16.975Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-09-09T18:01:16.976Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-09-09T18:01:16.976Z"}
+{"_id":"5b955bdfcdd8e1409e63b35d","user_id":"5b47426607da3c7286da7970","name":"sadhna","source":"/home/sadhna/graymatics/development/vehicle.mp4","protocol":"RTSP","interface":"onvif","fps":"10","algos":["vehicle_tracking"],"port":"80","roi":[[29.008379651684823,343.6033772710803],[1063.2211792351084,333.5923109924024]],"media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-09-09T18:01:17.526Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:01:17.535Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:01:17.535Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:01:17.535Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:01:17.538Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:01:17.538Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:01:17.538Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:01:17.540Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:01:17.540Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:01:17.540Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:01:17.541Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:01:17.541Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:01:17.541Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-09-09T18:01:17.550Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-09-09T18:01:17.551Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:01:17.559Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:01:17.559Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:01:17.559Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:01:17.560Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:01:17.561Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:01:17.561Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-09-09T18:01:17.562Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:01:17.563Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-09-09T18:01:17.563Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-09-09T18:04:28.258Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-09-09T18:04:28.260Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-09-09T18:04:28.261Z"}
+{"_id":"5b955bdfcdd8e1409e63b35d","user_id":"5b47426607da3c7286da7970","name":"sadhna","source":"/home/sadhna/graymatics/development/vehicle.mp4","protocol":"RTSP","interface":"onvif","fps":"10","algos":["vehicle_tracking"],"port":"80","roi":[[29.008379651684823,343.6033772710803],[1063.2211792351084,333.5923109924024]],"media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-09-09T18:04:28.802Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:04:28.807Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:04:28.808Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:04:28.808Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:04:28.811Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:04:28.811Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:04:28.812Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:04:28.813Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:04:28.813Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:04:28.813Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:04:28.817Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:04:28.817Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:04:28.817Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:04:28.820Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:04:28.820Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:04:28.820Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:04:28.821Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:04:28.822Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:04:28.822Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-09-09T18:04:28.836Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-09-09T18:04:28.836Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-09-09T18:04:28.845Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:04:28.845Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-09-09T18:04:28.845Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-09-09T18:08:06.720Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-09-09T18:08:06.720Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-09-09T18:08:06.721Z"}
+{"_id":"5b955bdfcdd8e1409e63b35d","user_id":"5b47426607da3c7286da7970","name":"sadhna","source":"/home/sadhna/graymatics/development/vehicle.mp4","protocol":"RTSP","interface":"onvif","fps":"10","algos":["vehicle_tracking"],"port":"80","roi":[[29.008379651684823,343.6033772710803],[1063.2211792351084,333.5923109924024]],"media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-09-09T18:08:07.273Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:08:07.278Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:08:07.278Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:08:07.278Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:08:07.280Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:08:07.281Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:08:07.281Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:08:07.282Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:08:07.282Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:08:07.282Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:08:07.283Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:08:07.283Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:08:07.283Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:08:07.283Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:08:07.284Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:08:07.284Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:08:07.286Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:08:07.286Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:08:07.286Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-09-09T18:08:07.295Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-09-09T18:08:07.295Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-09-09T18:08:07.302Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:08:07.302Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-09-09T18:08:07.303Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-09-09T18:09:15.681Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-09-09T18:09:15.681Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-09-09T18:09:15.682Z"}
+{"_id":"5b955bdfcdd8e1409e63b35d","user_id":"5b47426607da3c7286da7970","name":"sadhna","source":"/home/sadhna/graymatics/development/vehicle.mp4","protocol":"RTSP","interface":"onvif","fps":"10","algos":["vehicle_tracking"],"port":"80","roi":[[29.008379651684823,343.6033772710803],[1063.2211792351084,333.5923109924024]],"media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-09-09T18:09:16.228Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:09:16.230Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:09:16.230Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:09:16.230Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:09:16.231Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:09:16.232Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:09:16.232Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:09:16.233Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:09:16.233Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:09:16.233Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:09:16.234Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:09:16.234Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:09:16.234Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:09:16.237Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:09:16.237Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:09:16.237Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:09:16.241Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:09:16.242Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:09:16.242Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-09-09T18:09:16.243Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:09:16.243Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-09-09T18:09:16.243Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-09-09T18:09:16.258Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-09-09T18:09:16.258Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-09-09T18:10:20.499Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-09-09T18:10:20.500Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-09-09T18:10:20.500Z"}
+{"_id":"5b955bdfcdd8e1409e63b35d","user_id":"5b47426607da3c7286da7970","name":"sadhna","source":"/home/sadhna/graymatics/development/vehicle.mp4","protocol":"RTSP","interface":"onvif","fps":"10","algos":["vehicle_tracking"],"port":"80","roi":[[29.008379651684823,343.6033772710803],[1063.2211792351084,333.5923109924024]],"media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-09-09T18:10:21.046Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:10:21.053Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:10:21.053Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:10:21.053Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:10:21.056Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:10:21.056Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:10:21.056Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:10:21.057Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:10:21.057Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:10:21.057Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:10:21.059Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:10:21.059Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:10:21.059Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:10:21.060Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:10:21.061Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:10:21.061Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-09-09T18:10:21.073Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-09-09T18:10:21.073Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:10:21.081Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:10:21.082Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:10:21.082Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-09-09T18:10:21.083Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:10:21.083Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-09-09T18:10:21.084Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-09-09T18:11:06.085Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-09-09T18:11:06.085Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-09-09T18:11:06.085Z"}
+{"_id":"5b955bdfcdd8e1409e63b35d","user_id":"5b47426607da3c7286da7970","name":"sadhna","source":"/home/sadhna/graymatics/development/vehicle.mp4","protocol":"RTSP","interface":"onvif","fps":"10","algos":["vehicle_tracking"],"port":"80","roi":[[29.008379651684823,343.6033772710803],[1063.2211792351084,333.5923109924024]],"media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-09-09T18:11:06.632Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:11:06.638Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:11:06.638Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:11:06.638Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:11:06.639Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:11:06.639Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:11:06.640Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:11:06.641Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:11:06.641Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:11:06.641Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:11:06.642Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:11:06.642Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:11:06.643Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:11:06.643Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:11:06.643Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:11:06.643Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:11:06.646Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:11:06.646Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:11:06.646Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-09-09T18:11:06.648Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:11:06.648Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-09-09T18:11:06.648Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-09-09T18:11:06.665Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-09-09T18:11:06.665Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-09-09T18:12:12.555Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-09-09T18:12:12.555Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-09-09T18:12:12.555Z"}
+{"_id":"5b955bdfcdd8e1409e63b35d","user_id":"5b47426607da3c7286da7970","name":"sadhna","source":"/home/sadhna/graymatics/development/vehicle.mp4","protocol":"RTSP","interface":"onvif","fps":"10","algos":["vehicle_tracking"],"port":"80","roi":[[29.008379651684823,343.6033772710803],[1063.2211792351084,333.5923109924024]],"media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-09-09T18:12:13.072Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:12:13.074Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:12:13.074Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:12:13.074Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:12:13.076Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:12:13.076Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:12:13.076Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:12:13.077Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:12:13.077Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:12:13.077Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:12:13.077Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:12:13.077Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:12:13.077Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:12:13.078Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:12:13.078Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:12:13.078Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:12:13.080Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:12:13.080Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:12:13.080Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-09-09T18:12:13.082Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:12:13.082Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-09-09T18:12:13.082Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-09-09T18:12:13.095Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-09-09T18:12:13.095Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-09-09T18:13:00.743Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-09-09T18:13:00.743Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-09-09T18:13:00.743Z"}
+{"_id":"5b955bdfcdd8e1409e63b35d","user_id":"5b47426607da3c7286da7970","name":"sadhna","source":"/home/sadhna/graymatics/development/vehicle.mp4","protocol":"RTSP","interface":"onvif","fps":"10","algos":["vehicle_tracking"],"port":"80","roi":[[29.008379651684823,343.6033772710803],[1063.2211792351084,333.5923109924024]],"media_type":"camera","level":"info","message":"Route: /start/camera:","timestamp":"2018-09-09T18:13:01.264Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:13:01.265Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:13:01.265Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:13:01.265Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:13:01.266Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"INTRUSION\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:13:01.266Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:13:01.266Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:13:01.267Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:13:01.267Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:13:01.267Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-09-09T18:13:01.285Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-09-09T18:13:01.285Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:13:01.292Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"People_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:13:01.292Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:13:01.292Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-09-09T18:13:01.294Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:13:01.295Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-09-09T18:13:01.295Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-09-09T18:13:01.296Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"type\":\"Vehicle_Count\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:13:01.296Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-09-09T18:13:01.297Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-09-09T18:13:01.298Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b47426607da3c7286da7970\",\"media_type\":\"camera\"}","timestamp":"2018-09-09T18:13:01.298Z"}
+{"level":"info","message":"Controller: executing getLatestNotifications() ","timestamp":"2018-09-09T18:13:01.298Z"}

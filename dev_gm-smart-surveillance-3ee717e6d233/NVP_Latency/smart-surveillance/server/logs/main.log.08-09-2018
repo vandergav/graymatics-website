@@ -1,0 +1,577 @@
+{"level":"info","message":"App starting.","timestamp":"2018-08-09T10:40:41.880Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:1111","timestamp":"2018-08-09T10:40:42.877Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T10:40:43.254Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b5811cc20c86e1a52a5e935\"}","timestamp":"2018-08-09T10:40:43.254Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T10:40:43.255Z"}
+{"level":"info","message":"Model Parameters : req.params: 5b5811cc20c86e1a52a5e935","timestamp":"2018-08-09T10:40:43.255Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T10:40:43.263Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T10:40:43.277Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b5811cc20c86e1a52a5e935\"}","timestamp":"2018-08-09T10:40:43.277Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T10:40:43.277Z"}
+{"level":"info","message":"Model Parameters : req.params: 5b5811cc20c86e1a52a5e935","timestamp":"2018-08-09T10:40:43.277Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T10:40:43.280Z"}
+{"level":"info","message":"Route: /user/login:","timestamp":"2018-08-09T10:40:58.869Z"}
+{"username":"gm_user_22","user_password":"gm_user_22","level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-09T10:40:58.870Z"}
+{"level":"info","message":"Controller: /admin/login:","timestamp":"2018-08-09T10:40:58.873Z"}
+{"level":"info","message":"Model: /user/login:","timestamp":"2018-08-09T10:40:58.874Z"}
+{"level":"info","message":"Your lost login has been updated.","timestamp":"2018-08-09T10:40:59.086Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2018-08-09T10:40:59.088Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T10:40:59.533Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-09T10:40:59.533Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T10:40:59.534Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-09T10:40:59.534Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T10:40:59.536Z"}
+{"level":"info","message":"Route: Delete Contact","timestamp":"2018-08-09T10:41:03.024Z"}
+{"level":"info","message":"Parameters : req.params: {\"camera_id\":\"24\"}","timestamp":"2018-08-09T10:41:03.024Z"}
+{"level":"info","message":"Controller: executing deleteCamera() ","timestamp":"2018-08-09T10:41:03.025Z"}
+{"level":"info","message":"Model: executing remove()  24","timestamp":"2018-08-09T10:41:03.026Z"}
+{"level":"info","message":"Camera has been deleted.","timestamp":"2018-08-09T10:41:03.110Z"}
+{"level":"info","message":"Route: Delete Contact","timestamp":"2018-08-09T10:41:06.618Z"}
+{"level":"info","message":"Parameters : req.params: {\"camera_id\":\"23\"}","timestamp":"2018-08-09T10:41:06.619Z"}
+{"level":"info","message":"Controller: executing deleteCamera() ","timestamp":"2018-08-09T10:41:06.619Z"}
+{"level":"info","message":"Model: executing remove()  23","timestamp":"2018-08-09T10:41:06.620Z"}
+{"level":"info","message":"Camera has been deleted.","timestamp":"2018-08-09T10:41:06.741Z"}
+{"level":"info","message":"Route: Delete Contact","timestamp":"2018-08-09T10:41:08.154Z"}
+{"level":"info","message":"Parameters : req.params: {\"camera_id\":\"23\"}","timestamp":"2018-08-09T10:41:08.154Z"}
+{"level":"info","message":"Controller: executing deleteCamera() ","timestamp":"2018-08-09T10:41:08.154Z"}
+{"level":"info","message":"Model: executing remove()  23","timestamp":"2018-08-09T10:41:08.154Z"}
+{"level":"info","message":"Camera has been deleted.","timestamp":"2018-08-09T10:41:08.155Z"}
+{"level":"info","message":"Route: Delete Contact","timestamp":"2018-08-09T10:41:14.468Z"}
+{"level":"info","message":"Parameters : req.params: {\"camera_id\":\"22\"}","timestamp":"2018-08-09T10:41:14.469Z"}
+{"level":"info","message":"Controller: executing deleteCamera() ","timestamp":"2018-08-09T10:41:14.470Z"}
+{"level":"info","message":"Model: executing remove()  22","timestamp":"2018-08-09T10:41:14.470Z"}
+{"level":"info","message":"Camera has been deleted.","timestamp":"2018-08-09T10:41:14.575Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T10:42:03.434Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-09T10:42:03.435Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T10:42:03.435Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-09T10:42:03.435Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T10:42:03.439Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T10:42:03.451Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-09T10:47:08.487Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:1111","timestamp":"2018-08-09T10:47:08.650Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-09T10:47:17.180Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:1111","timestamp":"2018-08-09T10:47:17.387Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-09T10:47:36.732Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://image.graymatics.com/5924aa4b45886c2fd8704ca85a1281f917f0ce5b_929729.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-09T10:47:36.733Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-09T10:47:36.738Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-09T10:47:36.796Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T10:47:37.316Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T10:47:37.364Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-09T10:48:55.465Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:1111","timestamp":"2018-08-09T10:48:55.620Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-09T10:50:19.524Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://image.graymatics.com/5924aa4b45886c2fd8704ca85a1281f917f0ce5b_929729.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-09T10:50:19.525Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-09T10:50:19.528Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-09T10:50:19.614Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T10:50:20.136Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T10:50:20.168Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-09T10:51:22.221Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://image.graymatics.com/5924aa4b45886c2fd8704ca85a1281f917f0ce5b_929729.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-09T10:51:22.221Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-09T10:51:22.222Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-09T10:51:22.311Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T10:51:22.828Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T10:51:22.848Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-09T10:52:11.597Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://image.graymatics.com/5924aa4b45886c2fd8704ca85a1281f917f0ce5b_929729.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-09T10:52:11.597Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-09T10:52:11.598Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-09T10:52:11.689Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T10:52:12.205Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T10:52:12.222Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-09T10:52:55.307Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://image.graymatics.com/5924aa4b45886c2fd8704ca85a1281f917f0ce5b_929729.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-09T10:52:55.308Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-09T10:52:55.308Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-09T10:52:55.359Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T10:52:55.873Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T10:52:55.901Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-09T10:55:07.980Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://image.graymatics.com/5924aa4b45886c2fd8704ca85a1281f917f0ce5b_929729.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-09T10:55:07.980Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-09T10:55:07.982Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-09T10:55:08.075Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T10:55:08.592Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T10:55:08.610Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-09T10:58:57.927Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://image.graymatics.com/5924aa4b45886c2fd8704ca85a1281f917f0ce5b_929729.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-09T10:58:57.929Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-09T10:58:57.930Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-09T10:58:58.018Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T10:58:58.533Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T10:58:58.560Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-09T11:00:54.661Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://image.graymatics.com/5924aa4b45886c2fd8704ca85a1281f917f0ce5b_929729.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-09T11:00:54.661Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-09T11:00:54.662Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-09T11:00:54.765Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:00:55.278Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:00:55.352Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-09T11:03:32.428Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://image.graymatics.com/5924aa4b45886c2fd8704ca85a1281f917f0ce5b_929729.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-09T11:03:32.429Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-09T11:03:32.431Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-09T11:03:32.517Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:03:33.034Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:03:33.092Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-09T11:04:17.043Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://image.graymatics.com/5924aa4b45886c2fd8704ca85a1281f917f0ce5b_929729.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-09T11:04:17.043Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-09T11:04:17.044Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-09T11:04:17.148Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:04:17.668Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:04:18.687Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-09T11:05:57.547Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://image.graymatics.com/5924aa4b45886c2fd8704ca85a1281f917f0ce5b_929729.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-09T11:05:57.548Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-09T11:05:57.548Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-09T11:05:57.579Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:05:58.097Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:05:58.140Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-09T11:12:04.201Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://image.graymatics.com/5924aa4b45886c2fd8704ca85a1281f917f0ce5b_929729.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-09T11:12:04.202Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-09T11:12:04.202Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-09T11:12:04.296Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:12:04.808Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:12:04.838Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-09T11:14:31.992Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://image.graymatics.com/5924aa4b45886c2fd8704ca85a1281f917f0ce5b_929729.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-09T11:14:31.992Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-09T11:14:31.993Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-09T11:14:32.084Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:14:32.601Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:14:32.621Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-09T11:16:47.625Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://image.graymatics.com/5924aa4b45886c2fd8704ca85a1281f917f0ce5b_929729.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-09T11:16:47.625Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-09T11:16:47.627Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-09T11:16:47.720Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:16:48.234Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:16:48.249Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-09T11:18:35.143Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://image.graymatics.com/5924aa4b45886c2fd8704ca85a1281f917f0ce5b_929729.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-09T11:18:35.143Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-09T11:18:35.143Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-09T11:18:35.177Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:18:35.691Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:18:35.710Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-09T11:20:22.366Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://image.graymatics.com/5924aa4b45886c2fd8704ca85a1281f917f0ce5b_929729.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-09T11:20:22.366Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-09T11:20:22.367Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-09T11:20:22.451Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:20:22.966Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-09T11:21:10.735Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://image.graymatics.com/5924aa4b45886c2fd8704ca85a1281f917f0ce5b_929729.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-09T11:21:10.736Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-09T11:21:10.737Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-09T11:21:10.899Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:21:11.410Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-08-09T11:22:17.029Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://image.graymatics.com/5924aa4b45886c2fd8704ca85a1281f917f0ce5b_929729.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-09T11:22:17.030Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-08-09T11:22:17.030Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-08-09T11:22:17.168Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:22:17.681Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T11:22:19.319Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: 5924aa4b45886c2fd8704ca85a1281f917f0ce5b_929729.jpg:42","timestamp":"2018-08-09T11:22:19.320Z"}
+{"level":"info","message":"res::{\"THEMES\":{\"themes\":\"indoor-museum\",\"confidence\":0.33494865894317627}}","timestamp":"2018-08-09T11:22:19.322Z"}
+{"level":"info","message":"complete flag:: True","timestamp":"2018-08-09T11:22:19.323Z"}
+{"level":"info","message":"when video processing done","timestamp":"2018-08-09T11:22:19.323Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T11:22:19.324Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T11:22:19.324Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T11:22:19.325Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T11:22:19.325Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T11:22:19.325Z"}
+{"level":"info","message":"Route: /notification/create:","timestamp":"2018-08-09T11:22:19.327Z"}
+{"_id":"1465a6fba2d53b402fc2ac97a390eb37","user_id":"22","camera_id":"42","camera_name":"5924aa4b45886c2fd8704ca85a1281f917f0ce5b_929729.jpg","type":"THEMES","timestamp":"2018-08-09T11:22:19.328Z","message":"Parameters : req.body: ","frame":"","result":{"themes":"indoor-museum","confidence":0.33494865894317627},"status":"","level":"info"}
+{"themes":"indoor-museum","confidence":0.33494865894317627,"level":"info","message":"Controller: executing createNotification() ","timestamp":"2018-08-09T11:22:19.328Z"}
+{"level":"info","message":"Route: /camera/notification/select:","timestamp":"2018-08-09T11:22:19.350Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_id\":\"42\"}","timestamp":"2018-08-09T11:22:19.350Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:22:19.363Z"}
+{"level":"info","message":"camera notifications fetched.","timestamp":"2018-08-09T11:22:20.118Z"}
+{"level":"info","message":"path:::live-api/22/42/42.json","timestamp":"2018-08-09T11:22:20.119Z"}
+{"level":"info","message":"notification created succesfully.","timestamp":"2018-08-09T11:22:20.141Z"}
+{"level":"info","message":"succesfully uploaded the frame","timestamp":"2018-08-09T11:22:20.266Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-09T11:22:41.494Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:1111","timestamp":"2018-08-09T11:22:41.654Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-09T11:24:37.170Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:1111","timestamp":"2018-08-09T11:24:37.342Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:33:44.762Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T11:33:46.242Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-09T11:35:06.191Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:1111","timestamp":"2018-08-09T11:35:06.364Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:35:11.267Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:35:11.295Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:35:21.659Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T11:35:23.332Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: test_image.jpg:12","timestamp":"2018-08-09T11:35:23.333Z"}
+{"level":"info","message":"res::{\"THEMES\":{\"themes\":\"transportation-motorbikes\",\"confidence\":0.9804934859275818}}","timestamp":"2018-08-09T11:35:23.336Z"}
+{"level":"info","message":"complete flag:: True","timestamp":"2018-08-09T11:35:23.336Z"}
+{"level":"info","message":"when video processing done","timestamp":"2018-08-09T11:35:23.336Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T11:35:23.338Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T11:35:23.339Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T11:35:23.339Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T11:35:23.339Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T11:35:23.340Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:35:23.344Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-08-09T11:35:23.345Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-09T11:35:56.698Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:1111","timestamp":"2018-08-09T11:35:56.953Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:36:57.595Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:36:57.620Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:39:23.284Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T11:39:24.186Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: test_image.jpg:12","timestamp":"2018-08-09T11:39:24.186Z"}
+{"level":"info","message":"res::{\"THEMES\":{\"themes\":\"transportation-motorbikes\",\"confidence\":0.9804934859275818}}","timestamp":"2018-08-09T11:39:24.189Z"}
+{"level":"info","message":"complete flag:: True","timestamp":"2018-08-09T11:39:24.189Z"}
+{"level":"info","message":"when video processing done","timestamp":"2018-08-09T11:39:24.189Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T11:39:24.191Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T11:39:24.192Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T11:39:24.193Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T11:39:24.194Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T11:39:24.194Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:39:24.201Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-08-09T11:39:24.202Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:41:16.371Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:41:17.410Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-08-09T11:41:17.413Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-09T11:42:13.016Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:1111","timestamp":"2018-08-09T11:42:13.183Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:42:50.158Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:42:50.173Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-09T11:44:04.561Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:1111","timestamp":"2018-08-09T11:44:04.803Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:44:19.063Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T11:44:21.020Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: test_image.jpg:12","timestamp":"2018-08-09T11:44:21.021Z"}
+{"level":"info","message":"res::{\"THEMES\":{\"themes\":\"transportation-motorbikes\",\"confidence\":0.9804934859275818}}","timestamp":"2018-08-09T11:44:21.026Z"}
+{"level":"info","message":"complete flag:: True","timestamp":"2018-08-09T11:44:21.026Z"}
+{"level":"info","message":"when video processing done","timestamp":"2018-08-09T11:44:21.026Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T11:44:21.027Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T11:44:21.028Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T11:44:21.028Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T11:44:21.028Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T11:44:21.028Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:44:21.132Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:46:19.066Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:46:19.086Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-08-09T11:46:19.088Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-09T11:46:44.371Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:1111","timestamp":"2018-08-09T11:46:44.555Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:47:03.560Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:47:03.590Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:49:03.566Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:49:03.600Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-08-09T11:49:03.600Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:49:52.472Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T11:49:53.545Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: test_image.jpg:12","timestamp":"2018-08-09T11:49:53.546Z"}
+{"level":"info","message":"res::{\"THEMES\":{\"themes\":\"transportation-motorbikes\",\"confidence\":0.9804934859275818}}","timestamp":"2018-08-09T11:49:53.552Z"}
+{"level":"info","message":"complete flag:: True","timestamp":"2018-08-09T11:49:53.553Z"}
+{"level":"info","message":"when video processing done","timestamp":"2018-08-09T11:49:53.553Z"}
+{"0":113942,"1":339305537,"level":"info","message":"========= Timestamp after display the json to UI =====","timestamp":"2018-08-09T11:49:53.556Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T11:49:53.556Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T11:49:53.557Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T11:49:53.557Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T11:49:53.557Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T11:49:53.557Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:49:53.561Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-08-09T11:49:53.562Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-09T11:50:16.010Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:1111","timestamp":"2018-08-09T11:50:16.179Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:50:23.444Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:52:29.322Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T11:52:30.337Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: test_image.jpg:c5dbcee39101676cdaf9f8505ee1f53f","timestamp":"2018-08-09T11:52:30.338Z"}
+{"level":"info","message":"res::{\"THEMES\":{\"themes\":\"transportation-motorbikes\",\"confidence\":0.9804934859275818}}","timestamp":"2018-08-09T11:52:30.344Z"}
+{"level":"info","message":"complete flag:: True","timestamp":"2018-08-09T11:52:30.344Z"}
+{"level":"info","message":"when video processing done","timestamp":"2018-08-09T11:52:30.344Z"}
+{"0":114099,"1":130036733,"level":"info","message":"========= Timestamp after display the json to UI =====","timestamp":"2018-08-09T11:52:30.346Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T11:52:30.347Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T11:52:30.347Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T11:52:30.348Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T11:52:30.348Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T11:52:30.348Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:52:30.364Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:52:38.155Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T11:52:40.053Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: test_image.jpg:5a3a57c6e572330d9e8db624d983b6f5","timestamp":"2018-08-09T11:52:40.054Z"}
+{"level":"info","message":"res::{\"THEMES\":{\"themes\":\"transportation-motorbikes\",\"confidence\":0.9804934859275818}}","timestamp":"2018-08-09T11:52:40.055Z"}
+{"level":"info","message":"complete flag:: True","timestamp":"2018-08-09T11:52:40.055Z"}
+{"level":"info","message":"when video processing done","timestamp":"2018-08-09T11:52:40.055Z"}
+{"0":114108,"1":840127274,"level":"info","message":"========= Timestamp after display the json to UI =====","timestamp":"2018-08-09T11:52:40.057Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T11:52:40.057Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T11:52:40.057Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T11:52:40.058Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T11:52:40.058Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T11:52:40.058Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:52:40.069Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-08-09T11:52:40.070Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:54:15.823Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T11:54:15.860Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: test_image.jpg:d32705d1f5cb715e830ddb4ec68c6964","timestamp":"2018-08-09T11:54:15.860Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-08-09T11:54:15.861Z"}
+{"level":"info","message":"complete flag:: False","timestamp":"2018-08-09T11:54:15.862Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T11:54:15.862Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T11:54:15.863Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T11:54:15.863Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T11:54:15.863Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T11:54:15.864Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:55:05.750Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T11:55:05.787Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: test_image.jpg:81f6ccf5584372367fbfc66a540bbbd5","timestamp":"2018-08-09T11:55:05.787Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-08-09T11:55:05.789Z"}
+{"level":"info","message":"complete flag:: False","timestamp":"2018-08-09T11:55:05.789Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T11:55:05.790Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T11:55:05.791Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T11:55:05.791Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T11:55:05.791Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T11:55:05.791Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:55:36.312Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T11:55:36.328Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: test_image.jpg:47eaeb95662ef2cd475e339eef044e05","timestamp":"2018-08-09T11:55:36.328Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-08-09T11:55:36.329Z"}
+{"level":"info","message":"complete flag:: False","timestamp":"2018-08-09T11:55:36.331Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T11:55:36.331Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T11:55:36.331Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T11:55:36.332Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T11:55:36.332Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T11:55:36.332Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:55:36.334Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-08-09T11:55:36.334Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-09T11:55:50.015Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:1111","timestamp":"2018-08-09T11:55:50.200Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:55:59.003Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T11:55:59.129Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: test_image.jpg:95e80530f798b8a0728b17eb016f411a","timestamp":"2018-08-09T11:55:59.130Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-08-09T11:55:59.139Z"}
+{"level":"info","message":"complete flag:: False","timestamp":"2018-08-09T11:55:59.139Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T11:55:59.140Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T11:55:59.140Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T11:55:59.140Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T11:55:59.140Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T11:55:59.141Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:55:59.161Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T11:56:29.060Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T11:56:29.110Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: test_image.jpg:af42fd22632546f93ae846dd3650096b","timestamp":"2018-08-09T11:56:29.111Z"}
+{"level":"info","message":"res::{}","timestamp":"2018-08-09T11:56:29.113Z"}
+{"level":"info","message":"complete flag:: False","timestamp":"2018-08-09T11:56:29.114Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T11:56:29.114Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T11:56:29.114Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T11:56:29.115Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T11:56:29.115Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T11:56:29.115Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T11:56:29.125Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-08-09T11:56:29.126Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-09T11:57:36.230Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:1111","timestamp":"2018-08-09T11:57:36.394Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-09T12:00:27.081Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:1111","timestamp":"2018-08-09T12:00:27.334Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T12:01:18.407Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T12:01:19.676Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: test_image.jpg:2d539f63f7f6af52659f6cebb781a5bf","timestamp":"2018-08-09T12:01:19.677Z"}
+{"level":"info","message":"res::{\"THEMES\":{\"themes\":\"transportation-motorbikes\",\"confidence\":0.9809624552726746}}","timestamp":"2018-08-09T12:01:19.684Z"}
+{"level":"info","message":"complete flag:: True","timestamp":"2018-08-09T12:01:19.684Z"}
+{"level":"info","message":"when video processing done","timestamp":"2018-08-09T12:01:19.684Z"}
+{"0":114628,"1":470704415,"level":"info","message":"========= Timestamp after display the json to UI =====","timestamp":"2018-08-09T12:01:19.687Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T12:01:19.687Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T12:01:19.688Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T12:01:19.688Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T12:01:19.689Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T12:01:19.689Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T12:01:19.716Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T12:01:32.682Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T12:01:33.828Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: test_image.jpg:4ce800d4588ea1d2ab218076d625a299","timestamp":"2018-08-09T12:01:33.828Z"}
+{"level":"info","message":"res::{\"THEMES\":{\"themes\":\"transportation-motorbikes\",\"confidence\":0.9809624552726746}}","timestamp":"2018-08-09T12:01:33.830Z"}
+{"level":"info","message":"complete flag:: True","timestamp":"2018-08-09T12:01:33.830Z"}
+{"level":"info","message":"when video processing done","timestamp":"2018-08-09T12:01:33.830Z"}
+{"0":114642,"1":615222074,"level":"info","message":"========= Timestamp after display the json to UI =====","timestamp":"2018-08-09T12:01:33.831Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T12:01:33.837Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T12:01:33.838Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T12:01:33.838Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T12:01:33.838Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T12:01:33.838Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T12:01:33.858Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-08-09T12:01:33.858Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-09T12:02:54.277Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:1111","timestamp":"2018-08-09T12:02:54.448Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-09T12:03:04.391Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:1111","timestamp":"2018-08-09T12:03:04.619Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T12:03:11.354Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T12:03:12.446Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: test_image.jpg:b1c8f6f11a8f72dd3fb1c8b45b4c2bc6","timestamp":"2018-08-09T12:03:12.447Z"}
+{"level":"info","message":"res::{\"THEMES\":{\"themes\":\"transportation-motorbikes\",\"confidence\":0.9804934859275818}}","timestamp":"2018-08-09T12:03:12.452Z"}
+{"level":"info","message":"complete flag:: True","timestamp":"2018-08-09T12:03:12.452Z"}
+{"level":"info","message":"when video processing done","timestamp":"2018-08-09T12:03:12.452Z"}
+{"level":"info","message":"========= Timestamp after display the json to UI ===== 1533816192452","timestamp":"2018-08-09T12:03:12.452Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T12:03:12.454Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T12:03:12.455Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T12:03:12.455Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T12:03:12.455Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T12:03:12.455Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T12:03:12.471Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T12:05:11.358Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T12:05:13.232Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: test_image.jpg:87d1f84379314e3c9b95972ece5d77d8","timestamp":"2018-08-09T12:05:13.232Z"}
+{"level":"info","message":"res::{\"THEMES\":{\"themes\":\"transportation-motorbikes\",\"confidence\":0.9804934859275818}}","timestamp":"2018-08-09T12:05:13.234Z"}
+{"level":"info","message":"complete flag:: True","timestamp":"2018-08-09T12:05:13.234Z"}
+{"level":"info","message":"when video processing done","timestamp":"2018-08-09T12:05:13.234Z"}
+{"level":"info","message":"========= Timestamp after display the json to UI ===== 1533816313234","timestamp":"2018-08-09T12:05:13.234Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T12:05:13.235Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T12:05:13.235Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T12:05:13.235Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T12:05:13.236Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T12:05:13.236Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T12:05:13.257Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-08-09T12:05:13.257Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-09T12:07:29.148Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:1111","timestamp":"2018-08-09T12:07:29.368Z"}
+{"level":"info","message":"Route: /user/login:","timestamp":"2018-08-09T12:07:58.435Z"}
+{"username":"gm_user_22","user_password":"gm_user_22","level":"info","message":"Parameters : req.body: ","timestamp":"2018-08-09T12:07:58.436Z"}
+{"level":"info","message":"Controller: /admin/login:","timestamp":"2018-08-09T12:07:58.439Z"}
+{"level":"info","message":"Model: /user/login:","timestamp":"2018-08-09T12:07:58.439Z"}
+{"level":"info","message":"Your lost login has been updated.","timestamp":"2018-08-09T12:07:58.632Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2018-08-09T12:07:58.633Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T12:07:59.105Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-09T12:07:59.105Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T12:07:59.105Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-09T12:07:59.106Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T12:07:59.111Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T12:08:47.919Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-09T12:08:47.919Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T12:08:47.919Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-09T12:08:47.919Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T12:08:47.921Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T12:08:47.927Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-09T12:08:47.927Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T12:08:47.927Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-09T12:08:47.927Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T12:08:47.930Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T12:08:57.850Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T12:08:58.720Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: test_image.jpg:009a5e9f42d89538bc72986402241c00","timestamp":"2018-08-09T12:08:58.720Z"}
+{"level":"info","message":"res::{\"THEMES\":{\"themes\":\"transportation-motorbikes\",\"confidence\":0.9804934859275818}}","timestamp":"2018-08-09T12:08:58.723Z"}
+{"level":"info","message":"complete flag:: True","timestamp":"2018-08-09T12:08:58.723Z"}
+{"level":"info","message":"when video processing done","timestamp":"2018-08-09T12:08:58.723Z"}
+{"level":"info","message":"========= Timestamp after display the json to UI ===== 1533816538723","timestamp":"2018-08-09T12:08:58.724Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T12:08:58.726Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T12:08:58.727Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T12:08:58.727Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T12:08:58.728Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T12:08:58.728Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T12:08:58.742Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T12:08:59.244Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-09T12:08:59.244Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T12:08:59.244Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-09T12:08:59.244Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T12:08:59.254Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T12:08:59.258Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-09T12:08:59.258Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T12:08:59.258Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-09T12:08:59.258Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T12:08:59.260Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T12:10:57.853Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T12:10:58.842Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: test_image.jpg:f39ef6819b1b5c1ab54da672230897a3","timestamp":"2018-08-09T12:10:58.842Z"}
+{"level":"info","message":"res::{\"THEMES\":{\"themes\":\"transportation-motorbikes\",\"confidence\":0.9804934859275818}}","timestamp":"2018-08-09T12:10:58.846Z"}
+{"level":"info","message":"complete flag:: True","timestamp":"2018-08-09T12:10:58.846Z"}
+{"level":"info","message":"when video processing done","timestamp":"2018-08-09T12:10:58.846Z"}
+{"level":"info","message":"========= Timestamp after display the json to UI ===== 1533816658846","timestamp":"2018-08-09T12:10:58.846Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T12:10:58.852Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T12:10:58.852Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T12:10:58.852Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T12:10:58.852Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T12:10:58.853Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T12:10:58.854Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-08-09T12:10:58.855Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T12:10:59.363Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-09T12:10:59.363Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T12:10:59.363Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-09T12:10:59.364Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T12:10:59.368Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T12:10:59.375Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-09T12:10:59.376Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T12:10:59.376Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-09T12:10:59.377Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T12:10:59.378Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T12:10:59.382Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-09T12:10:59.382Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T12:10:59.382Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-09T12:10:59.382Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T12:10:59.383Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T12:10:59.390Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-09T12:10:59.390Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T12:10:59.390Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-09T12:10:59.390Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T12:10:59.391Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T12:12:57.856Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T12:12:59.135Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: test_image.jpg:046e387b5509483119b19c482cf546ae","timestamp":"2018-08-09T12:12:59.135Z"}
+{"level":"info","message":"res::{\"THEMES\":{\"themes\":\"transportation-motorbikes\",\"confidence\":0.9804934859275818}}","timestamp":"2018-08-09T12:12:59.136Z"}
+{"level":"info","message":"complete flag:: True","timestamp":"2018-08-09T12:12:59.136Z"}
+{"level":"info","message":"when video processing done","timestamp":"2018-08-09T12:12:59.136Z"}
+{"level":"info","message":"========= Timestamp after display the json to UI ===== 1533816779136","timestamp":"2018-08-09T12:12:59.136Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T12:12:59.137Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T12:12:59.137Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T12:12:59.137Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T12:12:59.137Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T12:12:59.138Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T12:12:59.151Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-08-09T12:12:59.153Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T12:12:59.657Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-09T12:12:59.660Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T12:12:59.660Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-09T12:12:59.664Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T12:12:59.666Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T12:12:59.673Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-09T12:12:59.674Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T12:12:59.676Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-09T12:12:59.677Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T12:12:59.679Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T12:12:59.682Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-09T12:12:59.682Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T12:12:59.682Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-09T12:12:59.682Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T12:12:59.684Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T12:12:59.695Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-09T12:12:59.695Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T12:12:59.695Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-09T12:12:59.695Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T12:12:59.697Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T12:12:59.711Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-09T12:12:59.712Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T12:12:59.712Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-09T12:12:59.712Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T12:12:59.714Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T12:12:59.721Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-09T12:12:59.721Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T12:12:59.721Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-09T12:12:59.721Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T12:12:59.727Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T12:12:59.732Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-09T12:12:59.733Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T12:12:59.733Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-09T12:12:59.733Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T12:12:59.735Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-09T12:12:59.737Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-08-09T12:12:59.737Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-09T12:12:59.742Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-08-09T12:12:59.744Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-09T12:12:59.747Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-09T12:14:35.375Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:1111","timestamp":"2018-08-09T12:14:35.533Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T12:14:46.539Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T12:14:47.249Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: test_image.jpg:9fca625b6f0f9fb3b2816f91b66e8699","timestamp":"2018-08-09T12:14:47.250Z"}
+{"level":"info","message":"res::{\"THEMES\":{\"themes\":\"transportation-motorbikes\",\"confidence\":0.9804934859275818}}","timestamp":"2018-08-09T12:14:47.256Z"}
+{"level":"info","message":"complete flag:: True","timestamp":"2018-08-09T12:14:47.256Z"}
+{"level":"info","message":"when video processing done","timestamp":"2018-08-09T12:14:47.256Z"}
+{"level":"info","message":"========= Timestamp after display the json to UI ===== 1533816887256","timestamp":"2018-08-09T12:14:47.257Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T12:14:47.258Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T12:14:47.259Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T12:14:47.259Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T12:14:47.259Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T12:14:47.259Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T12:14:47.266Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-08-09T12:16:46.544Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-08-09T12:16:47.990Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: test_image.jpg:cbd3e720b40f6789edfc4d4088b49c23","timestamp":"2018-08-09T12:16:47.991Z"}
+{"level":"info","message":"res::{\"THEMES\":{\"themes\":\"transportation-motorbikes\",\"confidence\":0.9804934859275818}}","timestamp":"2018-08-09T12:16:47.993Z"}
+{"level":"info","message":"complete flag:: True","timestamp":"2018-08-09T12:16:47.993Z"}
+{"level":"info","message":"when video processing done","timestamp":"2018-08-09T12:16:47.993Z"}
+{"level":"info","message":"========= Timestamp after display the json to UI ===== 1533817007993","timestamp":"2018-08-09T12:16:47.993Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-08-09T12:16:47.994Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-08-09T12:16:47.997Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-08-09T12:16:47.997Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-08-09T12:16:47.997Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-08-09T12:16:47.997Z"}
+{"level":"info","message":"camera start status::2","timestamp":"2018-08-09T12:16:48.005Z"}
+{"level":"info","message":"********************Camera instances created***********************","timestamp":"2018-08-09T12:16:48.005Z"}

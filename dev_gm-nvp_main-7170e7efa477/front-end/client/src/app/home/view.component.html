@@ -1,0 +1,659 @@
+  <!-- header-start -->
+    <header>
+      <div class="container-fluid">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" [routerLink]="['/']">Graymatics</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+            <ul class="nav navbar-nav">
+              <li class="top-brd">
+                <a href="#">Configuration</a>
+                  <ul class="drop-down-menu supervisor-menu">
+                    <li><a href="#" [routerLink]="['/supervisor/camera/main']">Camera</a></li>
+                    <li><a href="#" [routerLink]="['/face']">Face</a></li>
+                  </ul>
+              </li>
+              <li class="top-brd">
+                <a href="#">Forensic Search</a>
+                <ul class="drop-down-menu">
+                  <li><a href="#" [routerLink]="['/security-agent/video/archived']">Archived Video</a></li>
+                  <li><a href="#" [routerLink]="['/security-agent/video/uploaded']">Uploaded Video</a></li>
+                </ul>
+              </li>
+              <li><a href="#" [routerLink]="['/reports/summary']">Reports</a></li> 
+            </ul>
+          </div><!--/.nav-collapse -->
+
+          <div class="mobile-arrange">
+            <div id="sb-search" class="sb-search sb-search-open">
+              <form (ngSubmit)="search('',1)" #f="ngForm" novalidate>
+                <input class="sb-search-input" placeholder="Search here..." name="search" id="keyword" [(ngModel)]="keyword" type="search">
+                <input class="sb-search-submit" value="" type="submit">
+                <span class="sb-icon-search"><img src="../../images/search-icon.png" alt=""></span>
+              </form>
+            </div>
+
+            <div class="dropdown profile-menu">
+              <img src="../../images/profile-image.jpg" data-toggle="dropdown" class="dropdown-toggle img-responsive" alt="profile-image">
+              <ul class="dropdown-menu">
+                <li><a>{{currentUser}}</a></li>
+                <li><a href="#" [routerLink]="['/login']">Sign out</a></li>
+              </ul>
+          </div>
+          </div>
+        </div><!--/.container-fluid -->
+      </nav>
+      </div><!--/.container-fluid -->
+    </header>
+    <!-- heder-end -->
+
+      <div id="wrapper" [class.toggled]="isParaActive">
+
+        <!-- menu-exm-start -->
+        <a (click)="menuToggle($event)" [class.toggled]="isBtnActive" id="menu-toggle">
+          <i class="fa fa-angle-left" aria-hidden="true"></i>
+        </a>
+
+        <div id="sidebar-wrapper">
+          
+
+          <!-- tab-option-start -->
+          <div class="tab-notification-area">
+
+            <div id="notification-tab"> 
+              <ul class="nav nav-tabs" [class.red-border]="red_border" [class.green-border]="green_border" [class.yellow-border]="yellow_border">
+                  <li class="red-notified" (click)="red_border=true;yellow_border=false;green_border=false" 
+                      [class.active]="red" *ngIf="red_count.count;else redDefaultCount">
+                    <a href="#1" data-toggle="tab">{{red_count.count}} ({{red_action_count.count}})</a>
+                  </li>
+                  <ng-template #redDefaultCount>
+                      <li class="red-notified" 
+                          (click)="red_border=true;yellow_border=false;green_border=false"
+                          [class.active]="red"><a href="#1" data-toggle="tab">0</a></li>
+                  </ng-template>
+                  <li class="yellow-notified"  
+                      (click)="red_border=false;yellow_border=true;green_border=false"
+                      [class.active]="yellow" *ngIf="yellow_count.count;else yellowDefaultCount">
+                    <a href="#2" data-toggle="tab">{{yellow_count.count}} ({{yellow_action_count.count}})</a>
+                  </li>
+                  <ng-template #yellowDefaultCount>
+                    <li class="yellow-notified" 
+                        (click)="red_border=false;yellow_border=true;green_border=false"
+                        [class.active]="yellow"><a href="#2" data-toggle="tab">0</a></li>
+                  </ng-template>
+                  <li class="green-notified" 
+                      (click)="red_border=false;yellow_border=false;green_border=true"
+                      [class.active]="green" *ngIf="green_count.count;else defaultCount">
+                    <a href="#3" data-toggle="tab">{{green_count.count}} ({{green_action_count.count}})</a>
+                  </li>
+                  <ng-template #defaultCount>
+                    <li class="green-notified" 
+                        (click)="red_border=false;yellow_border=false;green_border=true"
+                        [class.active]="green"><a href="#3" data-toggle="tab">0</a></li>
+                  </ng-template>
+              </ul>
+
+              <div class="tab-content">
+                <div class="tab-pane" id="1">
+                  
+                </div>
+
+                <div class="tab-pane" id="2">
+                  <div *ngFor="let m2 of msg">
+                    <div *ngIf="m2.notification_type == 'info'">
+                      <div class="yellow-notified-message notification-msg">
+                        <div class="info">
+                          <h5>{{m2.camera_type}}</h5>
+                          <span class="date">{{m2.timestamp}}</span>
+                        </div>
+                        <div class="describtion-text">
+                          <p>{{m2.notification_text}}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane active" id="3">
+             
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- tab-option-end -->
+        </div>
+        <!-- menu-exm-end -->
+
+      <div id="page-content-wrapper" class="notification-area">      
+
+        <!-- page-area-start -->
+        <div class="page-content video-frame-template">
+
+
+          <div class="container-fluid">
+
+            <section class="life-feed-video-section">
+              
+              <div class="screenshort col-xs-4">
+                <div *ngIf="recentNotification">
+                  <img width="360" height="210" src="{{recentNotification.frame}}" alt=""/>
+                </div>
+                <div *ngIf="recentNotification">
+                  {{recentNotification.message}}
+                </div>
+              </div>
+              
+              <div class="col-xs-8">
+                <div class="video-filter-area">
+                  <ul class="filtering assign-btn-filter">
+                    <li class="assign-btn">
+                      <a class="btn btn-select">
+                        <input type="hidden" class="btn-select-input" id="" name="" value="">
+                        <span class="btn-select-value" data-toggle="modal" data-target="#assign_default_popup" (click)="action(notification_id,'assign_default_popup')">assign</span>
+                        <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                        <ul style="display: none;">
+                          <!--<li class="" data-toggle="modal" data-target="#assign-popup">ASSIGN</li>-->
+                          <li class="" data-toggle="modal" data-target="#share_default_popup" (click)="action(notification_id,'share_default_popup')">SHARE</li>
+                          <li class="" data-toggle="modal" data-target="#escalate_default_popup" (click)="action(notification_id,'escalate_default_popup')">ESCALATE</li>
+                          <li class="" data-toggle="modal" data-target="#close_default_popup" (click)="action(notification_id,'close_default_popup')">CLOSE</li>
+                          <li class="" data-toggle="modal" data-target="#false_detection_popup">WRONG DETECTION</li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="filtering table-content">
+                    <!-- <li><a href="javascript:void(0)"><img src="../../images/video-back-arrow.png"></a></li> -->
+                     <li><span class="filter-label">Notification :</span> <span class="filter-value notification-msg" *ngIf="recentNotification">{{recentNotification.message}}</span></li>
+                    <li><span class="filter-label">Camera :</span> <span class="filter-value pull-right" *ngIf="recentNotification">{{recentNotification.camera_name}}</span></li>
+                    <li><span class="filter-label">Location :</span> <span class="filter-value pull-right">Entry & Exit</span></li>
+                  </ul>
+                </div>
+              </div>
+
+            </section>
+
+          
+          <!-- notification-msg-start -->
+          <div id="thumbs" class="notification-messages-error row">
+            <div class="col-lg-4 col-md-4 col-sm-4" *ngFor="let s of scene">
+              <div class="post-area">
+                <div class="video-area">
+                  <img src="{{s.frame}}" class="img-responsive" alt=""/>
+                </div>
+                <div class="green intrusion-video-info extra_padding">
+                  <p>{{s.message}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          </div>
+        </div>
+        <!-- page-area-end -->
+
+      </div>
+    </div>
+
+    <!-- popup-code-start -->
+    <div id="share-popup" class="popup-style modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              <img src="../../images/popup-close-icon.png" alt="close">
+            </button>
+            <h4 class="modal-title">Share Event</h4>
+          </div>
+          <div class="modal-body">
+            <div class="share-event-list">
+              <div class="share-list-leftside">
+                <div class="list share-list-area">
+                  <div class="share-list">
+                    <div class="list-label">Share List</div>
+                    <div class="search-share-list">
+                      <form class="share-search">
+                        <input type="text" class="btn share-input-style" placeholder="Search">
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-area">
+                  <ul>
+                    <li>
+                      <div class="checkbox checkbox-info checkbox-circle">
+                        <div class="check-option">
+                          <input class="styled" type="checkbox" ng-click="addReport(list)" ng-checked="isExists(list)">
+                          <label class="ng-binding">Ramesh Misra <br> <span class="user-mailid">ramesh.misra@graymatics.com</span></label>
+                        </div> 
+                      </div>
+                    </li>
+                    <li>
+                      <div class="checkbox checkbox-info checkbox-circle">
+                        <div class="check-option">
+                          <input class="styled" type="checkbox" ng-click="addReport(list)" ng-checked="isExists(list)">
+                          <label class="ng-binding">Anand Kumar <br> <span class="user-mailid">anand.kumar@graymatics.com</span></label>
+                        </div> 
+                      </div>
+                    </li>
+                    <li>
+                      <div class="checkbox checkbox-info checkbox-circle">
+                        <div class="check-option">
+                          <input class="styled" type="checkbox" ng-click="addReport(list)" ng-checked="isExists(list)">
+                          <label class="ng-binding">Raman Batla <br> <span class="user-mailid">raman.batla@graymatics.com</span></label>
+                        </div> 
+                      </div>
+                    </li>
+                    <li>
+                      <div class="checkbox checkbox-info checkbox-circle">
+                        <div class="check-option">
+                          <input class="styled" type="checkbox" ng-click="addReport(list)" ng-checked="isExists(list)">
+                          <label class="ng-binding">Raghuram N <br> <span class="user-mailid">raghuram.n@graymatics.com</span></label>
+                        </div> 
+                      </div>
+                    </li>
+                    <li>
+                      <div class="checkbox checkbox-info checkbox-circle">
+                        <div class="check-option">
+                          <input class="styled" type="checkbox" ng-click="addReport(list)" ng-checked="isExists(list)">
+                          <label class="ng-binding">Sridhar K <br> <span class="user-mailid">sridhar.k@graymatics.com</span></label>
+                        </div> 
+                      </div>
+                    </li>
+                    <li>
+                      <div class="checkbox checkbox-info checkbox-circle">
+                        <div class="check-option">
+                          <input class="styled" type="checkbox" ng-click="addReport(list)" ng-checked="isExists(list)">
+                          <label class="ng-binding">Albert Paul <br> <span class="user-mailid">albert.paul@graymatics.com</span></label>
+                        </div> 
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="share-list-rightside">
+                <div class="list share-select-list-area">
+                  <div class="share-list">
+                    <div class="list-label">Selected List</div>
+                    <div class="search-share-list">
+                      <button class="list-confirm-btn" type="button" data-dismiss="modal" (click)="action(notification_id)">confirm</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-area">
+                  <ul>
+                    <li>
+                      <label class="ng-binding">Ramesh Misra <br> <span class="user-mailid">ramesh.misra@graymatics.com</span></label>
+                      <span class="list-icon delete-item">
+                        <img src="../../images/delete-item-icon.png">
+                      </span>
+                    </li>
+                    <li>
+                      <label class="ng-binding">Albert Paul <br> <span class="user-mailid">albert.paul@graymatics.com</span></label>
+                      <span class="list-icon delete-item">
+                        <img src="../../images/delete-item-icon.png">
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- popup-code-end -->
+
+    <!-- Assign-Event-popup-code-start -->
+    <div id="assign-popup" class="assign-event popup-style modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              <img src="../../images/popup-close-icon.png" alt="close">
+            </button>
+            <h4 class="modal-title">Assign Event</h4>
+          </div>
+          <div class="modal-body">
+            <div class="share-event-list">
+              <div class="share-list-leftside">
+                <div class="list share-list-area">
+                  <div class="share-list">
+                    <div class="list-label">Assign List</div>
+                    <div class="search-share-list">
+                      <form class="share-search">
+                        <input type="text" class="btn share-input-style" placeholder="Search">
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-area">
+                  <ul>
+                    <li>
+                      <div class="checkbox checkbox-info checkbox-circle">
+                        <div class="check-option">
+                          <input class="styled" type="checkbox" ng-click="addReport(list)" ng-checked="isExists(list)">
+                          <label class="ng-binding">Ramesh Misra <br> <span class="user-mailid">ramesh.misra@graymatics.com</span></label>
+                        </div> 
+                      </div>
+                    </li>
+                    <li>
+                      <div class="checkbox checkbox-info checkbox-circle">
+                        <div class="check-option">
+                          <input class="styled" type="checkbox" ng-click="addReport(list)" ng-checked="isExists(list)">
+                          <label class="ng-binding">Anand Kumar <br> <span class="user-mailid">anand.kumar@graymatics.com</span></label>
+                        </div> 
+                      </div>
+                    </li>
+                    <li>
+                      <div class="checkbox checkbox-info checkbox-circle">
+                        <div class="check-option">
+                          <input class="styled" type="checkbox" ng-click="addReport(list)" ng-checked="isExists(list)">
+                          <label class="ng-binding">Raman Batla <br> <span class="user-mailid">raman.batla@graymatics.com</span></label>
+                        </div> 
+                      </div>
+                    </li>
+                    <li>
+                      <div class="checkbox checkbox-info checkbox-circle">
+                        <div class="check-option">
+                          <input class="styled" type="checkbox" ng-click="addReport(list)" ng-checked="isExists(list)">
+                          <label class="ng-binding">Raghuram N <br> <span class="user-mailid">raghuram.n@graymatics.com</span></label>
+                        </div> 
+                      </div>
+                    </li>
+                    <li>
+                      <div class="checkbox checkbox-info checkbox-circle">
+                        <div class="check-option">
+                          <input class="styled" type="checkbox" ng-click="addReport(list)" ng-checked="isExists(list)">
+                          <label class="ng-binding">Sridhar K <br> <span class="user-mailid">sridhar.k@graymatics.com</span></label>
+                        </div> 
+                      </div>
+                    </li>
+                    <li>
+                      <div class="checkbox checkbox-info checkbox-circle">
+                        <div class="check-option">
+                          <input class="styled" type="checkbox" ng-click="addReport(list)" ng-checked="isExists(list)">
+                          <label class="ng-binding">Albert Paul <br> <span class="user-mailid">albert.paul@graymatics.com</span></label>
+                        </div> 
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="share-list-rightside">
+                <div class="list share-select-list-area">
+                  <div class="share-list">
+                    <div class="list-label">Selected List</div>
+                    <div class="search-share-list">
+                      <button class="list-confirm-btn" type="button" data-dismiss="modal" data-dismiss="modal" (click)="action(notification_id)">confirm</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-area">
+                  <ul>
+                    <li>
+                      <label class="ng-binding">Ramesh Misra <br> <span class="user-mailid">ramesh.misra@graymatics.com</span></label>
+                      <span class="list-icon delete-item">
+                        <img src="../../images/delete-item-icon.png">
+                      </span>
+                    </li>
+                    <li>
+                      <label class="ng-binding">Albert Paul <br> <span class="user-mailid">albert.paul@graymatics.com</span></label>
+                      <span class="list-icon delete-item">
+                        <img src="../../images/delete-item-icon.png">
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- popup-code-end -->
+
+    <!-- Escalation-Event-popup-code-start -->
+    <div id="escalation-popup" class="escalation-event popup-style modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              <img src="../../images/popup-close-icon.png" alt="close">
+            </button>
+            <h4 class="modal-title">Escalation Event</h4>
+          </div>
+          <div class="modal-body">
+            <div class="share-event-list">
+              <div class="share-list-leftside">
+                <div class="list share-list-area">
+                  <div class="share-list">
+                    <div class="list-label">Escalation List</div>
+                    <div class="search-share-list">
+                      <form class="share-search">
+                        <input type="text" class="btn share-input-style" placeholder="Search">
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-area">
+                  <ul>
+                    <li>
+                      <div class="checkbox checkbox-info checkbox-circle">
+                        <div class="check-option">
+                          <input class="styled" type="checkbox" ng-click="addReport(list)" ng-checked="isExists(list)">
+                          <label class="ng-binding">Ramesh Misra <br> <span class="user-mailid">ramesh.misra@graymatics.com</span></label>
+                        </div> 
+                      </div>
+                    </li>
+                    <li>
+                      <div class="checkbox checkbox-info checkbox-circle">
+                        <div class="check-option">
+                          <input class="styled" type="checkbox" ng-click="addReport(list)" ng-checked="isExists(list)">
+                          <label class="ng-binding">Anand Kumar <br> <span class="user-mailid">anand.kumar@graymatics.com</span></label>
+                        </div> 
+                      </div>
+                    </li>
+                    <li>
+                      <div class="checkbox checkbox-info checkbox-circle">
+                        <div class="check-option">
+                          <input class="styled" type="checkbox" ng-click="addReport(list)" ng-checked="isExists(list)">
+                          <label class="ng-binding">Raman Batla <br> <span class="user-mailid">raman.batla@graymatics.com</span></label>
+                        </div> 
+                      </div>
+                    </li>
+                    <li>
+                      <div class="checkbox checkbox-info checkbox-circle">
+                        <div class="check-option">
+                          <input class="styled" type="checkbox" ng-click="addReport(list)" ng-checked="isExists(list)">
+                          <label class="ng-binding">Raghuram N <br> <span class="user-mailid">raghuram.n@graymatics.com</span></label>
+                        </div> 
+                      </div>
+                    </li>
+                    <li>
+                      <div class="checkbox checkbox-info checkbox-circle">
+                        <div class="check-option">
+                          <input class="styled" type="checkbox" ng-click="addReport(list)" ng-checked="isExists(list)">
+                          <label class="ng-binding">Sridhar K <br> <span class="user-mailid">sridhar.k@graymatics.com</span></label>
+                        </div> 
+                      </div>
+                    </li>
+                    <li>
+                      <div class="checkbox checkbox-info checkbox-circle">
+                        <div class="check-option">
+                          <input class="styled" type="checkbox" ng-click="addReport(list)" ng-checked="isExists(list)">
+                          <label class="ng-binding">Albert Paul <br> <span class="user-mailid">albert.paul@graymatics.com</span></label>
+                        </div> 
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="share-list-rightside">
+                <div class="list share-select-list-area">
+                  <div class="share-list">
+                    <div class="list-label">Selected List</div>
+                    <div class="search-share-list">
+                      <button class="list-confirm-btn" type="button" data-dismiss="modal" (click)="action(notification_id)">confirm</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-area">
+                  <ul>
+                    <li>
+                      <label class="ng-binding">Ramesh Misra <br> <span class="user-mailid">ramesh.misra@graymatics.com</span></label>
+                      <span class="list-icon delete-item">
+                        <img src="../../images/delete-item-icon.png">
+                      </span>
+                    </li>
+                    <li>
+                      <label class="ng-binding">Albert Paul <br> <span class="user-mailid">albert.paul@graymatics.com</span></label>
+                      <span class="list-icon delete-item">
+                        <img src="../../images/delete-item-icon.png">
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- popup-code-end -->
+     
+    <!-- false-detection-popup-start -->
+    <!-- Escalation-Event-popup-code-start -->
+    <div id="old" data-backdrop="false" class="popup-style modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">False Detection</h4>
+          </div>
+          <div class="modal-body">
+            <div class="detection-image-area" *ngIf="recentNotification">
+              <img height="515" width="550" src="{{recentNotification.frame}}" alt=""/>
+              <div class="footage-detection-area"></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn close-detection-btn" data-dismiss="modal">cancel</button>
+            <button type="button" class="btn list-confirm-btn save-detection-btn" data-dismiss="modal">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- false-detection-popup-end -->
+
+    <div class="modal fade" id="false_detection_popup" data-backdrop="false" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">False Detection</h4>
+          </div>
+          <div class="modal-body">
+            <div *ngIf="recentNotification">
+              <img height="515" width="550" src="{{recentNotification.frame}}" alt=""/>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn close-detection-btn" data-dismiss="modal">cancel</button>
+            <button type="button" class="btn list-confirm-btn save-detection-btn" data-dismiss="modal" (click)="action(notification_id,'false_detection_popup')">Submit</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- default popup for now -->
+    <div class="modal fade" id="assign_default_popup" data-backdrop="false" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Assign Event</h4>
+          </div>
+          <div class="modal-body">
+            <p>Assigned for followup action</p>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!-- popup-code-end -->
+
+     <!-- default popup for now -->
+    <div class="modal fade" id="share_default_popup" data-backdrop="false" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Share Event</h4>
+          </div>
+          <div class="modal-body">
+            <p>Shared with concerned resources</p>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!-- popup-code-end -->
+
+     <!-- default popup for now -->
+    <div class="modal fade" id="escalate_default_popup" data-backdrop="false" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Escalate Event</h4>
+          </div>
+          <div class="modal-body">
+            <p>Escalated to the relevant authorities</p>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!-- popup-code-end -->
+
+     <!-- default popup for now -->
+    <div class="modal fade" id="close_default_popup" data-backdrop="false" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Close Event</h4>
+          </div>
+          <div class="modal-body">
+            <p>Ticket Closed</p>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!-- popup-code-end -->
+
+    <section class="breadcrumbs"> 
+      <div class="container-fluid">
+        <ul>
+            <li class="active"><a [routerLink]="['/']" href="#">Home</a></li>
+           <li><a href="">View Notification</a></li>
+          <!--<li><a href="">Camera</a></li>
+          <li class="active"><a href="">Add Camera</a></li> -->
+        </ul>
+      </div>
+    </section>

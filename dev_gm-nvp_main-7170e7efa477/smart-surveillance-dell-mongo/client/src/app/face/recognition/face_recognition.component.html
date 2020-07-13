@@ -1,0 +1,151 @@
+        <!-- header-start -->
+    <header class="admin-header">
+        <div class="container-fluid">
+        <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" [routerLink]="['/']">Graymatics</a>            
+            </div>
+            <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+                <ul class="nav navbar-nav">
+                    <li class="top-brd">
+                        <a href="#">Configuration</a>
+                        <ul class="drop-down-menu supervisor-menu">
+                        <li><a href="#" [routerLink]="['/supervisor/camera/main']">Camera</a></li>
+                        <li><a href="#" [routerLink]="['/face/recognition']">Face Recognition</a></li>
+                        <li><a href="#" [routerLink]="['/vehicle/recognition']">Vehicle Recognition</a></li>
+                        <li><a href="#" [routerLink]="['/configuration/alerts']">Alerts</a></li>
+                        <li><a href="#" [routerLink]="['/configuration/notifications']">Notifications</a></li>
+                        <!-- <li><a href="#" [routerLink]="['/face/training']">Face</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="top-brd">
+                        <a href="#">Forensic Search</a>
+                        <ul class="drop-down-menu">
+                        <li><a href="#" [routerLink]="['/security-agent/video/archived']">Archived Video</a></li>
+                        <li><a href="#" [routerLink]="['/security-agent/video/uploaded']">Uploaded Video</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" [routerLink]="['/reports/summary']">Reports</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+
+            <div class="mobile-arrange">
+                <div id="sb-search" class="sb-search sb-search-open">
+                <form (ngSubmit)="search()" #f="ngForm" novalidate>
+                    <input class="sb-search-input" placeholder="Search here..." name="search" id="keyword" [(ngModel)]="keyword" type="search">
+                    <input class="sb-search-submit" value="" type="submit">
+                    <span class="sb-icon-search"><img src="../../../images/search-icon.png" alt=""></span>
+                </form>
+                </div>
+
+                <div class="dropdown profile-menu">
+                    <img src="../../../images/profile-image.jpg" data-toggle="dropdown" class="dropdown-toggle img-responsive" alt="profile-image">
+                    <ul class="dropdown-menu">
+                        <li><a>{{currentUser}}</a></li>
+                        <li><a href="#" [routerLink]="['/login']">Sign out</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div><!--/.container-fluid -->
+        </nav>
+        </div><!--/.main container-fluid --> 
+    </header>
+    <!-- header-end -->
+
+    <!-- admin-page-content-start -->
+    <div class="admin-page-content camera-view-page-content camera-reassign-content">
+    	
+    	<div class="user-list-cta">
+        <button id="editid" type="button" class="admin-btn edit-btn active pull-left" [routerLink]="['/face/recognition/add']">+ Add New Face</button>
+        <!-- <button id="editid" type="button" class="admin-btn edit-btn active" data-toggle="modal" data-target="#face-recognition-popup">bulk upload</button> -->
+        <!-- <button id="editid" type="button" class="admin-btn delete-btn active">delete</button> -->
+    	</div>
+
+    	<div class="user-list-area editable-list">
+    		<table class="table">
+				<thead>
+				    <tr>
+				        <th>list id</th>
+                        <th>list name</th>
+                        <th>subject name</th>
+                        <th>age</th>
+                        <th>gender</th>
+                        <th>Ethnicity</th>
+				    </tr>
+				</thead>
+			<tbody>
+            <tr *ngFor="let f of face_list">
+                <td id={{f._id}} (click)="faceView(f)">{{f._id}}</td>
+                <td>{{f.subject_type}}</td>
+                <td (click)="faceView(f)">{{f.name}}</td>
+                <td>{{f.age}}</td>
+                <td>{{f.gender}}</td>
+                <td>{{f.ethnicity}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- admin-page-content-end -->
+
+
+    <!-- Modal -->
+    <!-- Escalation-Event-popup-code-start -->
+    <div id="bulk-upload-popup" class="cmn-modal-body popup-style modal fade" role="dialog">
+        <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+<!--           <div class="modal-header">
+            <h4 class="modal-title">False Detection</h4>
+            </div> -->
+            <div class="modal-body">
+
+            <div class="drag-drop-video-area">
+            <div class="file-drag-area">
+                <div class="drag-icon-img">
+                <img src="../../../images/drag-drop-icon.png" class="img-responsive" alt="drag drop icon">
+                <h3>Drag &amp; Drop</h3>
+                <h5>image files /Enter URL/ Click to browse and upload</h5>
+                <form class="ng-pristine ng-valid">
+                    <span>
+                    <label class="file-browse-cta" for="upload-file-selector">
+                        <input id="upload-file-selector" class="file-browse-cta" type="file">Browse
+                    </label>
+                    </span>
+                    </form>
+                <!-- <input type="file" class=""></button> -->
+                </div>
+            </div>
+            </div>
+
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn list-confirm-btn save-detection-btn" data-dismiss="modal">Submit</button>
+            <button id="editid" type="button" class="admin-btn delete-btn" style="padding: 7px 25px; margin-right: 20px;
+" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    <!-- false-detection-popup-end -->
+                    <section class="breadcrumbs"> 
+        <div class="container-fluid">
+        <ul>
+            <li class="active"><a href="" [routerLink]="['/']">Configuration</a></li>
+            <li><a href="">Face</a></li>
+            <!-- <li><a href="">Configuration</a></li>
+            <li><a href="">Camera</a></li>
+            <li class="active"><a href="">Add Camera</a></li> -->
+        </ul>
+        </div>
+    </section>

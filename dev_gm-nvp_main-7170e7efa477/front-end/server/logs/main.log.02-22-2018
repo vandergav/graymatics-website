@@ -1,0 +1,11 @@
+{"level":"info","message":"App starting.","timestamp":"2018-02-22T12:07:56.714Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-22T12:07:56.948Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-02-22T12:08:19.689Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"keyword\":\"people\"}","timestamp":"2018-02-22T12:08:19.690Z"}
+{"level":"info","message":"Controller: executing getSearchResults() ","timestamp":"2018-02-22T12:08:19.690Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-02-22T12:08:34.318Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"keyword\":\"vehicel\"}","timestamp":"2018-02-22T12:08:34.319Z"}
+{"level":"info","message":"Controller: executing getSearchResults() ","timestamp":"2018-02-22T12:08:34.319Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-02-22T12:08:39.605Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"keyword\":\"vehicle\"}","timestamp":"2018-02-22T12:08:39.606Z"}
+{"level":"info","message":"Controller: executing getSearchResults() ","timestamp":"2018-02-22T12:08:39.606Z"}

@@ -1,0 +1,42 @@
+﻿<div class="background-image"></div>
+    <div id="login-page">   
+
+      <!-- login-form-start -->
+      <div class="login-area">
+
+        <!-- title-area-start -->
+        <div class="title-area">
+          <h4>Graymatics</h4>
+        </div>
+        <!-- title-area-end -->
+      
+        <div class="form-title">
+          <h4>Welcome! Please login.</h4>
+        </div>
+        <alert></alert>
+        <form role="form" data-toggle="validator" class="login common-style-form" (ngSubmit)="f.form.valid && login()" #f="ngForm" novalidate>
+          <div class="form-group" [ngClass]="{ 'has-error': f.submitted && !username.valid }">
+            <label for="username">user name</label>
+            <input type="text" class="form-control" id="username" name="username" [(ngModel)]="model.username" #username="ngModel" required>
+            <div *ngIf="f.submitted && !username.valid" class="help-block">Username is required</div>
+          </div>
+          <div class="form-group" [ngClass]="{ 'has-error': f.submitted && !password.valid }">
+            <label for="password">password</label>
+            <input type="password" class="form-control" id="password" name="password" [(ngModel)]="model.password" #password="ngModel" required>
+            <div *ngIf="f.submitted && !password.valid" class="help-block">Password is required</div>
+            <div class="forget-link pull-left">
+              <a [routerLink]="['/register']">Registration</a>
+            </div>
+            <div class="forget-link pull-right">
+              <a [routerLink]="['/forgot']">forget password?</a>
+            </div>
+          </div>
+          <div class="submit-btn">
+            <button type="submit" class="form-btn btn" value="submit">Login</button>
+          </div>
+        </form>
+      </div>
+      <!-- login-form-end -->
+
+
+    </div>

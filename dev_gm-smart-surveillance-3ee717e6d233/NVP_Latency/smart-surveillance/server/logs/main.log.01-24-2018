@@ -1,0 +1,152 @@
+{"level":"info","message":"App starting.","timestamp":"2018-01-24T04:39:12.377Z"}
+{"level":"info","message":"Application is running: http://34.203.198.167:9999","timestamp":"2018-01-24T04:39:15.356Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-01-24T04:55:40.622Z"}
+{"level":"info","message":"Application is running: http://34.203.198.167:9999","timestamp":"2018-01-24T04:55:40.784Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-01-24T04:56:03.713Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-01-24T04:56:03.876Z"}
+{"level":"info","message":"Route: /user/login:","timestamp":"2018-01-24T05:12:24.327Z"}
+{"username":"supervisor","user_password":"supervisor","level":"info","message":"Parameters : req.body: ","timestamp":"2018-01-24T05:12:24.329Z"}
+{"level":"info","message":"Controller: /admin/login:","timestamp":"2018-01-24T05:12:24.333Z"}
+{"level":"info","message":"Model: /user/login:","timestamp":"2018-01-24T05:12:24.334Z"}
+{"level":"error","message":"SELECT * FROM `users` WHERE `username` = 'supervisor':Invalid username or password. Please try again.","timestamp":"2018-01-24T05:12:24.540Z"}
+{"level":"info","message":"Route: /user/login:","timestamp":"2018-01-24T05:12:35.091Z"}
+{"username":"superviser","user_password":"superviser","level":"info","message":"Parameters : req.body: ","timestamp":"2018-01-24T05:12:35.091Z"}
+{"level":"info","message":"Controller: /admin/login:","timestamp":"2018-01-24T05:12:35.092Z"}
+{"level":"info","message":"Model: /user/login:","timestamp":"2018-01-24T05:12:35.093Z"}
+{"level":"info","message":"Your lost login has been updated.","timestamp":"2018-01-24T05:12:35.426Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2018-01-24T05:12:35.426Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-01-24T05:13:00.538Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"28\"}","timestamp":"2018-01-24T05:13:00.539Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-01-24T05:13:00.539Z"}
+{"level":"info","message":"Model Parameters : req.params: 28","timestamp":"2018-01-24T05:13:00.540Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-01-24T05:13:00.591Z"}
+{"level":"info","message":"camera list :: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2018-01-24T05:13:00.592Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-01-24T05:13:03.532Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"28\"}","timestamp":"2018-01-24T05:13:03.532Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-01-24T05:13:03.532Z"}
+{"level":"info","message":"Model Parameters : req.params: 28","timestamp":"2018-01-24T05:13:03.533Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-01-24T05:13:03.539Z"}
+{"level":"info","message":"camera list :: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2018-01-24T05:13:03.539Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-01-24T05:22:11.877Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"28\"}","timestamp":"2018-01-24T05:22:11.877Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-01-24T05:22:11.877Z"}
+{"level":"info","message":"Model Parameters : req.params: 28","timestamp":"2018-01-24T05:22:11.878Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-01-24T05:22:11.883Z"}
+{"level":"info","message":"camera list :: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2018-01-24T05:22:11.883Z"}
+{"level":"info","message":"Route: /user/login:","timestamp":"2018-01-24T05:29:03.294Z"}
+{"username":"gm_user_22","user_password":"gm_user_22","level":"info","message":"Parameters : req.body: ","timestamp":"2018-01-24T05:29:03.295Z"}
+{"level":"info","message":"Controller: /admin/login:","timestamp":"2018-01-24T05:29:03.298Z"}
+{"level":"info","message":"Model: /user/login:","timestamp":"2018-01-24T05:29:03.298Z"}
+{"level":"info","message":"Your lost login has been updated.","timestamp":"2018-01-24T05:29:03.500Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2018-01-24T05:29:03.500Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-01-24T05:29:03.942Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-01-24T05:29:03.942Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-01-24T05:29:03.942Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-01-24T05:29:03.942Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-01-24T05:29:03.949Z"}
+{"level":"info","message":"camera list :: [object Object]","timestamp":"2018-01-24T05:29:03.950Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-01-24T05:29:04.466Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-01-24T05:29:04.513Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"INTRUSION\"}","timestamp":"2018-01-24T05:29:04.514Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-01-24T05:29:04.514Z"}
+{"user_id":"22","type":"INTRUSION","level":"info","message":"","timestamp":"2018-01-24T05:29:04.514Z"}
+{"user_id":"22","type":"INTRUSION","start_time":"2018-01-24","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-01-24T05:29:04.515Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-01-24T05:29:04.517Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"INTRUSION\"}","timestamp":"2018-01-24T05:29:04.517Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-01-24T05:29:04.522Z"}
+{"user_id":"22","type":"INTRUSION","level":"info","message":"","timestamp":"2018-01-24T05:29:04.522Z"}
+{"user_id":"22","type":"INTRUSION","start_time":"2018-01-24","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-01-24T05:29:04.523Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-01-24T05:29:04.524Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2018-01-24T05:29:04.524Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-01-24T05:29:04.524Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2018-01-24T05:29:04.525Z"}
+{"user_id":"22","type":"People_Count","start_time":"2018-01-24","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-01-24T05:29:04.525Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-01-24T05:29:04.525Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2018-01-24T05:29:04.526Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-01-24T05:29:04.526Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2018-01-24T05:29:04.526Z"}
+{"user_id":"22","type":"People_Count","start_time":"2018-01-24","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-01-24T05:29:04.527Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-01-24T05:29:04.527Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2018-01-24T05:29:04.528Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-01-24T05:29:04.528Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2018-01-24T05:29:04.528Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2018-01-24","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-01-24T05:29:04.528Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-01-24T05:29:04.622Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-01-24T05:29:04.625Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-01-24T05:29:04.627Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2018-01-24T05:29:04.627Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-01-24T05:29:04.628Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2018-01-24T05:29:04.628Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2018-01-24","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-01-24T05:29:04.629Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-01-24T05:29:04.629Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-01-24T05:29:04.630Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-01-24T05:29:04.651Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-01-24T05:29:04.655Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-01-24T05:29:04.658Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-01-24T05:29:04.661Z"}
+{"level":"info","message":"Route: /reports/summary:","timestamp":"2018-01-24T05:29:12.959Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-01-24T05:29:12.960Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-01-24T05:31:04.469Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-01-24T05:33:04.473Z"}
+{"level":"info","message":"Route: /reports/summary:","timestamp":"2018-01-24T05:52:48.383Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-01-24T05:52:48.383Z"}
+{"level":"info","message":"Route: /user/login:","timestamp":"2018-01-24T05:53:13.360Z"}
+{"username":"superviser","user_password":"superviser","level":"info","message":"Parameters : req.body: ","timestamp":"2018-01-24T05:53:13.361Z"}
+{"level":"info","message":"Controller: /admin/login:","timestamp":"2018-01-24T05:53:13.361Z"}
+{"level":"info","message":"Model: /user/login:","timestamp":"2018-01-24T05:53:13.361Z"}
+{"level":"info","message":"Your lost login has been updated.","timestamp":"2018-01-24T05:53:13.588Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2018-01-24T05:53:13.588Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-01-24T05:53:50.972Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"28\"}","timestamp":"2018-01-24T05:53:50.973Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-01-24T05:53:50.973Z"}
+{"level":"info","message":"Model Parameters : req.params: 28","timestamp":"2018-01-24T05:53:50.974Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-01-24T05:53:50.976Z"}
+{"level":"info","message":"camera list :: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2018-01-24T05:53:50.976Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-01-24T05:56:09.010Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"28\"}","timestamp":"2018-01-24T05:56:09.011Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-01-24T05:56:09.011Z"}
+{"level":"info","message":"Model Parameters : req.params: 28","timestamp":"2018-01-24T05:56:09.011Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-01-24T05:56:09.018Z"}
+{"level":"info","message":"camera list :: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2018-01-24T05:56:09.018Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-01-24T05:56:33.022Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"28\"}","timestamp":"2018-01-24T05:56:33.023Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-01-24T05:56:33.023Z"}
+{"level":"info","message":"Model Parameters : req.params: 28","timestamp":"2018-01-24T05:56:33.024Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-01-24T05:56:33.026Z"}
+{"level":"info","message":"camera list :: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2018-01-24T05:56:33.027Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-01-24T05:56:40.532Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"28\"}","timestamp":"2018-01-24T05:56:40.533Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-01-24T05:56:40.534Z"}
+{"level":"info","message":"Model Parameters : req.params: 28","timestamp":"2018-01-24T05:56:40.534Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-01-24T05:56:40.538Z"}
+{"level":"info","message":"camera list :: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2018-01-24T05:56:40.538Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-01-24T05:57:11.488Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"28\"}","timestamp":"2018-01-24T05:57:11.488Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-01-24T05:57:11.488Z"}
+{"level":"info","message":"Model Parameters : req.params: 28","timestamp":"2018-01-24T05:57:11.489Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-01-24T05:57:11.494Z"}
+{"level":"info","message":"camera list :: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2018-01-24T05:57:11.495Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-01-24T05:57:54.450Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"28\"}","timestamp":"2018-01-24T05:57:54.451Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-01-24T05:57:54.451Z"}
+{"level":"info","message":"Model Parameters : req.params: 28","timestamp":"2018-01-24T05:57:54.451Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-01-24T05:57:54.452Z"}
+{"level":"info","message":"camera list :: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2018-01-24T05:57:54.453Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-01-24T06:50:17.240Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"28\"}","timestamp":"2018-01-24T06:50:17.242Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-01-24T06:50:17.243Z"}
+{"level":"info","message":"Model Parameters : req.params: 28","timestamp":"2018-01-24T06:50:17.243Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-01-24T06:50:17.249Z"}
+{"level":"info","message":"camera list :: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2018-01-24T06:50:17.249Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-01-24T08:53:31.610Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"28\"}","timestamp":"2018-01-24T08:53:31.610Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-01-24T08:53:31.610Z"}
+{"level":"info","message":"Model Parameters : req.params: 28","timestamp":"2018-01-24T08:53:31.610Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-01-24T08:53:31.613Z"}
+{"level":"info","message":"camera list :: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]","timestamp":"2018-01-24T08:53:31.613Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-01-24T08:53:32.136Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-01-24T08:53:32.138Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-01-24T08:53:32.143Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-01-24T08:53:32.145Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-01-24T08:53:32.149Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-01-24T08:53:32.152Z"}

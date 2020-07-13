@@ -1,0 +1,140 @@
+  <!-- header-start -->
+<header class="admin-header">
+    <div class="container-fluid">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" [routerLink]="['/']">Graymatics</a>            
+                </div>
+                <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+                <ul class="nav navbar-nav">
+                    <li class="top-brd">
+                        <a href="#">Configuration</a>
+                          <ul class="drop-down-menu supervisor-menu">
+                            <li><a href="#" [routerLink]="['/supervisor/camera/main']">Camera</a></li>
+                            <li><a href="#" [routerLink]="['/face']">Face</a></li>
+                          </ul>
+                      </li>
+                      <li class="top-brd">
+                        <a href="#">Forensic Search</a>
+                        <ul class="drop-down-menu">
+                          <li><a href="#" [routerLink]="['/security-agent/video/archived']">Archived Video</a></li>
+                          <li><a href="#" [routerLink]="['/security-agent/video/uploaded']">Uploaded Video</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#" [routerLink]="['/reports/summary']">Reports</a></li>
+                </ul>
+                </div><!--/.nav-collapse -->
+    
+                <div class="mobile-arrange">
+                    <div id="sb-search" class="sb-search sb-search-open">
+                        <form (ngSubmit)="search()" #f="ngForm" novalidate>
+                            <input class="sb-search-input" placeholder="Search here..." name="search" id="keyword" [(ngModel)]="keyword" type="search">
+                            <input class="sb-search-submit" value="" type="submit">
+                            <span class="sb-icon-search"><img src="../../images/search-icon.png" alt=""></span>
+                        </form>
+                    </div>
+    
+                <div class="dropdown profile-menu">
+                    <img src="../../images/profile-image.jpg" data-toggle="dropdown" class="dropdown-toggle img-responsive" alt="profile-image">
+                    <ul class="dropdown-menu">
+                        <li><a>{{currentUser}}</a></li>
+                        <li><a href="#" [routerLink]="['/login']">Sign out</a></li>
+                    </ul>
+                </div>
+                </div>
+  
+            </div><!--/.container-fluid -->
+        </nav>
+         </div><!--/.main-container-fluid -->
+      </header>
+      <!-- header-end -->
+  
+    <!-- upload-video-section-start -->
+    <div class="upload-video-area">
+        <div class="add-subject-area">
+        <div class="upload-video-info">
+            <div class="upload-leftside-area">
+        <div class="row">
+            <div class="col-xs-2">
+                <button class="admin-btn edit-btn" data-toggle="modal" data-target="#add-subject-ftp-upload-popup"> Live Camera </button>
+                <!-- <button class="admin-btn edit-btn" (click)="stopRecording()"> Stop </button>
+                <button class="admin-btn edit-btn" (click)="upload()"> Upload </button> -->
+            </div>
+            <!-- <div id="myProgress" #myProgress>
+                <div id="myBar" #myBar></div>
+            </div> -->
+        </div>
+        <br>
+        <!-- <div class="row">
+            <div class="col-xs-12">
+                <video #video class="video"></video>
+            </div>
+        </div> -->
+        </div>
+        </div>
+        </div>
+    </div>
+        
+    <!-- section-breadcumbs-end -->
+    <section class="breadcrumbs"> 
+        <div class="container-fluid">
+        <ul>
+            <li class="active"><a href="">Configuration</a></li>
+            <!-- <li><a href="">Configuration</a></li>
+            <li><a href="">Camera</a></li>
+            <li class="active"><a href="">Add Camera</a></li> -->
+        </ul>
+        </div>
+    </section>
+
+    <!-- upload-video-section-end -->
+
+    <div id="add-subject-ftp-upload-popup" class="cmn-modal-body popup-style modal fade" role="dialog">
+            <div class="modal-dialog">
+    
+            <!-- Modal content-->
+            <div class="modal-content">
+    <!--           <div class="modal-header">
+                <h4 class="modal-title">False Detection</h4>
+                </div> -->
+                <div class="modal-body">
+    
+                    <!-- upload-video-section-start -->
+                    <div class="upload-video-area">
+                            <div class="add-subject-area">
+                            <div class="upload-video-info">
+                                <div class="upload-leftside-area">
+                            <div class="row">
+                                <div class="col-xs-2">
+                                        <button class="admin-btn edit-btn" (click)="startRecording()"> Start </button>
+                                        <!-- <button class="admin-btn edit-btn" (click)="stopRecording()"> Stop </button>
+                                        <button class="admin-btn edit-btn" (click)="upload()"> Upload </button> -->
+                                </div>
+                                <div id="myProgress" #myProgress>
+                                    <div id="myBar" #myBar></div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <video #video class="video"></video>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                    </div>
+    
+                </div>
+            </div>
+    
+            </div>
+        </div>
+        <!-- false-detection-popup-end -->

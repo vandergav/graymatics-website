@@ -1,0 +1,1280 @@
+{"level":"info","message":"App starting.","timestamp":"2018-03-15T09:00:27.023Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:9999","timestamp":"2018-03-15T09:00:28.502Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-03-15T09:00:51.284Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-03-15T09:00:51.285Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-03-15T09:00:51.285Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-03-15T09:00:51.287Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-03-15T09:00:51.299Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:00:51.944Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:00:52.023Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:00:52.049Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:00:52.052Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:00:52.056Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:00:52.063Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:00:55.044Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:00:55.048Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:00:55.051Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:00:55.056Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:00:55.059Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:00:55.061Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:00:58.105Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:00:58.108Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:00:58.114Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:00:58.115Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:00:58.117Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:00:58.122Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:01:01.181Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:01:01.184Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:01:01.188Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:01:01.189Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:01:01.191Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:01:01.193Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:01:04.244Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-03-15T09:01:04.247Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"INTRUSION\"}","timestamp":"2018-03-15T09:01:04.247Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-03-15T09:01:04.247Z"}
+{"user_id":"22","type":"INTRUSION","level":"info","message":"","timestamp":"2018-03-15T09:01:04.250Z"}
+{"user_id":"22","type":"INTRUSION","start_time":"2018-03-15","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-03-15T09:01:04.251Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-03-15T09:01:04.254Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"INTRUSION\"}","timestamp":"2018-03-15T09:01:04.254Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-03-15T09:01:04.255Z"}
+{"user_id":"22","type":"INTRUSION","level":"info","message":"","timestamp":"2018-03-15T09:01:04.255Z"}
+{"user_id":"22","type":"INTRUSION","start_time":"2018-03-15","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-03-15T09:01:04.255Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:01:04.257Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-03-15T09:01:04.258Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2018-03-15T09:01:04.258Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-03-15T09:01:04.258Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2018-03-15T09:01:04.258Z"}
+{"user_id":"22","type":"People_Count","start_time":"2018-03-15","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-03-15T09:01:04.259Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-03-15T09:01:04.260Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2018-03-15T09:01:04.260Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-03-15T09:01:04.261Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2018-03-15T09:01:04.261Z"}
+{"user_id":"22","type":"People_Count","start_time":"2018-03-15","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-03-15T09:01:04.262Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-03-15T09:01:04.263Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-03-15T09:01:04.265Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-03-15T09:01:04.268Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2018-03-15T09:01:04.268Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-03-15T09:01:04.269Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2018-03-15T09:01:04.269Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2018-03-15","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-03-15T09:01:04.270Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-03-15T09:01:04.273Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-03-15T09:01:04.275Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-03-15T09:01:04.275Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-03-15T09:01:04.299Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-03-15T09:01:04.301Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2018-03-15T09:01:04.301Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-03-15T09:01:04.301Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2018-03-15T09:01:04.302Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2018-03-15","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-03-15T09:01:04.303Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-03-15T09:01:04.308Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-03-15T09:01:04.309Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-03-15T09:03:36.117Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:9999","timestamp":"2018-03-15T09:03:36.281Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-03-15T09:03:55.150Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-03-15T09:03:55.150Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-03-15T09:03:55.151Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-03-15T09:03:55.151Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-03-15T09:03:55.157Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-03-15T09:03:55.696Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"INTRUSION\"}","timestamp":"2018-03-15T09:03:55.698Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-03-15T09:03:55.699Z"}
+{"user_id":"22","type":"INTRUSION","level":"info","message":"","timestamp":"2018-03-15T09:03:55.700Z"}
+{"user_id":"22","type":"INTRUSION","start_time":"2018-03-15","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-03-15T09:03:55.701Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-03-15T09:03:55.705Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-03-15T09:03:55.710Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"INTRUSION\"}","timestamp":"2018-03-15T09:03:55.711Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-03-15T09:03:55.711Z"}
+{"user_id":"22","type":"INTRUSION","level":"info","message":"","timestamp":"2018-03-15T09:03:55.712Z"}
+{"user_id":"22","type":"INTRUSION","start_time":"2018-03-15","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-03-15T09:03:55.712Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-03-15T09:03:55.715Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-03-15T09:03:55.737Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2018-03-15T09:03:55.737Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-03-15T09:03:55.738Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2018-03-15T09:03:55.738Z"}
+{"user_id":"22","type":"People_Count","start_time":"2018-03-15","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-03-15T09:03:55.739Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-03-15T09:03:55.742Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-03-15T09:03:55.747Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2018-03-15T09:03:55.748Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-03-15T09:03:55.748Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2018-03-15T09:03:55.748Z"}
+{"user_id":"22","type":"People_Count","start_time":"2018-03-15","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-03-15T09:03:55.749Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-03-15T09:03:55.751Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-03-15T09:03:55.755Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2018-03-15T09:03:55.756Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-03-15T09:03:55.756Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2018-03-15T09:03:55.756Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2018-03-15","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-03-15T09:03:55.757Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-03-15T09:03:55.759Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-03-15T09:03:55.767Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2018-03-15T09:03:55.768Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-03-15T09:03:55.768Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2018-03-15T09:03:55.769Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2018-03-15","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-03-15T09:03:55.769Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-03-15T09:03:55.774Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-03-15T09:03:55.776Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-03-15T09:03:55.776Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-03-15T09:04:22.589Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:9999","timestamp":"2018-03-15T09:04:22.790Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-03-15T09:08:15.978Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-03-15T09:08:15.979Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-03-15T09:08:15.979Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-03-15T09:08:15.980Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-03-15T09:08:15.985Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:08:16.544Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-03-15T09:08:16.554Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-03-15T09:08:16.565Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"INTRUSION\"}","timestamp":"2018-03-15T09:08:16.565Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-03-15T09:08:16.566Z"}
+{"user_id":"22","type":"INTRUSION","level":"info","message":"","timestamp":"2018-03-15T09:08:16.567Z"}
+{"user_id":"22","type":"INTRUSION","start_time":"2018-03-15","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-03-15T09:08:16.569Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-03-15T09:08:16.574Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"INTRUSION\"}","timestamp":"2018-03-15T09:08:16.576Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-03-15T09:08:16.577Z"}
+{"user_id":"22","type":"INTRUSION","level":"info","message":"","timestamp":"2018-03-15T09:08:16.577Z"}
+{"user_id":"22","type":"INTRUSION","start_time":"2018-03-15","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-03-15T09:08:16.577Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-03-15T09:08:16.580Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-03-15T09:08:16.582Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2018-03-15T09:08:16.583Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-03-15T09:08:16.583Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2018-03-15T09:08:16.583Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2018-03-15","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-03-15T09:08:16.583Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-03-15T09:08:16.584Z"}
+{"level":"info","message":"Route: /basic_notification/select:","timestamp":"2018-03-15T09:08:16.585Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2018-03-15T09:08:16.585Z"}
+{"level":"info","message":"Controller: basic_notification executing getNotificationCount() ","timestamp":"2018-03-15T09:08:16.586Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2018-03-15T09:08:16.586Z"}
+{"user_id":"22","type":"People_Count","start_time":"2018-03-15","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-03-15T09:08:16.586Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-03-15T09:08:16.587Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"People_Count\"}","timestamp":"2018-03-15T09:08:16.587Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-03-15T09:08:16.588Z"}
+{"user_id":"22","type":"People_Count","level":"info","message":"","timestamp":"2018-03-15T09:08:16.588Z"}
+{"user_id":"22","type":"People_Count","start_time":"2018-03-15","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-03-15T09:08:16.588Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-03-15T09:08:16.588Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-03-15T09:08:16.589Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-03-15T09:08:16.590Z"}
+{"level":"info","message":"Route: /basic_notification/action:","timestamp":"2018-03-15T09:08:16.607Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"type\":\"Vehicle_Count\"}","timestamp":"2018-03-15T09:08:16.608Z"}
+{"level":"info","message":"Controller: basic_notification executing getActionNotificationCount() ","timestamp":"2018-03-15T09:08:16.609Z"}
+{"user_id":"22","type":"Vehicle_Count","level":"info","message":"","timestamp":"2018-03-15T09:08:16.609Z"}
+{"user_id":"22","type":"Vehicle_Count","start_time":"2018-03-15","status":"complete","level":"info","message":"Model Parameters : req.params: ","timestamp":"2018-03-15T09:08:16.610Z"}
+{"level":"info","message":"Notification count has returned.","timestamp":"2018-03-15T09:08:16.611Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-03-15T09:08:16.616Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-03-15T09:08:16.616Z"}
+{"level":"info","message":"camera start status::1","timestamp":"2018-03-15T09:08:16.723Z"}
+{"level":"info","message":"camera start status::1","timestamp":"2018-03-15T09:08:16.733Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:08:21.778Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:08:21.779Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:08:21.793Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:08:21.794Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:08:21.794Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:08:21.794Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:08:21.795Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:08:21.797Z"}
+{"level":"info","message":"frame_id:: 1","timestamp":"2018-03-15T09:08:21.797Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:08:21.797Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:08:21.798Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:08:21.798Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:08:21.798Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:08:21.799Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:08:21.799Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:08:21.799Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:08:22.594Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:08:22.594Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:08:22.606Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:08:22.606Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:08:22.607Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:08:22.607Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:08:22.607Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":3,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:08:22.607Z"}
+{"level":"info","message":"frame_id:: 1","timestamp":"2018-03-15T09:08:22.607Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:08:22.608Z"}
+{"level":"info","message":"== people_counter::=====3","timestamp":"2018-03-15T09:08:22.608Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:08:22.608Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:08:22.609Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:08:22.609Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:08:22.609Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:08:22.609Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:08:29.961Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:08:29.962Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:08:29.971Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:08:29.971Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:08:29.972Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:08:29.972Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:08:29.972Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:08:29.973Z"}
+{"level":"info","message":"frame_id:: 2","timestamp":"2018-03-15T09:08:29.973Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:08:29.973Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:08:29.973Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:08:29.973Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:08:29.973Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:08:29.973Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:08:29.974Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:08:29.974Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:08:30.400Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:08:30.400Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:08:30.410Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:08:30.410Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:08:30.411Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:08:30.411Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:08:30.411Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":2,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:08:30.411Z"}
+{"level":"info","message":"frame_id:: 2","timestamp":"2018-03-15T09:08:30.411Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:08:30.411Z"}
+{"level":"info","message":"== people_counter::=====2","timestamp":"2018-03-15T09:08:30.412Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:08:30.412Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:08:30.412Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:08:30.412Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:08:30.412Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:08:30.412Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:08:39.927Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:08:39.927Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:08:39.944Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:08:39.945Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:08:39.946Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:08:39.946Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:08:39.946Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":2,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:08:39.947Z"}
+{"level":"info","message":"frame_id:: 3","timestamp":"2018-03-15T09:08:39.947Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:08:39.947Z"}
+{"level":"info","message":"== people_counter::=====2","timestamp":"2018-03-15T09:08:39.947Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:08:39.947Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:08:39.948Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:08:39.948Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:08:39.948Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:08:39.948Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:08:41.473Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:08:41.473Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:08:41.486Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:08:41.491Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:08:41.491Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:08:41.491Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:08:41.491Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:08:41.491Z"}
+{"level":"info","message":"frame_id:: 3","timestamp":"2018-03-15T09:08:41.491Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:08:41.492Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:08:41.492Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:08:41.492Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:08:41.492Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:08:41.492Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:08:41.492Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:08:41.492Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:08:42.461Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:08:42.461Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:08:42.471Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:08:42.472Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:08:42.472Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:08:42.472Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:08:42.472Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":1,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:08:42.472Z"}
+{"level":"info","message":"frame_id:: 4","timestamp":"2018-03-15T09:08:42.472Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:08:42.473Z"}
+{"level":"info","message":"== people_counter::=====1","timestamp":"2018-03-15T09:08:42.473Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:08:42.473Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:08:42.473Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:08:42.473Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:08:42.473Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:08:42.473Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:08:50.745Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:08:50.746Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:08:50.759Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:08:50.760Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:08:50.760Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:08:50.760Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:08:50.760Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:08:50.760Z"}
+{"level":"info","message":"frame_id:: 4","timestamp":"2018-03-15T09:08:50.760Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:08:50.761Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:08:50.761Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:08:50.761Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:08:50.761Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:08:50.761Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:08:50.761Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:08:50.761Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:08:53.536Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:08:53.537Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:08:53.549Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:08:53.549Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:08:53.549Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:08:53.549Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:08:53.550Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":2,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:08:53.550Z"}
+{"level":"info","message":"frame_id:: 5","timestamp":"2018-03-15T09:08:53.550Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:08:53.550Z"}
+{"level":"info","message":"== people_counter::=====2","timestamp":"2018-03-15T09:08:53.550Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:08:53.550Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:08:53.550Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:08:53.550Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:08:53.550Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:08:53.551Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:00.312Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:09:00.313Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:00.322Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:00.322Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:00.323Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:00.323Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:00.323Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:09:00.326Z"}
+{"level":"info","message":"frame_id:: 5","timestamp":"2018-03-15T09:09:00.326Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:00.326Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:09:00.326Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:00.326Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:00.326Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:00.326Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:00.326Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:00.327Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:00.381Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:09:00.382Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:00.396Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:00.396Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:00.397Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:00.397Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:00.397Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":2,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:09:00.397Z"}
+{"level":"info","message":"frame_id:: 6","timestamp":"2018-03-15T09:09:00.397Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:00.398Z"}
+{"level":"info","message":"== people_counter::=====2","timestamp":"2018-03-15T09:09:00.398Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:00.399Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:00.399Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:00.400Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:00.400Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:00.400Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:08.276Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:09:08.276Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:08.286Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:08.286Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:08.286Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:08.286Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:08.287Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:09:08.287Z"}
+{"level":"info","message":"frame_id:: 6","timestamp":"2018-03-15T09:09:08.291Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:08.291Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:09:08.291Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:08.291Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:08.291Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:08.291Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:08.291Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:08.291Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:08.380Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:09:08.380Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:08.388Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:08.388Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:08.388Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:08.388Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:08.388Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":1,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:09:08.388Z"}
+{"level":"info","message":"frame_id:: 7","timestamp":"2018-03-15T09:09:08.388Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:08.388Z"}
+{"level":"info","message":"== people_counter::=====1","timestamp":"2018-03-15T09:09:08.389Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:08.389Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:08.389Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:08.389Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:08.389Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:08.389Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:14.534Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:09:14.534Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:14.543Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:14.544Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:14.544Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:14.545Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:14.546Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":2,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:09:14.546Z"}
+{"level":"info","message":"frame_id:: 8","timestamp":"2018-03-15T09:09:14.546Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:14.546Z"}
+{"level":"info","message":"== people_counter::=====2","timestamp":"2018-03-15T09:09:14.546Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:14.547Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:14.547Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:14.547Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:14.547Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:14.547Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:16.168Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:09:16.168Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:16.179Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:16.181Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:16.181Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:16.181Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:16.181Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:09:16.181Z"}
+{"level":"info","message":"frame_id:: 7","timestamp":"2018-03-15T09:09:16.181Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:16.182Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:09:16.182Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:16.182Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:16.183Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:16.183Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:16.183Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:16.183Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:18.529Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:09:18.530Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:18.540Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:18.540Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:18.540Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:18.540Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:18.541Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":2,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:09:18.541Z"}
+{"level":"info","message":"frame_id:: 9","timestamp":"2018-03-15T09:09:18.541Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:18.541Z"}
+{"level":"info","message":"== people_counter::=====2","timestamp":"2018-03-15T09:09:18.541Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:18.541Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:18.541Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:18.541Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:18.542Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:18.542Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:21.898Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:09:21.898Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:21.906Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:21.906Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:21.906Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:21.906Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:21.906Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":2,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:09:21.906Z"}
+{"level":"info","message":"frame_id:: 10","timestamp":"2018-03-15T09:09:21.906Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:21.906Z"}
+{"level":"info","message":"== people_counter::=====2","timestamp":"2018-03-15T09:09:21.907Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:21.907Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:21.907Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:21.907Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:21.907Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:21.907Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:22.027Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:09:22.027Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:22.035Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:22.035Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:22.035Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:22.035Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:22.035Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:09:22.036Z"}
+{"level":"info","message":"frame_id:: 8","timestamp":"2018-03-15T09:09:22.036Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:22.036Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:09:22.036Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:22.036Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:22.036Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:22.036Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:22.036Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:22.036Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:25.203Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:09:25.204Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:25.214Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:25.214Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:25.215Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:25.215Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:25.215Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":2,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:09:25.215Z"}
+{"level":"info","message":"frame_id:: 11","timestamp":"2018-03-15T09:09:25.215Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:25.215Z"}
+{"level":"info","message":"== people_counter::=====2","timestamp":"2018-03-15T09:09:25.215Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:25.216Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:25.216Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:25.218Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:25.218Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:25.218Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:27.508Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:09:27.508Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:27.517Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:27.517Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:27.517Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:27.518Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:27.518Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:09:27.518Z"}
+{"level":"info","message":"frame_id:: 9","timestamp":"2018-03-15T09:09:27.518Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:27.518Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:09:27.518Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:27.519Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:27.519Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:27.519Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:27.519Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:27.519Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:31.322Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:09:31.322Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:31.330Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:31.330Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:31.330Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:31.330Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:31.330Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":1,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:09:31.330Z"}
+{"level":"info","message":"frame_id:: 12","timestamp":"2018-03-15T09:09:31.330Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:31.330Z"}
+{"level":"info","message":"== people_counter::=====1","timestamp":"2018-03-15T09:09:31.331Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:31.331Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:31.331Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:31.331Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:31.331Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:31.331Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:32.311Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:09:32.311Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:32.324Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:32.324Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:32.324Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:32.324Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:32.324Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:09:32.324Z"}
+{"level":"info","message":"frame_id:: 10","timestamp":"2018-03-15T09:09:32.328Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:32.329Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:09:32.329Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:32.331Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:32.331Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:32.331Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:32.331Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:32.331Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:33.048Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:09:33.048Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:33.061Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:33.061Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:33.061Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:33.061Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:33.061Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":2,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:09:33.062Z"}
+{"level":"info","message":"frame_id:: 13","timestamp":"2018-03-15T09:09:33.062Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:33.062Z"}
+{"level":"info","message":"== people_counter::=====2","timestamp":"2018-03-15T09:09:33.062Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:33.062Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:33.062Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:33.062Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:33.062Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:33.062Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:34.186Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:09:34.186Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:34.198Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:34.198Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:34.198Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:34.198Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:34.198Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:09:34.198Z"}
+{"level":"info","message":"frame_id:: 11","timestamp":"2018-03-15T09:09:34.199Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:34.199Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:09:34.199Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:34.199Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:34.199Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:34.199Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:34.199Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:34.199Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:36.331Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:09:36.332Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:36.340Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:36.340Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:36.340Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:36.340Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:36.340Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":2,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:09:36.340Z"}
+{"level":"info","message":"frame_id:: 14","timestamp":"2018-03-15T09:09:36.340Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:36.341Z"}
+{"level":"info","message":"== people_counter::=====2","timestamp":"2018-03-15T09:09:36.341Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:36.341Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:36.341Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:36.341Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:36.341Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:36.341Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:39.503Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:09:39.503Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:39.511Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:39.511Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:39.511Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:39.511Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:39.511Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:09:39.512Z"}
+{"level":"info","message":"frame_id:: 12","timestamp":"2018-03-15T09:09:39.512Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:39.512Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:09:39.512Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:39.512Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:39.512Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:39.512Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:39.512Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:39.512Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:45.666Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:09:45.667Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:45.675Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:45.675Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:45.676Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:45.676Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:45.676Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":2,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:09:45.676Z"}
+{"level":"info","message":"frame_id:: 15","timestamp":"2018-03-15T09:09:45.676Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:45.676Z"}
+{"level":"info","message":"== people_counter::=====2","timestamp":"2018-03-15T09:09:45.676Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:45.676Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:45.676Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:45.676Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:45.676Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:45.676Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:49.365Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:09:49.365Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:49.382Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:49.382Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:49.382Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:49.382Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:49.382Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:09:49.382Z"}
+{"level":"info","message":"frame_id:: 13","timestamp":"2018-03-15T09:09:49.382Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:49.382Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:09:49.383Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:49.383Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:49.383Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:49.383Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:49.383Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:49.383Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:49.983Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:09:49.983Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:49.994Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:49.995Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:49.995Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:49.995Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:49.995Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":2,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:09:49.995Z"}
+{"level":"info","message":"frame_id:: 16","timestamp":"2018-03-15T09:09:49.995Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:49.995Z"}
+{"level":"info","message":"== people_counter::=====2","timestamp":"2018-03-15T09:09:49.996Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:49.996Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:49.996Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:49.996Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:49.996Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:49.996Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:52.649Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:09:52.650Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:52.661Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:52.661Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:52.662Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:52.662Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:52.662Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:09:52.662Z"}
+{"level":"info","message":"frame_id:: 14","timestamp":"2018-03-15T09:09:52.662Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:52.662Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:09:52.662Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:52.663Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:52.663Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:52.663Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:52.663Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:52.664Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:53.204Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:09:53.204Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:53.212Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:53.212Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:53.212Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:53.212Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:53.212Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":1,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:09:53.213Z"}
+{"level":"info","message":"frame_id:: 17","timestamp":"2018-03-15T09:09:53.213Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:53.213Z"}
+{"level":"info","message":"== people_counter::=====1","timestamp":"2018-03-15T09:09:53.213Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:53.213Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:53.213Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:53.213Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:53.213Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:53.213Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:56.926Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:09:56.926Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:56.934Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:56.934Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:56.934Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:56.934Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:56.934Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":1,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:09:56.934Z"}
+{"level":"info","message":"frame_id:: 18","timestamp":"2018-03-15T09:09:56.934Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:56.935Z"}
+{"level":"info","message":"== people_counter::=====1","timestamp":"2018-03-15T09:09:56.935Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:56.935Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:56.935Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:56.935Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:56.935Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:56.935Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:57.033Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:09:57.034Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:09:57.046Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:09:57.046Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:09:57.046Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:09:57.046Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:09:57.046Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:09:57.046Z"}
+{"level":"info","message":"frame_id:: 15","timestamp":"2018-03-15T09:09:57.047Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:09:57.047Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:09:57.047Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:09:57.047Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:09:57.047Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:09:57.048Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:09:57.048Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:09:57.048Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:01.542Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:10:01.543Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:10:01.553Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:10:01.553Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:10:01.553Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:10:01.553Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:10:01.554Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":1,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:10:01.554Z"}
+{"level":"info","message":"frame_id:: 19","timestamp":"2018-03-15T09:10:01.554Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:10:01.554Z"}
+{"level":"info","message":"== people_counter::=====1","timestamp":"2018-03-15T09:10:01.554Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:10:01.554Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:10:01.555Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:10:01.556Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:10:01.556Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:01.556Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:02.077Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:10:02.077Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:10:02.085Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:10:02.085Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:10:02.085Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:10:02.085Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:10:02.085Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:10:02.085Z"}
+{"level":"info","message":"frame_id:: 16","timestamp":"2018-03-15T09:10:02.085Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:10:02.085Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:10:02.085Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:10:02.085Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:10:02.085Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:10:02.086Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:10:02.086Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:02.086Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:07.375Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:10:07.375Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:10:07.387Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:10:07.387Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:10:07.387Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:10:07.387Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:10:07.387Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":1,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:10:07.387Z"}
+{"level":"info","message":"frame_id:: 20","timestamp":"2018-03-15T09:10:07.388Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:10:07.388Z"}
+{"level":"info","message":"== people_counter::=====1","timestamp":"2018-03-15T09:10:07.388Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:10:07.388Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:10:07.388Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:10:07.388Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:10:07.388Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:07.388Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:07.988Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:10:07.988Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:10:07.998Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:10:07.998Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:10:07.998Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:10:07.998Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:10:07.999Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:10:07.999Z"}
+{"level":"info","message":"frame_id:: 17","timestamp":"2018-03-15T09:10:07.999Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:10:07.999Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:10:07.999Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:10:07.999Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:10:07.999Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:10:07.999Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:10:08.000Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:08.000Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:15.622Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:10:15.622Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:10:15.632Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:10:15.632Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:10:15.632Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:10:15.632Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:10:15.632Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:10:15.632Z"}
+{"level":"info","message":"frame_id:: 18","timestamp":"2018-03-15T09:10:15.632Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:10:15.632Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:10:15.632Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:10:15.632Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:10:15.633Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:10:15.633Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:10:15.633Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:15.633Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:16.794Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:10:16.794Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:10:16.805Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:10:16.805Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:10:16.805Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:10:16.805Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:10:16.805Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":1,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:10:16.805Z"}
+{"level":"info","message":"frame_id:: 21","timestamp":"2018-03-15T09:10:16.805Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:10:16.805Z"}
+{"level":"info","message":"== people_counter::=====1","timestamp":"2018-03-15T09:10:16.806Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:10:16.806Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:10:16.806Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:10:16.806Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:10:16.806Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:16.806Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:24.739Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:10:24.740Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:10:24.751Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:10:24.751Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:10:24.751Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:10:24.751Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:10:24.751Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:10:24.752Z"}
+{"level":"info","message":"frame_id:: 19","timestamp":"2018-03-15T09:10:24.752Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:10:24.752Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:10:24.752Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:10:24.752Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:10:24.752Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:10:24.752Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:10:24.752Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:24.753Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:31.655Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:10:31.655Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:10:31.664Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:10:31.664Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:10:31.664Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:10:31.665Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:10:31.665Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":1,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:10:31.665Z"}
+{"level":"info","message":"frame_id:: 22","timestamp":"2018-03-15T09:10:31.665Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:10:31.665Z"}
+{"level":"info","message":"== people_counter::=====1","timestamp":"2018-03-15T09:10:31.665Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:10:31.665Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:10:31.665Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:10:31.665Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:10:31.666Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:31.666Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:34.051Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:10:34.051Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:10:34.062Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:10:34.062Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:10:34.063Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:10:34.063Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:10:34.063Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:10:34.063Z"}
+{"level":"info","message":"frame_id:: 20","timestamp":"2018-03-15T09:10:34.063Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:10:34.063Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:10:34.063Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:10:34.063Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:10:34.063Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:10:34.063Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:10:34.063Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:34.064Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:35.848Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:10:35.848Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:10:35.858Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:10:35.858Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:10:35.858Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:10:35.858Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:10:35.858Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":1,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:10:35.858Z"}
+{"level":"info","message":"frame_id:: 23","timestamp":"2018-03-15T09:10:35.858Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:10:35.859Z"}
+{"level":"info","message":"== people_counter::=====1","timestamp":"2018-03-15T09:10:35.859Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:10:35.859Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:10:35.859Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:10:35.859Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:10:35.859Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:35.859Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:42.969Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:10:42.969Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:10:42.979Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:10:42.979Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:10:42.979Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:10:42.979Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:10:42.980Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:10:42.980Z"}
+{"level":"info","message":"frame_id:: 21","timestamp":"2018-03-15T09:10:42.980Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:10:42.980Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:10:42.980Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:10:42.980Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:10:42.980Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:10:42.981Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:10:42.981Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:42.981Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:43.212Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:10:43.212Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:10:43.220Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:10:43.221Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:10:43.221Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:10:43.221Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:10:43.221Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":1,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:10:43.221Z"}
+{"level":"info","message":"frame_id:: 24","timestamp":"2018-03-15T09:10:43.221Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:10:43.221Z"}
+{"level":"info","message":"== people_counter::=====1","timestamp":"2018-03-15T09:10:43.221Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:10:43.222Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:10:43.222Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:10:43.222Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:10:43.222Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:43.222Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:52.727Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:10:52.728Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:10:52.738Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:10:52.738Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:10:52.738Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:10:52.738Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:10:52.738Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":2,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:10:52.738Z"}
+{"level":"info","message":"frame_id:: 25","timestamp":"2018-03-15T09:10:52.738Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:10:52.738Z"}
+{"level":"info","message":"== people_counter::=====2","timestamp":"2018-03-15T09:10:52.739Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:10:52.739Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:10:52.739Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:10:52.739Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:10:52.739Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:52.739Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:53.369Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:10:53.370Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:10:53.380Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:10:53.380Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:10:53.381Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:10:53.381Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:10:53.381Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:10:53.381Z"}
+{"level":"info","message":"frame_id:: 22","timestamp":"2018-03-15T09:10:53.381Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:10:53.381Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:10:53.381Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:10:53.381Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:10:53.382Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:10:53.382Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:10:53.382Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:53.382Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:58.459Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:10:58.459Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:10:58.469Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:10:58.469Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:10:58.469Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:10:58.470Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:10:58.470Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":1,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:10:58.470Z"}
+{"level":"info","message":"frame_id:: 26","timestamp":"2018-03-15T09:10:58.470Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:10:58.470Z"}
+{"level":"info","message":"== people_counter::=====1","timestamp":"2018-03-15T09:10:58.470Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:10:58.470Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:10:58.470Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:10:58.471Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:10:58.471Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:10:58.471Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:00.096Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:11:00.097Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:00.105Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:00.106Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:00.106Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:00.106Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:00.106Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:11:00.106Z"}
+{"level":"info","message":"frame_id:: 23","timestamp":"2018-03-15T09:11:00.106Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:00.106Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:11:00.106Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:00.106Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:00.106Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:00.106Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:00.106Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:00.106Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:03.663Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:11:03.663Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:03.675Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:03.675Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:03.675Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:03.675Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:03.675Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":1,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:11:03.676Z"}
+{"level":"info","message":"frame_id:: 27","timestamp":"2018-03-15T09:11:03.676Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:03.676Z"}
+{"level":"info","message":"== people_counter::=====1","timestamp":"2018-03-15T09:11:03.676Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:03.676Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:03.676Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:03.676Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:03.677Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:03.677Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:04.815Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:11:04.816Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:04.826Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:04.827Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:04.827Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:04.827Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:04.827Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:11:04.827Z"}
+{"level":"info","message":"frame_id:: 24","timestamp":"2018-03-15T09:11:04.828Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:04.828Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:11:04.828Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:04.828Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:04.828Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:04.828Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:04.828Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:04.828Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:08.594Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:11:08.594Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:08.604Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:08.604Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:08.605Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:08.605Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:08.605Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":2,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:11:08.605Z"}
+{"level":"info","message":"frame_id:: 28","timestamp":"2018-03-15T09:11:08.606Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:08.606Z"}
+{"level":"info","message":"== people_counter::=====2","timestamp":"2018-03-15T09:11:08.606Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:08.606Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:08.606Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:08.606Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:08.606Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:08.606Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:08.753Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:11:08.753Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:08.761Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:08.761Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:08.761Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:08.761Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:08.762Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:11:08.762Z"}
+{"level":"info","message":"frame_id:: 25","timestamp":"2018-03-15T09:11:08.762Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:08.762Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:11:08.762Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:08.762Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:08.762Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:08.762Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:08.762Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:08.762Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:12.302Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:11:12.302Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:12.311Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:12.311Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:12.311Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:12.311Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:12.311Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":1,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:11:12.312Z"}
+{"level":"info","message":"frame_id:: 29","timestamp":"2018-03-15T09:11:12.312Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:12.312Z"}
+{"level":"info","message":"== people_counter::=====1","timestamp":"2018-03-15T09:11:12.312Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:12.312Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:12.312Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:12.312Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:12.312Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:12.312Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:13.906Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:11:13.906Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:13.917Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:13.917Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:13.917Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:13.918Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:13.918Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:11:13.918Z"}
+{"level":"info","message":"frame_id:: 26","timestamp":"2018-03-15T09:11:13.918Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:13.918Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:11:13.918Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:13.919Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:13.919Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:13.919Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:13.920Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:13.920Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:16.831Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:11:16.832Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:16.842Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:16.843Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:16.843Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:16.843Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:16.843Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":3,\"person\":{\"7\":[1909,411,2000,841],\"8\":[1432,1332,1635,1535]},\"total\":0}}","timestamp":"2018-03-15T09:11:16.844Z"}
+{"level":"info","message":"frame_id:: 30","timestamp":"2018-03-15T09:11:16.844Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:16.844Z"}
+{"level":"info","message":"== people_counter::=====3","timestamp":"2018-03-15T09:11:16.844Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:16.844Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:16.844Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:16.844Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:16.844Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:16.844Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:18.568Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:11:18.568Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:18.577Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:18.577Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:18.578Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:18.578Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:18.578Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:11:18.578Z"}
+{"level":"info","message":"frame_id:: 27","timestamp":"2018-03-15T09:11:18.578Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:18.578Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:11:18.578Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:18.578Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:18.578Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:18.578Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:18.578Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:18.578Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:20.310Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:11:20.310Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:20.320Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:20.320Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:20.320Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:20.320Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:20.320Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":3,\"person\":{\"7\":[1904,416,1999,830],\"8\":[1429,1335,1622,1535]},\"total\":0}}","timestamp":"2018-03-15T09:11:20.320Z"}
+{"level":"info","message":"frame_id:: 31","timestamp":"2018-03-15T09:11:20.320Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:20.320Z"}
+{"level":"info","message":"== people_counter::=====3","timestamp":"2018-03-15T09:11:20.320Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:20.321Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:20.321Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:20.321Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:20.321Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:20.321Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:21.620Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:11:21.620Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:21.631Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:21.631Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:21.631Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:21.631Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:21.631Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:11:21.632Z"}
+{"level":"info","message":"frame_id:: 28","timestamp":"2018-03-15T09:11:21.632Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:21.632Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:11:21.632Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:21.632Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:21.632Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:21.632Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:21.632Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:21.633Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:22.581Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:11:22.581Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:22.592Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:22.593Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:22.593Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:22.593Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:22.593Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":2,\"person\":{\"8\":[1411,1331,1632,1535]},\"total\":0}}","timestamp":"2018-03-15T09:11:22.593Z"}
+{"level":"info","message":"frame_id:: 32","timestamp":"2018-03-15T09:11:22.594Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:22.594Z"}
+{"level":"info","message":"== people_counter::=====2","timestamp":"2018-03-15T09:11:22.594Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:22.594Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:22.594Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:22.594Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:22.595Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:22.595Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:25.129Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:11:25.129Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:25.138Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:25.138Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:25.138Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:25.138Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:25.139Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:11:25.139Z"}
+{"level":"info","message":"frame_id:: 29","timestamp":"2018-03-15T09:11:25.139Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:25.139Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:11:25.139Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:25.139Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:25.139Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:25.140Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:25.140Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:25.140Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:27.691Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:11:27.691Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:27.703Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:27.703Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:27.704Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:27.704Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:27.704Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":3,\"person\":{\"5\":[862,386,1106,839],\"8\":[1408,1328,1619,1535]},\"total\":0}}","timestamp":"2018-03-15T09:11:27.704Z"}
+{"level":"info","message":"frame_id:: 33","timestamp":"2018-03-15T09:11:27.704Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:27.704Z"}
+{"level":"info","message":"== people_counter::=====3","timestamp":"2018-03-15T09:11:27.704Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:27.705Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:27.705Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:27.705Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:27.705Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:27.705Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:31.026Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:11:31.027Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:31.036Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:31.037Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:31.037Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:31.037Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:31.038Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:11:31.038Z"}
+{"level":"info","message":"frame_id:: 30","timestamp":"2018-03-15T09:11:31.038Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:31.038Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:11:31.038Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:31.038Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:31.038Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:31.039Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:31.039Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:31.039Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:31.831Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:11:31.831Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:31.838Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:31.838Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:31.838Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:31.838Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:31.839Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":1,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:11:31.839Z"}
+{"level":"info","message":"frame_id:: 34","timestamp":"2018-03-15T09:11:31.839Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:31.839Z"}
+{"level":"info","message":"== people_counter::=====1","timestamp":"2018-03-15T09:11:31.839Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:31.839Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:31.839Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:31.839Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:31.839Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:31.839Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:36.803Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:11:36.803Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:36.814Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:36.814Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:36.814Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:36.814Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:36.814Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:11:36.814Z"}
+{"level":"info","message":"frame_id:: 31","timestamp":"2018-03-15T09:11:36.815Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:36.815Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:11:36.815Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:36.815Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:36.815Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:36.815Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:36.815Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:36.815Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:45.126Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:11:45.127Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:45.137Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:45.138Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:45.138Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:45.138Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:45.138Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":1,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:11:45.139Z"}
+{"level":"info","message":"frame_id:: 35","timestamp":"2018-03-15T09:11:45.139Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:45.139Z"}
+{"level":"info","message":"== people_counter::=====1","timestamp":"2018-03-15T09:11:45.139Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:45.139Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:45.139Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:45.139Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:45.139Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:45.139Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:49.356Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:11:49.356Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:49.365Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:49.365Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:49.366Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:49.366Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:49.366Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:11:49.366Z"}
+{"level":"info","message":"frame_id:: 32","timestamp":"2018-03-15T09:11:49.368Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:49.369Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:11:49.369Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:49.369Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:49.369Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:49.369Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:49.369Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:49.369Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:54.692Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:53","timestamp":"2018-03-15T09:11:54.692Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:54.703Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:54.704Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:54.704Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:54.704Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:54.704Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":1,\"person\":{},\"total\":0}}","timestamp":"2018-03-15T09:11:54.704Z"}
+{"level":"info","message":"frame_id:: 36","timestamp":"2018-03-15T09:11:54.704Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:54.704Z"}
+{"level":"info","message":"== people_counter::=====1","timestamp":"2018-03-15T09:11:54.705Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:54.705Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:54.705Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:54.705Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:54.705Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:54.705Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:58.845Z"}
+{"level":"info","message":"== Start: Frame results from platofm camera api | Camera name: person:52","timestamp":"2018-03-15T09:11:58.846Z"}
+{"level":"info","message":"== Create: Creating a queue object for frame","timestamp":"2018-03-15T09:11:58.859Z"}
+{"level":"info","message":"== Queue Push Frames: push camera frames has been done","timestamp":"2018-03-15T09:11:58.859Z"}
+{"level":"info","message":"== Sending frame: Have been processed to display","timestamp":"2018-03-15T09:11:58.860Z"}
+{"level":"info","message":"== End Frame Emit: Frame results sent to client","timestamp":"2018-03-15T09:11:58.860Z"}
+{"level":"info","message":"------------------------------------------------------------","timestamp":"2018-03-15T09:11:58.860Z"}
+{"level":"info","message":"res::{\"PEOPLE_TRACKING\":{\"count\":0,\"person\":{},\"total\":0},\"Intrusion_Detector\":{\"object\":\"\",\"intrusion\":\"false\"}}","timestamp":"2018-03-15T09:11:58.861Z"}
+{"level":"info","message":"frame_id:: 33","timestamp":"2018-03-15T09:11:58.861Z"}
+{"level":"info","message":"== Creating: a queue object for notification(PC)","timestamp":"2018-03-15T09:11:58.861Z"}
+{"level":"info","message":"== people_counter::=====0","timestamp":"2018-03-15T09:11:58.861Z"}
+{"level":"info","message":"== total::=====0","timestamp":"2018-03-15T09:11:58.861Z"}
+{"level":"info","message":"== Queue Push Notification: push notification has been done","timestamp":"2018-03-15T09:11:58.861Z"}
+{"level":"info","message":"== Sending notification: Have been processed to display","timestamp":"2018-03-15T09:11:58.861Z"}
+{"level":"info","message":"== End Notification Emit: Notification created and sent to client","timestamp":"2018-03-15T09:11:58.861Z"}
+{"level":"info","message":"============================================================","timestamp":"2018-03-15T09:11:58.861Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-03-15T10:12:40.198Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:9999","timestamp":"2018-03-15T10:12:40.360Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-03-15T10:12:46.335Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\"}","timestamp":"2018-03-15T10:12:46.336Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-03-15T10:12:46.336Z"}
+{"level":"info","message":"Model Parameters : req.params: 22","timestamp":"2018-03-15T10:12:46.337Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-03-15T10:12:46.344Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-03-15T10:13:44.244Z"}
+{"vehicleTracking":true,"peopleTracking":true,"user_id":"22","name":"mylook","type":"Sterile Zone Monitoring","source":"http://hisys.com/sr1","fps":"30","gps":"","status":"","algo":["vehicle_tracking","person_tracking"],"GPS":"banglore","level":"info","message":"Parameters : req.body: ","timestamp":"2018-03-15T10:13:44.246Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-03-15T10:13:44.250Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-03-15T10:13:44.309Z"}

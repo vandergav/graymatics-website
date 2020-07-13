@@ -1,0 +1,292 @@
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T08:01:48.316Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T08:01:49.153Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T08:07:18.748Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T08:07:18.749Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T08:07:18.749Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T08:08:05.518Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T08:08:05.775Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T08:08:09.965Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T08:08:09.966Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T08:08:09.966Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T08:08:38.521Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T08:08:38.761Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T08:08:58.718Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T08:08:58.718Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T08:08:58.719Z"}
+"2018-01-28T08:08:58.000Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T08:10:29.598Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T08:10:29.771Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T08:10:34.979Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T08:10:34.980Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T08:10:34.981Z"}
+"2018-01-27T18:30:00.000Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T08:11:17.207Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T08:11:17.441Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T08:11:21.242Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T08:11:21.243Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T08:11:21.248Z"}
+"2018-02-24T18:30:00.000Z"
+"2018-01-27T18:30:00.000Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T08:11:57.204Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T08:11:57.446Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T08:12:01.319Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T08:12:01.320Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T08:12:01.320Z"}
+"2018-02-24T18:30:00.000Z"
+"2018-02-24T18:30:00.000Z"
+"2018-01-27T18:30:00.000Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T08:12:11.700Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T08:12:11.881Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T08:12:19.061Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T08:12:19.061Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T08:12:19.062Z"}
+"2018-02-24T18:30:00.000Z"
+"2018-02-24T18:30:00.000Z"
+"2018-01-27T18:30:00.000Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T08:12:51.652Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T08:12:51.818Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T08:12:55.428Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T08:12:55.430Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T08:12:55.431Z"}
+"2018-02-24T18:30:00.000Z"
+"2018-02-24T18:30:00.000Z"
+"2018-01-27T18:30:00.000Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T08:13:16.356Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T08:13:16.576Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T08:13:19.649Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T08:13:19.650Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T08:13:19.651Z"}
+"2018-02-24T18:30:00.000Z"
+"2018-02-24T18:30:00.000Z"
+"2018-01-27T18:30:00.000Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T08:13:59.868Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T08:14:00.046Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T08:14:03.299Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T08:14:03.299Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T08:14:03.300Z"}
+"2018-02-25T08:14:03.300Z"
+"2018-02-24T18:30:00.000Z"
+"2018-01-27T18:30:00.000Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T08:14:57.841Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T08:14:58.009Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T08:15:03.042Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T08:15:03.044Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T08:15:03.044Z"}
+"2018-02-25T08:15:03.044Z"
+"2018-02-24T18:30:00.000Z"
+"2018-01-27T18:30:00.000Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T08:18:05.973Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T08:18:06.162Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T08:18:11.006Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T08:18:11.006Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T08:18:11.007Z"}
+"2018-02-25T08:18:11.007Z"
+"2018-02-24T18:30:00.000Z"
+"2018-01-27T18:30:00.000Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T08:18:53.626Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T08:18:53.793Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T08:18:57.708Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T08:18:57.709Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T08:18:57.711Z"}
+"2018-02-25T08:18:57.711Z"
+"2018-02-24T18:30:00.000Z"
+"2018-01-27T18:30:00.000Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T08:19:10.046Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T08:19:10.217Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T08:19:13.503Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T08:19:13.503Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T08:19:13.504Z"}
+"2018-02-24T18:30:00.000Z"
+"2018-02-24T18:30:00.000Z"
+"2018-01-27T18:30:00.000Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T08:37:13.731Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T08:37:14.019Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T08:37:20.120Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T08:37:20.121Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T08:37:20.122Z"}
+"2018-02-25T08:37:20.122Z"
+"2018-02-25T08:37:20.122Z"
+"2018-01-28T08:37:20.122Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T08:37:34.483Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T08:37:34.659Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T08:37:37.906Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T08:37:37.907Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T08:37:37.908Z"}
+"2018-02-25T08:37:37.908Z"
+"2018-02-25T08:37:37.908Z"
+"2018-01-28T08:37:37.908Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T08:38:07.403Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T08:38:07.571Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T08:38:58.139Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T08:38:58.139Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T08:38:58.143Z"}
+"2018-02-24T18:30:00.000Z"
+"2018-02-24T18:30:00.000Z"
+"2018-01-27T18:30:00.000Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T08:39:26.147Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T08:39:26.324Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T08:40:05.612Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T08:40:05.614Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T08:40:05.614Z"}
+{"user_id":"22","camera_name":"cpp orange evfl","time":"PAST MONTH","level":"info","message":"today date:","timestamp":"2018-02-25T08:40:05.615Z"}
+"2018-02-24T18:30:00.000Z"
+"2018-01-27T18:30:00.000Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T08:40:58.921Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T08:40:59.098Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T08:41:05.063Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T08:41:05.064Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T08:41:05.064Z"}
+{"user_id":"22","camera_name":"cpp orange evfl","time":"PAST MONTH","level":"info","message":"today date:","timestamp":"2018-02-25T08:41:05.065Z"}
+"2018-02-24T18:30:00.000Z"
+"2018-01-27T18:30:00.000Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T09:07:28.199Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T09:07:29.136Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T09:08:01.776Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T09:08:01.777Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T09:08:01.778Z"}
+{"user_id":"22","camera_name":"cpp orange evfl","time":"PAST MONTH","level":"info","message":"today date:","timestamp":"2018-02-25T09:08:01.779Z"}
+"2018-02-24T18:30:00.000Z"
+"2018-01-27T18:30:00.000Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T09:08:43.972Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T09:08:44.137Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T09:11:28.455Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T09:11:28.628Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T09:11:37.545Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T09:11:37.546Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T09:11:37.546Z"}
+{"level":"info","message":"today date: Sun Feb 25 2018 14:41:37 GMT+0530 (IST)","timestamp":"2018-02-25T09:11:37.547Z"}
+"2018-02-24T18:30:00.000Z"
+"2018-01-27T18:30:00.000Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T09:11:55.556Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T09:11:55.725Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T09:12:02.900Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T09:12:02.901Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T09:12:02.901Z"}
+"2018-02-25T09:12:02.901Z"
+"2018-02-24T18:30:00.000Z"
+"2018-01-27T18:30:00.000Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T09:12:26.315Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T09:12:26.488Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T09:12:57.193Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T09:12:57.375Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T09:13:06.262Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T09:13:06.262Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T09:13:06.263Z"}
+{"level":"info","message":"today date: Sun Feb 25 2018 14:43:06 GMT+0530 (IST)","timestamp":"2018-02-25T09:13:06.263Z"}
+{"level":"info","message":"Sun Feb 25 2018 14:43:06 GMT+0530 (IST)","timestamp":"2018-02-25T09:13:06.263Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T09:14:37.338Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T09:14:37.514Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T09:14:43.204Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T09:14:43.204Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T09:14:43.215Z"}
+{"level":"info","message":"today date: Sun Feb 25 2018 14:44:43 GMT+0530 (IST)","timestamp":"2018-02-25T09:14:43.216Z"}
+{"level":"info","message":"1519550083216","timestamp":"2018-02-25T09:14:43.218Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T09:15:50.447Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T09:15:50.621Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T09:15:54.769Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T09:15:54.770Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T09:15:54.771Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T09:16:07.608Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T09:16:07.795Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T09:16:11.212Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T09:16:11.212Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T09:16:11.213Z"}
+"2018-02-25T09:16:11.213Z"
+"2018-01-28T09:16:11.213Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T09:16:50.271Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T09:16:50.473Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T09:16:54.614Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T09:16:54.618Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T09:16:54.619Z"}
+"2018-01-28T09:16:54.619Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T09:18:41.418Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T09:18:41.624Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T09:18:47.715Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T09:18:47.715Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T09:18:47.716Z"}
+"2018-01-28T09:18:47.717Z"
+"2018-01-28T09:18:47.717Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T09:23:54.253Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T09:23:54.432Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T09:25:28.506Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T09:25:28.507Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T09:25:28.507Z"}
+"2018-01-28T09:25:28.507Z"
+"2018-01-28T09:25:28.507Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T09:28:13.323Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T09:28:13.493Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T09:28:19.267Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T09:28:19.267Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T09:28:19.267Z"}
+"2018-01-28T09:28:19.268Z"
+"2018-01-28T09:28:19.268Z"
+"2018-01-28T09:28:19.268Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T09:29:09.721Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T09:29:09.892Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T09:29:17.258Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T09:29:17.258Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T09:29:17.259Z"}
+"2018-01-28T09:29:17.259Z"
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T09:31:17.389Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T09:31:17.389Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T09:31:17.389Z"}
+"2018-01-28T09:31:17.389Z"
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T09:33:22.404Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T09:33:22.405Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T09:33:22.405Z"}
+"2018-01-28T09:33:22.405Z"
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T09:35:52.419Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T09:35:52.419Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T09:35:52.419Z"}
+"2018-01-28T09:35:52.419Z"
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T09:38:52.429Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST MONTH\"}","timestamp":"2018-02-25T09:38:52.430Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T09:38:52.430Z"}
+"2018-01-28T09:38:52.430Z"
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-02-25T09:44:09.978Z"}
+{"level":"info","message":"Parameters : req.params: {\"type\":\"People_Count\"}","timestamp":"2018-02-25T09:44:09.979Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T09:44:51.821Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T09:44:51.987Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-02-25T09:44:57.363Z"}
+{"level":"info","message":"Parameters : req.params: {\"type\":\"People_Count\"}","timestamp":"2018-02-25T09:44:57.364Z"}
+"2018-02-24T18:30:00.000Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T09:45:41.381Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T09:45:41.546Z"}
+{"level":"info","message":"Route: /camera/notification/select:","timestamp":"2018-02-25T09:46:35.734Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_id\":\"7\"}","timestamp":"2018-02-25T09:46:35.735Z"}
+{"level":"info","message":"Route: /camera/notification/select:","timestamp":"2018-02-25T09:47:59.250Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_id\":\"115\"}","timestamp":"2018-02-25T09:47:59.251Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T10:55:39.517Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST YEAR\"}","timestamp":"2018-02-25T10:55:39.517Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T10:55:39.518Z"}
+"2018-01-28T10:55:39.518Z"
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T10:57:39.597Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST YEAR\"}","timestamp":"2018-02-25T10:57:39.597Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T10:57:39.598Z"}
+"2018-01-28T10:57:39.598Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T11:15:33.954Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T11:15:34.174Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-02-25T11:16:06.069Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-02-25T11:16:06.069Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T11:16:29.123Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T11:16:29.296Z"}
+{"level":"info","message":"Route: /notification/select:","timestamp":"2018-02-25T11:16:34.055Z"}
+{"level":"info","message":"Parameters : req.params: {}","timestamp":"2018-02-25T11:16:34.059Z"}
+"2018-02-24T18:30:00.000Z"
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T11:18:47.308Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T11:18:47.487Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T11:18:57.887Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST YEAR\"}","timestamp":"2018-02-25T11:18:57.888Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T11:18:57.889Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T11:19:03.030Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"PAST YEAR\"}","timestamp":"2018-02-25T11:19:03.031Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T11:19:03.031Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T11:19:19.609Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T11:19:19.782Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T12:31:17.395Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T12:31:17.571Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-25T12:31:53.710Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-25T12:31:53.885Z"}
+{"level":"info","message":"Route: /notification/search_filter:","timestamp":"2018-02-25T12:32:16.838Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"22\",\"camera_name\":\"cpp orange evfl\",\"time\":\"ANY TIME\"}","timestamp":"2018-02-25T12:32:16.838Z"}
+{"level":"info","message":"Controller: executing getSearchFilterResults() ","timestamp":"2018-02-25T12:32:16.839Z"}

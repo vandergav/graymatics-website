@@ -1,0 +1,22 @@
+# Install pm2 module in global
+
+sudo npm install pm2 -g
+
+# start the client with pm2 using following command
+
+pm2 start angular-http-server -- -p 2017 -d false
+
+# start the server with pm2 using following command
+
+pm2 start server.js
+
+# To see list of running process with status
+
+pm2 list
+
+pm2 statu
+
+# To see the logs use the below command
+
+pm2 logs
+

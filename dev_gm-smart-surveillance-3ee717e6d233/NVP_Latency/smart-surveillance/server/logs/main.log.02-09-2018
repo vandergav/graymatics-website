@@ -1,0 +1,108 @@
+{"level":"info","message":"App starting.","timestamp":"2018-02-09T07:22:11.973Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-09T07:22:12.956Z"}
+{"level":"info","message":"Route: /user/login:","timestamp":"2018-02-09T09:47:41.261Z"}
+{"username":"gm_user_22","user_password":"gm_user_22","level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-09T09:47:41.261Z"}
+{"level":"info","message":"Controller: /admin/login:","timestamp":"2018-02-09T09:47:41.264Z"}
+{"level":"info","message":"Model: /user/login:","timestamp":"2018-02-09T09:47:41.264Z"}
+{"level":"info","message":"Your lost login has been updated.","timestamp":"2018-02-09T09:47:41.811Z"}
+{"level":"info","message":"User logged in successfully","timestamp":"2018-02-09T09:47:41.812Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-09T11:26:04.309Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://www.antron.com.au/images/e-Bike-Rider-2.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-09T11:26:04.310Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-09T11:26:04.311Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-09T11:26:04.412Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-09T11:26:04.456Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-02-09T11:26:08.107Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-02-09T11:26:08.760Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-09T11:26:04.316Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://www.antron.com.au/images/e-Bike-Rider-2.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-09T11:26:04.316Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-09T11:26:04.316Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-09T11:45:37.026Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://www.antron.com.au/images/e-Bike-Rider-2.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-09T11:45:37.027Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-09T11:45:37.027Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-09T11:45:37.030Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://www.antron.com.au/images/e-Bike-Rider-1.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-09T11:45:37.030Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-09T11:45:37.033Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-09T11:45:37.039Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"https://78.media.tumblr.com/a1a30631d298d702f15f5eaf7e48e41f/tumblr_o18mkg8y251v20ibco1_500.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-09T11:45:37.040Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-09T11:45:37.042Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-09T11:45:37.044Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://fscomps.fotosearch.com/compc/CSP/CSP752/active-man-cyclist-bicycle-rider-in-clip-art__k17836109.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-09T11:45:37.044Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-09T11:45:37.045Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-09T11:45:37.071Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-09T11:45:37.138Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-09T11:45:37.183Z"}
+{"level":"error","message":"INSERT INTO `camera` SET `user_id` = '22', `name` = NULL, `type` = NULL, `source` = 'http://fscomps.fotosearch.com/compc/CSP/CSP752/active-man-cyclist-bicycle-rider-in-clip-art__k17836109.jpg', `protocol` = 'RTSP', `interface` = 'onvif', `fps` = NULL, `addi_info` = NULL, `parameters` = NULL, `algo` = '[\\\"HISYS\\\"]', `status` = 'Inactive', `agent` = NULL, `created_dtime` = '2018-02-09 17:15:37', `modified_dtime` = '2018-02-09 17:15:37':ER_DATA_TOO_LONG: Data too long for column 'source' at row 1","timestamp":"2018-02-09T11:45:37.188Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-02-09T11:45:37.587Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-02-09T11:45:37.650Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-02-09T11:45:37.694Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-09T11:46:30.750Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-09T11:46:32.137Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-09T11:47:01.093Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://www.antron.com.au/images/e-Bike-Rider-2.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-09T11:47:01.095Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-09T11:47:01.099Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-09T11:47:01.105Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://fscomps.fotosearch.com/compc/CSP/CSP752/active-man-cyclist-bicycle-rider-in-clip-art__k17836109.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-09T11:47:01.105Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-09T11:47:01.105Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-09T11:47:01.107Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://www.antron.com.au/images/e-Bike-Rider-1.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-09T11:47:01.107Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-09T11:47:01.107Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-09T11:47:01.108Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"https://78.media.tumblr.com/a1a30631d298d702f15f5eaf7e48e41f/tumblr_o18mkg8y251v20ibco1_500.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-09T11:47:01.109Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-09T11:47:01.109Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-09T11:47:01.250Z"}
+{"level":"error","message":"INSERT INTO `camera` SET `user_id` = '22', `name` = NULL, `type` = NULL, `source` = 'http://fscomps.fotosearch.com/compc/CSP/CSP752/active-man-cyclist-bicycle-rider-in-clip-art__k17836109.jpg', `protocol` = 'RTSP', `interface` = 'onvif', `fps` = NULL, `addi_info` = NULL, `parameters` = NULL, `algo` = '[\\\"HISYS\\\"]', `status` = 'Inactive', `agent` = NULL, `created_dtime` = '2018-02-09 17:17:01', `modified_dtime` = '2018-02-09 17:17:01':ER_DATA_TOO_LONG: Data too long for column 'source' at row 1","timestamp":"2018-02-09T11:47:01.264Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-09T11:47:01.305Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-09T11:47:01.339Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-02-09T11:47:01.771Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-02-09T11:47:01.812Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-02-09T11:47:01.846Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-09T11:48:05.229Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://www.antron.com.au/images/e-Bike-Rider-2.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-09T11:48:05.229Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-09T11:48:05.230Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-09T11:48:05.234Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"https://78.media.tumblr.com/a1a30631d298d702f15f5eaf7e48e41f/tumblr_o18mkg8y251v20ibco1_500.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-09T11:48:05.234Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-09T11:48:05.236Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-09T11:48:05.246Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"https://s3.amazonaws.com/smart-surveillance/bicycle.mp4","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-09T11:48:05.250Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-09T11:48:05.251Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-09T11:48:05.289Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-09T11:48:05.422Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-09T11:48:05.455Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-09T11:48:05.502Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-02-09T11:48:05.809Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-02-09T11:48:05.934Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-02-09T11:48:05.964Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-02-09T11:48:06.011Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-09T11:48:05.244Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"https://s3.amazonaws.com/smart-surveillance/skateboard.mp4","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-09T11:48:05.244Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-09T11:48:05.245Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-02-09T11:50:05.814Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-02-09T11:50:05.936Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-02-09T11:50:05.964Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-02-09T11:50:06.014Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-09T11:52:12.771Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-09T11:52:12.934Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-09T11:52:26.917Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"http://www.antron.com.au/images/e-Bike-Rider-2.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-09T11:52:26.917Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-09T11:52:26.921Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-09T11:52:26.926Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"https://78.media.tumblr.com/a1a30631d298d702f15f5eaf7e48e41f/tumblr_o18mkg8y251v20ibco1_500.jpg","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-09T11:52:26.926Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-09T11:52:26.927Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-09T11:52:26.928Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"https://s3.amazonaws.com/smart-surveillance/skateboard.mp4","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-09T11:52:26.928Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-09T11:52:26.929Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-09T11:52:26.930Z"}
+{"vehicleTracking":false,"peopleTracking":false,"user_id":"22","source":"https://s3.amazonaws.com/smart-surveillance/bicycle.mp4","gps":"","status":"","algo":[],"level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-09T11:52:26.930Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-09T11:52:26.931Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-09T11:52:27.011Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-09T11:52:27.067Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-09T11:52:27.111Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-09T11:52:27.155Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-02-09T11:52:27.533Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-02-09T11:52:27.578Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-02-09T11:52:27.621Z"}
+{"level":"info","message":"Route: /start/camera:","timestamp":"2018-02-09T11:52:27.664Z"}
+{"level":"info","message":"camera start status::1","timestamp":"2018-02-09T11:52:53.397Z"}
+{"level":"info","message":"camera start status::1","timestamp":"2018-02-09T11:52:54.922Z"}
+{"level":"info","message":"camera start status::1","timestamp":"2018-02-09T11:52:59.064Z"}
+{"level":"info","message":"camera start status::1","timestamp":"2018-02-09T11:53:35.233Z"}

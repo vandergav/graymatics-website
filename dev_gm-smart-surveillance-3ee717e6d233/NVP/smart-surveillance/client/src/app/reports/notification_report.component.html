@@ -1,0 +1,169 @@
+ <!-- header-start -->
+ <header class="admin-header">
+  <div class="container-fluid">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#" [routerLink]="['/']">Graymatics</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+       <ul class="nav navbar-nav">
+        <li class="top-brd">
+          <a href="#">Configuration</a>
+            <ul class="drop-down-menu supervisor-menu">
+              <li><a href="#" [routerLink]="['/supervisor/camera/main']">Camera</a></li>
+              <li><a href="#" [routerLink]="['/face']">Face</a></li>
+            </ul>
+        </li>
+        <li class="top-brd">
+          <a href="#">Forensic Search</a>
+          <ul class="drop-down-menu">
+            <li><a href="#" [routerLink]="['/security-agent/video/archived']">Archived Video</a></li>
+            <li><a href="#" [routerLink]="['/security-agent/video/uploaded']">Uploaded Video</a></li>
+          </ul>
+        </li>
+        <li><a href="#" [routerLink]="['/reports/summary']">Reports</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+
+      <div class="mobile-arrange">
+        <div id="sb-search" class="sb-search">
+          <form>
+            <input class="sb-search-input" placeholder="Search here..." type="search" name="search" id="awesome-input">
+            <input class="sb-search-submit" type="submit" value="">
+            <span class="sb-icon-search"><img src="../../images/search-icon.png" alt=""></span>
+
+            <div class="awesome-results">
+              <ul class="collection">
+               <li class="collection-item">yellow shirt</li>
+               <li class="collection-item">yellow car</li>
+               <li class="collection-item">yellowish</li>
+              </ul>
+            </div>
+
+          </form>
+        </div>
+
+        <div class="dropdown profile-menu">
+          <img src="../../images/profile-image.jpg" data-toggle="dropdown" class="dropdown-toggle img-responsive" alt="profile-image">
+          <ul class="dropdown-menu">
+            <li><a>{{currentUser}}</a></li>
+            <li><a href="#" [routerLink]="['/login']">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+  </div> <!--/.container-fluid -->
+</header>
+<!-- header-end -->
+
+<!-- report-table-start -->
+<div class="report-table-area">
+  <div class="report-sidebar">
+    <div class="menu-title">
+      <h3>Report</h3>
+    </div>
+    <ul>
+      <li><a href="#" [routerLink]="['/reports/summary']"><img src="../../images/daily-activity-report-icon.png"> Summery Report </a></li>
+      <li><a href="#" [routerLink]="['/reports/vehicle']"><img src="../../images/intrusion-report-icon.png"> Vehicle List</a></li>
+      <li><a href="#" [routerLink]="['/reports/notification']"><img src="../../images/entry-exit-report-icon.png"> Notifications </a></li>
+      <li><a href="#" [routerLink]="['/reports/face']"><img src="../../images/face-report-icon.png"> Faces</a></li>
+    </ul>
+
+  </div>
+  <div class="report-table-content">
+<!--       
+    <div class="report-filter-area search-result-selecter col-md-12">
+
+       <div class="selecter camera-selecter">
+        <a class="btn btn-select">
+          <input type="hidden" class="btn-select-input" id="" name="" value="">
+          <span class="btn-select-value">Camera</span>
+          <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+          <ul>
+            <li>camera</li>
+            <li>camera 1</li>
+            <li>camera 2</li>
+            <li>camera 3</li>
+            <li>camera 4</li>
+            <li>camera 5</li>
+          </ul>
+        </a>
+      </div> 
+      <div id="calendar-area" data-role="datetime-range" class="selecter time-selecter">
+        <a class="btn btn-select">
+          <input type="hidden" class="btn-select-input" id="" name="" value="">
+          <span class="btn-select-value">Time</span>
+          <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+          <ul>
+            <li>any time</li>
+            <li>past hour</li>
+            <li>past 24 hour</li>
+            <li>past week</li>
+            <li>past month</li>
+            <li>past year</li>
+          </ul>
+        </a>
+      </div>
+      <div class="selecter location-selecter">
+        <a class="btn btn-select">
+          <input type="hidden" class="btn-select-input" id="" name="" value="">
+          <span class="btn-select-value">Location</span>
+          <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+          <ul>
+            <li>location 1</li>
+            <li>location 2</li>
+            <li>location 3</li>
+            <li>location 4</li>
+          </ul>
+        </a>
+      </div>
+
+    </div> -->
+
+    <div class="user-list-area editable-list report-table-content-area">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>
+            <tr rowspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All</tr>
+            <tr><td>Total</td>&nbsp;&nbsp;&nbsp;<td>Pending</td></tr>
+          </th>
+          <th>
+              <tr rowspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Red</tr>
+              <tr><td>Total</td>&nbsp;&nbsp;&nbsp;<td>Pending</td></tr>
+          </th>
+          <th>
+              <tr rowspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yellow</tr>
+              <tr><td>Total</td><td>Pending</td></tr>
+          </th>
+          <th>
+              <tr rowspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Green</tr>
+              <tr><td>Total</td>&nbsp;&nbsp;<td>Pending</td></tr>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td > &nbsp;&nbsp;&nbsp; {{ today | date: 'yyyy-MM-dd '}}</td>
+          <td > &nbsp;&nbsp;&nbsp; {{red_count.count + yellow_count.count + green_count.count}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ (red_count.count - red_action_count.count) + (yellow_count.count - yellow_action_count.count) + (green_count.count - green_action_count.count) }}</td>
+          <td > &nbsp;&nbsp;&nbsp; {{red_count.count}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ red_count.count - red_action_count.count}}</td>
+          <td > &nbsp;&nbsp;&nbsp; {{yellow_count.count}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ yellow_count.count - yellow_action_count.count}}</td>
+          <td > &nbsp;&nbsp;&nbsp; {{green_count.count}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ green_count.count - green_action_count.count}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  </div>
+
+</div>

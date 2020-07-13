@@ -1,0 +1,133 @@
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T08:24:13.941Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T08:24:14.913Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T08:28:23.257Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T08:28:23.426Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T08:29:37.097Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T08:29:37.271Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T08:33:09.281Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T08:33:09.452Z"}
+{"level":"info","message":"======= Redis server reponse =========","timestamp":"2018-08-22T08:33:09.954Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-22T08:33:42.409Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b6d7f38ae7ad08b334f2170\"}","timestamp":"2018-08-22T08:33:42.412Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-22T08:33:42.413Z"}
+{"level":"info","message":"Model Parameters : req.params: 5b6d7f38ae7ad08b334f2170","timestamp":"2018-08-22T08:33:42.413Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-22T08:33:42.505Z"}
+{"level":"info","message":"Route: /user/select:","timestamp":"2018-08-22T08:33:42.513Z"}
+{"level":"info","message":"Parameters : req.params: {\"user_id\":\"5b6d7f38ae7ad08b334f2170\"}","timestamp":"2018-08-22T08:33:42.513Z"}
+{"level":"info","message":"Controller: executing listCameras() ","timestamp":"2018-08-22T08:33:42.513Z"}
+{"level":"info","message":"Model Parameters : req.params: 5b6d7f38ae7ad08b334f2170","timestamp":"2018-08-22T08:33:42.513Z"}
+{"level":"info","message":"User cameras has been listed.","timestamp":"2018-08-22T08:33:42.515Z"}
+{"level":"info","message":"Route: //amqp/send:","timestamp":"2018-08-22T08:33:48.694Z"}
+{"level":"info","message":"========= Start camera api start ===== 1534926828695","timestamp":"2018-08-22T08:33:48.695Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T08:34:35.264Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T08:34:35.435Z"}
+{"level":"info","message":"======= Redis server reponse =========","timestamp":"2018-08-22T08:34:35.935Z"}
+{"level":"info","message":"Route: //amqp/send:","timestamp":"2018-08-22T08:34:39.505Z"}
+{"level":"info","message":"========= Start camera api start ===== 1534926879505","timestamp":"2018-08-22T08:34:39.506Z"}
+{"level":"info","message":" =========== RMQ Server message sending ==========s[x] Sent http://7-themes.com/data_images/out/36/6892485-galaxy-wallpaper-hd.jpg","timestamp":"2018-08-22T08:34:39.566Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T08:40:04.127Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T08:40:04.308Z"}
+{"level":"info","message":"======= Redis server reponse =========","timestamp":"2018-08-22T08:40:04.813Z"}
+{"level":"info","message":"Route: //amqp/send:","timestamp":"2018-08-22T08:40:10.240Z"}
+{"level":"info","message":"========= Start camera api start ===== 1534927210241","timestamp":"2018-08-22T08:40:10.241Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T08:40:30.511Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T08:40:30.684Z"}
+{"level":"info","message":"======= Redis server reponse =========","timestamp":"2018-08-22T08:40:31.185Z"}
+{"level":"info","message":"Route: //amqp/send:","timestamp":"2018-08-22T08:40:33.379Z"}
+{"level":"info","message":"========= Start camera api start ===== 1534927233379","timestamp":"2018-08-22T08:40:33.380Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T08:40:50.753Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T08:40:50.922Z"}
+{"level":"info","message":"======= Redis server reponse =========","timestamp":"2018-08-22T08:40:51.425Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2018-08-22T08:40:50.927Z"}
+{"level":"info","message":"Route: //amqp/send:","timestamp":"2018-08-22T08:41:21.718Z"}
+{"level":"info","message":"========= Start camera api start ===== 1534927281719","timestamp":"2018-08-22T08:41:21.720Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T08:42:42.096Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T08:42:42.268Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T08:43:04.374Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T08:43:04.551Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T08:43:30.172Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T08:43:30.347Z"}
+{"level":"info","message":"======= Redis server reponse =========","timestamp":"2018-08-22T08:43:30.862Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2018-08-22T08:43:30.352Z"}
+{"level":"info","message":"Route: //amqp/send:","timestamp":"2018-08-22T08:57:08.674Z"}
+{"level":"info","message":"========= Start camera api start ===== 1534928228674","timestamp":"2018-08-22T08:57:08.675Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T08:57:45.635Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T08:57:45.810Z"}
+{"level":"info","message":"======= Redis server reponse =========","timestamp":"2018-08-22T08:57:46.312Z"}
+{"level":"info","message":"Route: //amqp/send:","timestamp":"2018-08-22T08:57:48.476Z"}
+{"level":"info","message":"========= Start camera api start ===== 1534928268476","timestamp":"2018-08-22T08:57:48.477Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T09:00:14.098Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T09:00:14.274Z"}
+{"level":"info","message":"======= Redis server reponse =========","timestamp":"2018-08-22T09:00:14.779Z"}
+{"level":"info","message":"Route: //amqp/send:","timestamp":"2018-08-22T09:00:22.204Z"}
+{"level":"info","message":"========= Start camera api start ===== 1534928422204","timestamp":"2018-08-22T09:00:22.205Z"}
+{"level":"info","message":" =========== RMQ Server message sending ==========s[x] Sent http://7-themes.com/data_images/out/36/6892485-galaxy-wallpaper-hd.jpg","timestamp":"2018-08-22T09:00:22.271Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T09:11:19.335Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T09:11:19.506Z"}
+{"level":"info","message":"======= Redis server reponse =========","timestamp":"2018-08-22T09:11:20.006Z"}
+{"level":"info","message":"Route: //amqp/send:","timestamp":"2018-08-22T09:11:32.822Z"}
+{"level":"info","message":"========= Start camera api start ===== 1534929092822","timestamp":"2018-08-22T09:11:32.823Z"}
+{"level":"info","message":" =========== RMQ Server message sending ==========s[x] Sent http://7-themes.com/data_images/out/36/6892485-galaxy-wallpaper-hd.jpg","timestamp":"2018-08-22T09:11:32.913Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T09:12:22.945Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T09:12:23.112Z"}
+{"level":"info","message":"======= Redis server reponse =========","timestamp":"2018-08-22T09:12:23.614Z"}
+{"level":"info","message":"Route: //amqp/send:","timestamp":"2018-08-22T09:12:26.791Z"}
+{"level":"info","message":"========= Start camera api start ===== 1534929146791","timestamp":"2018-08-22T09:12:26.792Z"}
+{"level":"info","message":" =========== RMQ Server message sending ==========s[x] Sent http://7-themes.com/data_images/out/36/6892485-galaxy-wallpaper-hd.jpg","timestamp":"2018-08-22T09:12:26.874Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T09:14:28.503Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T09:14:28.675Z"}
+{"level":"info","message":"======= Redis server reponse =========","timestamp":"2018-08-22T09:14:29.177Z"}
+{"level":"info","message":"Route: //amqp/send:","timestamp":"2018-08-22T09:14:31.072Z"}
+{"level":"info","message":"========= Start camera api start ===== 1534929271072","timestamp":"2018-08-22T09:14:31.073Z"}
+{"level":"info","message":" =========== RMQ Server message sending ==========s[x] Sent http://7-themes.com/data_images/out/36/6892485-galaxy-wallpaper-hd.jpg","timestamp":"2018-08-22T09:14:31.191Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T09:21:31.795Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T09:21:31.974Z"}
+{"level":"info","message":"======= Redis server reponse =========","timestamp":"2018-08-22T09:21:32.476Z"}
+{"level":"info","message":"Route: //amqp/send:","timestamp":"2018-08-22T09:21:41.281Z"}
+{"level":"info","message":"========= Start camera api start ===== 1534929701281","timestamp":"2018-08-22T09:21:41.282Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T09:23:38.582Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T09:23:38.753Z"}
+{"level":"info","message":"======= Redis server reponse =========","timestamp":"2018-08-22T09:23:39.254Z"}
+{"level":"info","message":"Route: //amqp/send:","timestamp":"2018-08-22T09:23:44.319Z"}
+{"level":"info","message":"========= Start camera api start ===== 1534929824319","timestamp":"2018-08-22T09:23:44.320Z"}
+{"image_id":"8f5ff068e45cbdebb99d0e1fd88cba4b","image_url":"http://7-themes.com/data_images/out/36/6892485-galaxy-wallpaper-hd.jpg","level":"info","message":" =========== RMQ Server message sent ========== %s","timestamp":"2018-08-22T09:23:45.190Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T09:25:02.541Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T09:25:02.709Z"}
+{"level":"info","message":"======= Redis server reponse =========","timestamp":"2018-08-22T09:25:03.209Z"}
+{"level":"info","message":"Route: //amqp/send:","timestamp":"2018-08-22T09:25:06.716Z"}
+{"level":"info","message":"========= Start camera api start ===== 1534929906716","timestamp":"2018-08-22T09:25:06.717Z"}
+{"image_id":"38f159e14e3c13df23bba98799a11364","image_url":"http://7-themes.com/data_images/out/36/6892485-galaxy-wallpaper-hd.jpg","level":"info","message":" =========== RMQ Server message sent ========== %s","timestamp":"2018-08-22T09:25:06.805Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T09:32:49.963Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T09:32:50.131Z"}
+{"level":"info","message":"======= Redis server reponse =========","timestamp":"2018-08-22T09:32:50.632Z"}
+{"level":"info","message":"Route: //amqp/send:","timestamp":"2018-08-22T09:32:57.673Z"}
+{"level":"info","message":"========= Start camera api start ===== 1534930377673","timestamp":"2018-08-22T09:32:57.674Z"}
+{"cam_id":"bf060e99a1664c8802c21ea8d29f9f4c","name":"","user_id":"7b45e05ff1f2244233224fc2f0c115f0","src":"http://7-themes.com/data_images/out/36/6892485-galaxy-wallpaper-hd.jpg","port":80,"protocol":"RTSP","interface":"onvif","algos":"[\"THEMES\"]","media_type":"camera","level":"info","message":" =========== RMQ Server message sent ========== %s","timestamp":"2018-08-22T09:32:57.758Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T09:39:07.170Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T09:39:07.336Z"}
+{"level":"info","message":"======= Redis server reponse =========","timestamp":"2018-08-22T09:39:07.841Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T09:39:12.213Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T09:39:12.392Z"}
+{"level":"info","message":"======= Redis server reponse =========","timestamp":"2018-08-22T09:39:12.892Z"}
+{"level":"info","message":"Route: //amqp/send:","timestamp":"2018-08-22T09:39:15.887Z"}
+{"level":"info","message":"========= Start camera api start ===== 1534930755887","timestamp":"2018-08-22T09:39:15.888Z"}
+{"cam_id":"af355d6d5796ca539b91c71b3dd570bf","name":"","user_id":"dbc47de947c4eeff10c4ad0d0de134a7","src":"http://7-themes.com/data_images/out/36/6892485-galaxy-wallpaper-hd.jpg","port":80,"protocol":"RTSP","interface":"onvif","algos":"[\"THEMES\"]","media_type":"camera","level":"info","message":" =========== RMQ Server message sent ========== %s","timestamp":"2018-08-22T09:39:15.991Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2018-08-22T09:39:12.399Z"}
+{"level":"info","message":"Route: //amqp/send:","timestamp":"2018-08-22T09:41:15.892Z"}
+{"level":"info","message":"========= Start camera api start ===== 1534930875893","timestamp":"2018-08-22T09:41:15.893Z"}
+{"cam_id":"fe9c5168dc14fd993e19b996cbd2fa4f","name":"","user_id":"4c457720db9d53c0d9ff1c055ffc7300","src":"http://7-themes.com/data_images/out/36/6892485-galaxy-wallpaper-hd.jpg","port":80,"protocol":"RTSP","interface":"onvif","algos":"[\"THEMES\"]","media_type":"camera","level":"info","message":" =========== RMQ Server message sent ========== %s","timestamp":"2018-08-22T09:41:15.973Z"}
+{"level":"info","message":"Route: //amqp/send:","timestamp":"2018-08-22T10:01:34.944Z"}
+{"level":"info","message":"========= Start camera api start ===== 1534932094944","timestamp":"2018-08-22T10:01:34.944Z"}
+{"cam_id":"28bef2c4b7889fa439c9bcdd7781e389","name":"","user_id":"f5930551fa2f148645c6a76a665fe0b5","src":"http://7-themes.com/data_images/out/36/6892485-galaxy-wallpaper-hd.jpg","port":80,"protocol":"RTSP","interface":"onvif","algos":"[\"THEMES\"]","media_type":"camera","level":"info","message":" =========== RMQ Server message sent ========== %s","timestamp":"2018-08-22T10:01:35.014Z"}
+{"level":"info","message":"Route: //amqp/send:","timestamp":"2018-08-22T10:03:34.948Z"}
+{"level":"info","message":"========= Start camera api start ===== 1534932214948","timestamp":"2018-08-22T10:03:34.948Z"}
+{"cam_id":"8e9e9eeaf5a077bfa967ace342b983b0","name":"","user_id":"8f8eda925cf7dcf12f89df894fd844ef","src":"http://7-themes.com/data_images/out/36/6892485-galaxy-wallpaper-hd.jpg","port":80,"protocol":"RTSP","interface":"onvif","algos":"[\"THEMES\"]","media_type":"camera","level":"info","message":" =========== RMQ Server message sent ========== %s","timestamp":"2018-08-22T10:03:35.010Z"}
+{"level":"info","message":"Route: //amqp/send:","timestamp":"2018-08-22T10:25:55.651Z"}
+{"level":"info","message":"========= Start camera api start ===== 1534933555651","timestamp":"2018-08-22T10:25:55.651Z"}
+{"cam_id":"2303cb2a1e523c44ee180815253b8817","name":"","user_id":"d91fd80a4e340cdf09b33e0823f3aa27","src":"http://7-themes.com/data_images/out/36/6892485-galaxy-wallpaper-hd.jpg","port":80,"protocol":"RTSP","interface":"onvif","algos":"[\"THEMES\"]","media_type":"camera","level":"info","message":" =========== RMQ Server message sent ========== %s","timestamp":"2018-08-22T10:25:56.053Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T10:31:20.991Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T10:31:21.158Z"}
+{"level":"info","message":"======= Redis server reponse =========","timestamp":"2018-08-22T10:31:21.667Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-08-22T11:48:52.298Z"}
+{"level":"info","message":"Application is running: http://192.168.1.185:4488","timestamp":"2018-08-22T11:48:52.487Z"}
+{"level":"info","message":"======= Redis server reponse =========","timestamp":"2018-08-22T11:48:52.988Z"}

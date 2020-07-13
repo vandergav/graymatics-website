@@ -1,0 +1,219 @@
+<!-- header-start -->
+    <header class="admin-header">
+      <div class="container-fluid">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- <a class="navbar-brand" href="#" [routerLink]="['/supervisor/dashboard/agent-view']">Graymatics</a> -->
+            <a class="navbar-brand" href="#" [routerLink]="['/']">Graymatics</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+            <ul class="nav navbar-nav">
+              <li class="top-brd">
+                <a href="#">Configuration</a>
+                  <ul class="drop-down-menu supervisor-menu">
+                    <li><a href="#" [routerLink]="['/supervisor/camera/main']">Camera</a></li>
+                    <li><a href="#" [routerLink]="['/face']">Face</a></li>
+                  </ul>
+              </li>
+              <li class="top-brd">
+                <a href="#">Forensic Search</a>
+                <ul class="drop-down-menu">
+                  <li><a href="#" [routerLink]="['/security-agent/video/archived']">Archived Video</a></li>
+                  <li><a href="#" [routerLink]="['/security-agent/video/uploaded']">Uploaded Video</a></li>
+                </ul>
+              </li>
+              <li><a href="#" [routerLink]="['/reports/summary']">Reports</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+
+          <div class="mobile-arrange">
+            <div id="sb-search" class="sb-search">
+              <form>
+                <input class="sb-search-input" placeholder="Search here..." type="search" name="search" id="awesome-input">
+                <input class="sb-search-submit" type="submit" value="">
+                <span class="sb-icon-search"><img src="../../../images/search-icon.png" alt=""></span>
+
+                <div class="awesome-results">
+                </div>
+
+              </form>
+            </div>
+
+            <div class="dropdown profile-menu">
+              <img src="../../../images/profile-image.jpg" data-toggle="dropdown" class="dropdown-toggle img-responsive" alt="profile-image">
+              <ul class="dropdown-menu">
+                <li><a>{{currentUser}}</a></li>
+                <li><a href="#" [routerLink]="['/login']">Sign out</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div><!--/.container-fluid -->
+      </nav>
+      </div><!--/.container-fluid -->
+    </header>
+    <!-- header-end -->
+
+    <div class="archived-video-area dashboard-style">
+      <!-- admin-menu-start -->
+      <div class="side-menu-area">
+        <ul class="archived-option">
+          <li>
+            <div class="selecter camera-selecter">
+              <a class="btn btn-select">
+                <input type="hidden" class="btn-select-input" id="" name="" value="">
+                <span class="btn-select-value">Video</span>
+                <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                <ul style="display:none">
+                  <li *ngFor="let v of videos" (click)="selected_value('name',v.name)">{{v.name}}</li>
+                </ul>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="selecter camera-selecter">
+              <a class="btn btn-select">
+                <input type="hidden" class="btn-select-input" id="" name="" value="">
+                <span class="btn-select-value">Time</span>
+                <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                <ul style="display:none">
+                  <li (click)="selected_value('time','ANY TIME')">any time</li>
+                  <li (click)="selected_value('time','PAST HOUR')">past hour</li>
+                  <li (click)="selected_value('time','PAST 24 HOUR')">past 24 hour</li>
+                  <li (click)="selected_value('time','PAST WEEK')">past week</li>
+                  <li (click)="selected_value('time','PAST MONTH')">past month</li>
+                  <li (click)="selected_value('time','PAST YEAR')">past year</li>
+                </ul>
+              </a>
+            </div>
+          </li>
+          <li>
+            <!-- <div class="selecter camera-selecter">
+              <a class="btn btn-select">
+                <input type="hidden" class="btn-select-input" id="" name="" value="">
+                <span class="btn-select-value">Location</span>
+                <span class="btn-select-arrow glyphicon glyphicon-chevron-down"></span>
+                <ul>
+                  <li>camera</li>
+                  <li>camera 1</li>
+                  <li>camera 2</li>
+                  <li>camera 3</li>
+                  <li>camera 4</li>
+                  <li>camera 5</li>
+                </ul>
+              </a>
+            </div> -->
+          </li>
+        </ul>
+
+      </div>
+      <!-- admin-menu-end -->
+
+      <!-- admin-page-content-start -->
+      <div class="admin-page-content video-uploading-area">
+
+        <br/>
+
+        <div class="uploaded-videos">
+          <div class="upload-videos-post">
+            <div class="head-uploading">
+              <div class="col-md-12">
+                <h3>Uploaded Videos</h3>
+                <button type="button" class="btn upload-btn" [routerLink]="['/security-agent/video/uploaded']">+ upload</button>
+              </div>
+            </div>
+
+
+            <div class="big-size">
+              <div class="col-md-12">
+                <div class="video-placeholder">
+                  <img src="../../../images/intrusion-video.jpg" class="img-responsive">
+                </div>
+                <div class="video-info">
+                  <h4>Conference Room</h4>
+                  <a href="javascript:void(0)" class="zoom-out">
+                    <img src="../../../images/zoom-out.png" class="pull-right" alt="zoom out icon">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="uploaded-videos-area">
+
+              <div id='video_{{v.camera_id}}' class="col-lg-4 col-md-4 col-sm-4 col-xs-6 full-size"
+                   *ngFor="let v of videos">
+                <div class="post-area" *ngIf="v.status == 'processing';else videoProcessed">
+                  <div class="video-area" >
+                    <img src="{{v.frame}}" 
+                        class="img-responsive" alt=""
+                        id='frame_{{v.camera_id}}' 
+                        (click)="view_video(v.camera_id)">
+                    <!-- <div class="zoom-icon"
+                        (click)="fullScreen($event,v.camera_id,v.name)">
+                      <a href="javascript:void(0)" class="video-show"></a>
+                    </div> -->
+                  </div>
+                  <div class="post-title-area">
+                    <h4>{{v.name}}</h4>
+                    <div class="dropdown more-opt">
+                      <img src="../../../images/menu-btn.png" data-toggle="dropdown" class="dropdown-toggle" alt="">
+                      <ul class="dropdown-menu">
+                        <li><a href="#">view</a></li>
+                        <li><a href="#">setting</a></li>
+                        <li><a href="#">delete</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <ng-template #videoProcessed>
+                  <div class="post-area">
+                    <div class="video-area video-area chaeck-bg" >
+                      <img src="{{v.frame}}" 
+                          class="img-responsive" alt=""
+                          id='frame_{{v.camera_id}}' 
+                          (click)="view_video(v.camera_id)">
+                      <!-- <div class="zoom-icon"
+                          (click)="fullScreen($event,v.camera_id,v.name)">
+                        <a href="javascript:void(0)" class="video-show"></a>
+                      </div> -->
+                    </div>
+                    <div class="post-title-area">
+                      <h4>{{v.name}}</h4>
+                      <div class="dropdown more-opt">
+                        <img src="../../../images/menu-btn.png" data-toggle="dropdown" class="dropdown-toggle" alt="">
+                        <ul class="dropdown-menu">
+                          <li><a href="#">view</a></li>
+                          <li><a href="#">setting</a></li>
+                          <li><a href="#">delete</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </ng-template>
+              </div>
+            </div>            
+          </div>
+        </div>
+
+      </div>
+      <!-- admin-page-content-end -->
+    </div>
+
+    <!-- section-breadcumbs-start -->
+    <section class="breadcrumbs"> 
+      <div class="container-fluid">
+        <ul>
+            <li><a href="#" [routerLink]="['/security-agent/video/archived']">Forensic</a></li>
+            <li class="active"><a href="">Archived-Videos</a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- section-breadcumbs-end -->
+    

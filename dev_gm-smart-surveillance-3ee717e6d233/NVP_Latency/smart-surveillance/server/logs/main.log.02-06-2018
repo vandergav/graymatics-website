@@ -1,0 +1,92 @@
+{"level":"info","message":"App starting.","timestamp":"2018-02-06T10:00:41.892Z"}
+{"level":"info","message":"Application is running: http://192.168.128.112:9999","timestamp":"2018-02-06T10:00:43.246Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-06T12:16:33.755Z"}
+{"level":"info","message":"Application is running: http://192.168.128.112:9999","timestamp":"2018-02-06T12:16:34.981Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-06T12:16:48.199Z"}
+{"user_id":"22","source":"https://i.ytimg.com/vi/MFzDaBzBlL0/maxresdefault.jpg","level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-06T12:16:48.200Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-06T12:16:48.203Z"}
+{"level":"error","message":"INSERT INTO `camera` SET `user_id` = '22', `name` = NULL, `type` = NULL, `source` = 'https://i.ytimg.com/vi/MFzDaBzBlL0/maxresdefault.jpg', `protocol` = 'RTSP', `interface` = 'onvif', `fps` = NULL, `addi_info` = NULL, `parameters` = NULL, `algo` = '[\\\"HISYS\\\"]', `status` = 'Inactive', `agent` = NULL, `created_dtime` = '2018-02-06 17:46:48', `modified_dtime` = '2018-02-06 17:46:48':connect ETIMEDOUT","timestamp":"2018-02-06T12:16:56.415Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-06T12:17:56.938Z"}
+{"level":"info","message":"Application is running: http://192.168.128.112:9999","timestamp":"2018-02-06T12:17:57.107Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-06T12:19:43.914Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-06T12:19:44.083Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-06T12:20:12.605Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-06T12:20:12.769Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-06T12:21:03.271Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-06T12:21:03.435Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-06T12:21:50.151Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-06T12:21:50.314Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-06T12:23:09.501Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-06T12:23:09.658Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-06T12:26:47.217Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-06T12:26:47.375Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-06T12:30:24.467Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-06T12:30:24.632Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-06T12:30:35.781Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-06T12:30:35.939Z"}
+{"level":"info","message":"App starting.","timestamp":"2018-02-06T12:31:26.165Z"}
+{"level":"info","message":"Application is running: http://localhost:9999","timestamp":"2018-02-06T12:31:26.325Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-06T12:31:43.382Z"}
+{"user_id":"22","source":"https://i.ytimg.com/vi/MFzDaBzBlL0/maxresdefault.jpg","level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-06T12:31:43.383Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-06T12:31:43.386Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-06T12:31:43.551Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-06T12:32:38.314Z"}
+{"user_id":"22","source":"https://i.ytimg.com/vi/MFzDaBzBlL0/maxresdefault.jpg","level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-06T12:32:38.315Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-06T12:32:38.316Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-06T12:32:38.440Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-06T12:34:03.360Z"}
+{"user_id":"22","source":"https://i.ytimg.com/vi/MFzDaBzBlL0/maxresdefault.jpg","level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-06T12:34:03.360Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-06T12:34:03.361Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-06T12:34:03.464Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-06T12:34:30.865Z"}
+{"user_id":"22","source":"https://i.ytimg.com/vi/MFzDaBzBlL0/maxresdefault.jpg","level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-06T12:34:30.865Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-06T12:34:30.866Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-06T12:34:30.966Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-06T12:34:57.119Z"}
+{"user_id":"22","source":"https://i.ytimg.com/vi/MFzDaBzBlL0/maxresdefault.jpg","level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-06T12:34:57.119Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-06T12:34:57.120Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-06T12:34:57.161Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-06T12:36:12.232Z"}
+{"user_id":"22","source":"https://i.ytimg.com/vi/MFzDaBzBlL0/maxresdefault.jpg","level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-06T12:36:12.232Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-06T12:36:12.233Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-06T12:36:12.330Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-06T12:36:29.485Z"}
+{"user_id":"22","source":"https://i.ytimg.com/vi/MFzDaBzBlL0/maxresdefault.jpg","level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-06T12:36:29.487Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-06T12:36:29.487Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-06T12:36:29.568Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-06T12:38:40.688Z"}
+{"user_id":"22","source":"https://i.ytimg.com/vi/MFzDaBzBlL0/maxresdefault.jpg","level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-06T12:38:40.688Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-06T12:38:40.688Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-06T12:38:40.742Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-06T12:39:51.310Z"}
+{"user_id":"22","source":"https://i.ytimg.com/vi/MFzDaBzBlL0/maxresdefault.jpg","level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-06T12:39:51.310Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-06T12:39:51.311Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-06T12:39:51.419Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-06T12:40:28.239Z"}
+{"user_id":"22","source":"https://i.ytimg.com/vi/MFzDaBzBlL0/maxresdefault.jpg","level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-06T12:40:28.239Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-06T12:40:28.240Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-06T12:40:28.291Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-06T12:40:54.143Z"}
+{"user_id":"22","source":"https://i.ytimg.com/vi/MFzDaBzBlL0/maxresdefault.jpg","level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-06T12:40:54.144Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-06T12:40:54.144Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-06T12:40:54.245Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-06T12:41:08.581Z"}
+{"user_id":"22","source":"https://i.ytimg.com/vi/MFzDaBzBlL0/maxresdefault.jpg","level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-06T12:41:08.581Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-06T12:41:08.581Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-06T12:41:08.625Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-06T12:41:24.091Z"}
+{"user_id":"22","source":"https://i.ytimg.com/vi/MFzDaBzBlL0/maxresdefault.jpg","level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-06T12:41:24.091Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-06T12:41:24.092Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-06T12:41:24.422Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-06T12:43:45.271Z"}
+{"user_id":"22","source":"https://i.ytimg.com/vi/MFzDaBzBlL0/maxresdefault.jpg","level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-06T12:43:45.271Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-06T12:43:45.271Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-06T12:43:45.330Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-06T12:45:01.751Z"}
+{"user_id":"22","source":"https://i.ytimg.com/vi/MFzDaBzBlL0/maxresdefault.jpg","level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-06T12:45:01.751Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-06T12:45:01.752Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-06T12:45:01.842Z"}
+{"level":"info","message":"Route: /camera/create:","timestamp":"2018-02-06T12:45:51.824Z"}
+{"user_id":"22","source":"https://i.ytimg.com/vi/MFzDaBzBlL0/maxresdefault.jpg","level":"info","message":"Parameters : req.body: ","timestamp":"2018-02-06T12:45:51.824Z"}
+{"level":"info","message":"Controller: executing createCamera() ","timestamp":"2018-02-06T12:45:51.825Z"}
+{"level":"info","message":"Camera is created successfully.","timestamp":"2018-02-06T12:45:51.904Z"}
